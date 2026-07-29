@@ -1,0 +1,206 @@
+app:
+  url: "https://192.168.70.2/#/login"
+  headless: false
+  timeout_ms: 30000
+  browser: "chromium"
+  browser_channel: "chrome"
+
+login:
+  username: "admin"
+  password: "654321"
+  login_type: "Local"
+  captcha_value: ""
+  username_placeholder: "User Name"
+  password_placeholder: "Password"
+  captcha_placeholder: "Verification"
+  login_button_name: "Login"
+  login_type_selector: "select"
+  success_url_fragment: "#/overview"
+  success_texts:
+    - "Overview"
+    - "Site Name"
+    - "admin"
+  manual_captcha: false  # Set to false to enable auto captcha
+  auto_captcha: true     # Enable automatic OCR-based captcha recognition
+  captcha_confidence_threshold: 80
+  captcha_early_accept: true
+  captcha_min_length: 1
+  captcha_max_attempts: 1
+  captcha_retry_delay_ms: 0
+
+ui:
+  page_zoom_percent: 100
+  # Initial window size (before shrinking)
+  initial_width: 480
+  initial_height: 600
+  min_width: 380
+  min_height: 500
+  loading_wait_ms: 500
+  upload_gap_ms: 2000
+  apply_processing_wait_ms: 1000
+  south_comm_ready_wait_ms: 2000
+  active_alarm_nav_wait_ms: 1000
+  continue_stage_nav_wait_ms: 1500
+  delete_confirm_wait_ms: 1000
+  delete_between_rows_wait_ms: 1500
+  # Default window position: top-right corner
+  initial_x: 1348  # Right side of screen (2048 - 600 = 1448)
+  initial_y: 0     # Top of screen
+  # Window size after auto-start (shrunk to top-right corner)
+  start_shrink_width: 480
+  start_shrink_height: 600
+  start_shrink_x: 1348  # Right side of screen (2048 - 400 = 1648)
+  start_shrink_y: 0     # Top of screen
+  start_alpha: 0.60
+  idle_alpha: 0.75
+  toast_close_wait_ms: 100
+  toast_settle_wait_ms: 100
+  dialog_settle_wait_ms: 100
+  start_flow_delay_ms: 1500
+  restore_banner_delay_ms: 0
+  state_poll_interval_ms: 100
+  continue_wait_poll_ms: 200
+  closing_wait_timeout_s: 10
+
+navigation:
+  overview_menu_text: "Overview"
+  main_menu_texts:
+    - "Status"
+    - "Active Alarm"
+    - "Setting"
+    - "Control"
+    - "Records"
+    - "Assets"
+    - "User"
+    - "Maintenance"
+  menus:
+    - "Maintenance"
+    - "Download/Upload"
+  calibration_menu_path:
+    - "Maintenance"
+    - "Calibration"
+  active_alarm_menu_path:
+    - "Active Alarm"
+  settings_menu_path:
+    - "Setting"
+    - "South Communication"
+  other_control_menu_path:
+    - "Maintenance"
+    - "Other Control"
+
+other_control:
+  # Continue automation: Other Control page operations
+  controls:
+    - name: "Clear Records"
+      success_message: "job success"
+      timeout_ms: 100
+    - name: "Clear Module Alarm"
+      success_message: "job success"
+      timeout_ms: 100
+  # UI element selectors
+  yes_button_text: "YES"
+  save_button_text: "Save"
+  row_selector: "table tbody tr"
+  post_success_toast_cleanup: false
+
+south_communication:
+  device_type_select_label: "Device Type"
+  device_type_value: "IOB_Protocol_V1.0"
+  target_row_fields:
+    - "IOB_Protocol_V1.0"
+    - "RS485-4"
+    - "9600"
+    - "1"
+    - "8"
+    - "None"
+  port_select_label: "Port"
+  baud_rate_select_label: "BaudRate"
+  stop_bit_select_label: "StopBit"
+  data_bit_select_label: "DataBit"
+  check_bit_select_label: "CheckBit"
+  save_button_text: "Save"
+  cancel_button_text: "Cancel"
+  delete_button_text: "Del"
+  target_row_device_type: "IOB_Protocol_V1.0"
+
+calibration:
+  reset_delay_ms: 3000
+  visible_progress_ms: 1000
+  parameter_names:
+    - "DC Voltage"
+    - "Battery 1 Voltage"
+    - "Battery 2 Voltage"
+
+timeouts:
+  login_wait_ms: 500
+  captcha_timeout_s: 30
+  captcha_check_interval_ms: 500
+  apply_wait_ms: 3000
+  delete_verify_wait_ms: 3000
+  south_comm_wait_ms: 2000
+  row_check_interval_ms: 500
+  browser_front_attempts: 3
+  browser_front_interval_ms: 300
+  login_success_check_interval_ms: 500
+  login_success_max_checks: 60
+  login_final_wait_ms: 500
+  wait_timeout_ms: 10000
+  dialog_button_timeout_ms: 5000
+  success_message_timeout_ms: 10000
+
+search:
+  result_row_selector: "table tbody tr"
+  filename_column_index: 1
+
+upload:
+  add_button_text: "ADD"
+  file_input_selector: "input[type='file']"
+  success_message_text: ""
+
+apply:
+  target_file_name: "VF3-Outdoor Test-V0.csv"
+  apply_button_text: "Apply"
+  success_toast_text: "Apply Para Success"
+  started_toast_text: "Start Application"
+  applied_button_state: "gray"
+
+delete:
+  delete_button_text: "Delete"
+  confirm_button_text: "OK"
+  cancel_button_text: "Cancel"
+  success_message_text: "Apply Para Success"
+  # Note: deleted_files is no longer used
+  # The main workflow uses keep_only_uploaded_files() which automatically deletes non-uploaded files
+  # The delete_record_task.py is deprecated and not used in current workflow
+
+flow:
+  upload_files:
+    - "C:/Projects/MC2900/Config/TSOFF451901VRLABS1V4-UK.csv"
+    - "C:/Projects/MC2900/Config/VF3-Outdoor Test-V0.csv"
+  apply_target_file: "VF3-Outdoor Test-V0.csv"
+  continue_timeout_s: 600  # 10 minutes Max time to wait for Continue before aborting the session
+  continue_wait_poll_ms: 200
+  closing_wait_timeout_s: 10
+  continue:
+    download_upload_menu_path:
+      - "Maintenance"
+      - "Download/Upload"
+    target_file: "TSOFF451901VRLABS1V4-UK.csv"
+    keep_only_file: "TSOFF451901VRLABS1V4-UK.csv"
+    apply_button_text: "Apply"
+    success_toast_text: "Apply Para Success"
+    delete_button_text: "Delete"
+    confirm_button_text: "OK"
+    other_control_menu_path:
+      - "Maintenance"
+      - "Other Control"
+  # Note: delete_targets is no longer used in main workflow
+  # The automation now uses keep_only_uploaded_files() which automatically:
+  #   - Keeps all uploaded files (from upload_files list)
+  #   - Deletes all other files in the table
+
+files:
+  input_excel: "data/input.xlsx"
+  screenshot_dir: "screenshots"
+  trace_dir: "traces"
+  log_dir: "logs"

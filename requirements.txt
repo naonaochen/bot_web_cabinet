@@ -1,0 +1,7 @@
+playwright==1.55.0
+pandas==2.3.1
+pyyaml==6.0.2
+openpyxl==3.1.5
+# Optional: For automatic CAPTCHA recognition
+pytesseract==0.3.10
+pillow==10.4.0

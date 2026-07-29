@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-07-17T03:48:30.574684Z",
+  "config_path": "config/settings.yaml",
+  "upload_files": [
+    "data/TSOFF451901VRLABS1V4-UK.csv",
+    "data/VF3-Outdoor Test-V0.csv"
+  ],
+  "apply_target_file": "VF3-Outdoor Test-V0.csv",
+  "delete_targets": [
+    "default.csv",
+    "VF3-Power core test-V1.csv"
+  ],
+  "include_south_communication": true,
+  "steps": [
+    {
+      "name": "flow",
+      "status": "failed",
+      "detail": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://192.168.70.2/#/login\nCall log:\n  - navigating to \"https://192.168.70.2/#/login\", waiting until \"domcontentloaded\"\n",
+      "timestamp": "2026-07-17T03:48:52.996630Z"
+    }
+  ],
+  "status": "failed",
+  "finished_at": "2026-07-17T03:48:52.996630Z",
+  "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://192.168.70.2/#/login\nCall log:\n  - navigating to \"https://192.168.70.2/#/login\", waiting until \"domcontentloaded\"\n",
+  "screenshots": {
+    "error_state": "screenshots\\20260717_114852_error_state_20260717_114852.png"
+  },
+  "trace_file": "traces\\trace_20260717_114853.zip"
+}

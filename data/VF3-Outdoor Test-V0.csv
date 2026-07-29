@@ -1,0 +1,3019 @@
+﻿sid,name,value,unit,range
+100667393,DC Under Voltage Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100671489,DC Over Voltage Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100675585,LLVD1 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100679681,LLVD2 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100683777,LLVD3 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100687873,LLVD4 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100691969,BLVD Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100696065,LLVD1,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100700161,LLVD2,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100704257,LLVD3,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100708353,LLVD4,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100712449,BLVD,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100716545,Heavy Load,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100720641,ECO,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100724737,ECO Pause,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100728833,Manual Mode,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100732929,Temperature 1 Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100737025,Temperature 1 High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100741121,Temperature 1 Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100745217,Temperature 2 Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100749313,Temperature 2 High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100753409,Temperature 2 Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100757505,Temperature 3 Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100761601,Temperature 3 High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100765697,Temperature 3 Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100769793,Temperature 4 Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100773889,Temperature 4 High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100777985,Temperature 4 Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100782081,Battery 1 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100786177,Battery 2 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100790273,Battery Unavailable,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100794369,Boost Charge,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100798465,Battery Test,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100802561,Battery Discharge,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100806657,Battery Short Test Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100810753,Battery Test Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100814849,Battery 1 Voltage Imba,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100818945,Battery Charge Over,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100823041,Battery Short Test,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100827137,Input Phase Fail-A,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100831233,Input Under Voltage-A,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100835329,Input Over Voltage-A,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100839425,Input Phase Fail-B,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100843521,Input Under Voltage-B,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100847617,Input Over Voltage-B,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100851713,Input Phase Fail-C,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100855809,Input Under Voltage-C,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100859905,Input Over Voltage-C,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100864001,Input Breaker Open,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100868097,Module Address Error,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100872193,Power Input Failure,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100876289,Module Current Imbalance,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100880385,Multi Module Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100884481,Module Input Voltage Low,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100888577,Module Input Voltage High,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100892673,Module Communication Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100896769,Module Input Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100900865,Module Temperature High,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100904961,Module HW Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100909057,Module Protection,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100913153,Module Fan Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100917249,Module Derated,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100921345,Module Load Share,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100925441,Module Out Over Voltage,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100929537,Module Off,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100933633,Inverter Communication Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100937729,Inverter DC CAN Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100941825,AC Grid Input Voltage Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100945921,AC Grid Input Frequency Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100950017,Bus Voltage Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100954113,Inverter DC Over Voltage,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100958209,Inverter DC Protection,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100962305,Inverter DC Under Voltage,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100966401,Inverter DC Over Current,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100970497,Inverter Output Over Voltage,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100974593,Inverter Output Under Voltage,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100978689,Inverter Output Over Current,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100982785,Inverter Amb Temperature High,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100986881,Inverter Address Conflict,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100990977,Inverter Inter Temperature High,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100995073,Inverter Fan Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+100999169,Inverter SCI Communication Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101003265,Inverter Short Out,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101007361,Inverter Emer Stop,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101011457,Inverter Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101015553,Inverter Off,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101019649,DI 1 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101023745,DI 2 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101027841,DI 3 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101031937,DI 4 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101036033,DI 5 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101040129,DI 6 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101044225,DI 7 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101048321,DI 8 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101052417,DI 9 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101056513,DI 10 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101060609,DI 11 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101064705,DI 12 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101068801,Minor Alarm,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101072897,Major Alarm,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101076993,BMS Communication Fail,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101081089,BMS Warning,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101085185,BMS  Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101089281,BMS  Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101093377,BMS Cell Over Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101097473,BMS Cell Under Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101101569,BMS Pack Over Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101105665,BMS Pack Under Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101109761,BMS Over Charge Current,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101113857,BMS Discharge Current Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101117953,BMS Cell Over Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101122049,BMS Cell Under Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101126145,BMS Environment Over Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101130241,BMS Environment Under Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101134337,BMS PCB Over Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101138433,BMS SOC Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101142529,BMS Diff Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101146625,BMS Cell Temperature Unbalance Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101150721,BMS Cell Over Voltage Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101154817,BMS Cell Under Voltage Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101158913,BMS Over Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101163009,BMS Under Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101167105,BMS Short Circuit Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101171201,BMS Open Circuit Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101175297,BMS Over Battery Temperature,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101179393,BMS Under Battery Temperature,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101183489,BMS Discharge Over Temperature Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101187585,BMS Discharge Under Temperature Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101191681,BMS Over Charge Current Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101195777,BMS Over Discharge Current,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101199873,BMS Current Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101203969,BMS PCB Over Temperature Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101208065,BMS Cell Temperature Unbalance Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101212161,BMS Cell Voltage Unbalance Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101216257,BMS ANTI-THEFT,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101220353,BMS Sample Error,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101224449,BMS Temperature Sense Disconnect,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101228545,BMS Inversed Graft Error,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101232641,BMS Breaker,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101236737,BMS Temperature Sense Short,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101240833,BMS Charge Over Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101244929,BMS Charge Under Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101249025,BMS Discharge Over Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101253121,BMS Discharge Under Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101257217,BMS Charge Over Current Protect2,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101261313,BMS Discharge Over Current Protect2,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101265409,BMS Charge Mos Error,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101269505,BMS Discharge Mos Error,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101273601,BMS CB Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101277697,BMS Hardware Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101281793,BMS Cell Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101285889,BMS Rev Polarity Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101289985,BMS Fuse Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101294081,BMS Cell xx Over Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101298177,BMS Cell xx Under Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101302273,BMS Cell xx Over Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101306369,BMS Cell xx Under Temperature Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101310465,BMS Cell xx Over Voltage Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101314561,BMS Cell xx Under Voltage Protect,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101318657,Environment Humidity Low,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101322753,Environment Humidity High,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101326849,HEX Communication Fail,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101330945,HEX Temperature High,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101335041,HEX Temperature Low,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101339137,HEX Inner Fan Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101343233,HEX Outer Fan Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101347329,HEX Heat Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101351425,HEX Input Voltage High,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101355521,HEX Input Voltage Low,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101359617,HEX Temperature Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101363713,Temperature Sensor 1 Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101367809,Temperature Sensor 2 Fault,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101371905,Temperature Sensor 3 Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101376001,Temperature Sensor 4 Fault,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101380097,CB Communication Fail,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101384193,CB Trip Coils Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101388289,CB HW Short Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101392385,CB HW Over Current Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101396481,CB Short Fail Lock,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101400577,CB Under Voltage Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101404673,CB Over Voltage L1 Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101408769,CB Over Voltage L2 Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101412865,CB Over Current L1 Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101416961,CB Over Current L2 Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101421057,CB Over Current L3 Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101425153,CB Temperature A Over Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101429249,CB Temperature B Over Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101433345,CB E-Switch Fail Over Current Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101437441,CB E-Switch Fail Over Temperature Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101441537,CB Switch Reverse Trip,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101445633,CB Under Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101449729,CB Over Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101453825,CB Over Current Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101457921,CB Temperature A Over Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101462017,CB Temperature B Over Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101466113,CB E-Switch Short Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101470209,CB E-Switch Open Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101474305,CB M-Switch Short Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101478401,CB M-Switch Open Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101482497,CB GDT Fault Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101486593,CB Power Down Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101490689,CB Check Error Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101494785,CB Memory Error Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101498881,CB Address Error Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101502977,Fuel Level Low,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101507073,DG Turned on,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101511169,DC Meter Communication Fail,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101515265,AC Meter Communication Fail,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101519361,Battery Missing,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101523457,CB Overload Fault Tripping,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101527553,CB Switch on-off Failure Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101531649,CB LVD Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101535745,Smart PDU Communication Fail,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101539841,Smart PDU SPD Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101543937,CB Label Lack Alarm,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101548033,CB Manual OFF Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101552129,Battery 3 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101556225,Battery 4 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101560321,Battery 5 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101564417,Battery 6 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101568513,Battery 7 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101572609,Battery 8 Fuse Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101576705,EX1-DI 1 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101580801,EX1-DI 2 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101584897,EX1-DI 3 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101588993,EX1-DI 4 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101593089,EX1-DI 5 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101597185,EX1-DI 6 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101601281,EX1-DI 7 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101605377,EX1-DI 8 Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101609473,IOB Communication Fail,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101613569,BLVD Control Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101617665,System Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101621761,Temperature 5 Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101625857,Temperature 5 High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101629953,Temperature 5 Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101634049,Temperature Sensor 5 Fault,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101638145,Battery 1 Temperature Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101642241,Battery 1 Temperature High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101646337,Battery 1 Temperature Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101650433,Battery 2 Temperature Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101654529,Battery 2 Temperature High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101658625,Battery 2 Temperature Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101662721,Battery 3 Temperature Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101666817,Battery 3 Temperature High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101670913,Battery 3 Temperature Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101675009,Battery 4 Temperature Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101679105,Battery 4 Temperature High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101683201,Battery 4 Temperature Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101687297,Environment Temperature Low Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101691393,Environment Temperature High Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101695489,Environment Temperature Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101699585,Battery 1 Temperature Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101703681,Battery 2 Temperature Fault,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101707777,Battery 3 Temperature Fault,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101711873,Battery 4 Temperature Fault,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101715969,Environment Temperature Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101720065,Battery 2 Voltage Imba,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101724161,Battery 3 Voltage Imba,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101728257,Battery 4 Voltage Imba,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101732353,DCDU Communication Fail Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101736449,Air_conditioner Communication Fail,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101740545,Air-conditioner High Temperature Warning,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101744641,Air-conditioner Low Temperature Warning,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101748737,Air-conditioner High Voltage Warning,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101752833,Air-conditioner Low Voltage Warning,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101756929,Air-conditioner Compressor Failure Warning,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101761025,Air-conditioner Internal Fan Failure Warning,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101765121,Air-conditioner External Fan Failure Warning,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101769217,Air-conditioner Temperature Sensor Failure Warning,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101773313,AC Current Imbalance Alarm,0,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101777409,DC Voltage Very Low Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101781505,DC Voltage Very High Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101785601,HEX Compressor Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101789697,Heater Overload Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101793793,Heater Underload Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101797889,Return Air Sensor Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101801985,Condenser Sensor Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101806081,High Pressure Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101810177,Humidity Sensor Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101814273,High Humidity alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101818369,Filter alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101822465,Air_conditioner Heater Overload Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101826561,Air_conditioner Heater Underload Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101830657,Air_conditioner Return Air Sensor Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101834753,Air_conditioner Condenser Sensor Fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101838849,Air_conditioner High Pressure Alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101842945,Air_conditioner Door alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101847041,Air_conditioner Water alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101851137,Air_conditioner Smoke alarm,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101855233,Air_conditioner Humidity sensor fault,3,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101859329,HEX Inner Fan 2 Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101863425,HEX Outer Fan 2 Fault,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101867521,HEX Door alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101871617,DG Run Fault alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101875713,Battery 1 Low Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101879809,Battery 2 Low Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101883905,Battery 3 Low Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101888001,Battery 4 Low Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101892097,Battery 5 Low Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101896193,Battery 6 Low Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101900289,Battery 7 Low Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101904385,Battery 8 Low Voltage Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101908481,Abnormal Voltage Detection of Battery 1,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101912577,Abnormal Voltage Detection of Battery 2,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101916673,Abnormal Voltage Detection of Battery 3,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101920769,Abnormal Voltage Detection of Battery 4,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101924865,Abnormal Voltage Detection of Battery 5,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101928961,Abnormal Voltage Detection of Battery 6,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101933057,Abnormal Voltage Detection of Battery 7,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101937153,Abnormal Voltage Detection of Battery 8,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101941249,CB Control Abnormal Alarm,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+101945345,Module HW-addr conflict,2,,range:(0:None)/(1:Prompt)/(2:Minor)/(3:Major)/
+117444609,DC Under Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117448705,DC Over Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117452801,LLVD1 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117456897,LLVD2 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117460993,LLVD3 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117465089,LLVD4 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117469185,BLVD Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117473281,LLVD1,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117477377,LLVD2,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117481473,LLVD3,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117485569,LLVD4,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117489665,BLVD,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117493761,Heavy Load,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117497857,ECO,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117501953,ECO Pause,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117506049,Manual Mode,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117510145,Temperature 1 Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117514241,Temperature 1 High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117518337,Temperature 1 Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117522433,Temperature 2 Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117526529,Temperature 2 High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117530625,Temperature 2 Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117534721,Temperature 3 Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117538817,Temperature 3 High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117542913,Temperature 3 Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117547009,Temperature 4 Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117551105,Temperature 4 High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117555201,Temperature 4 Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117559297,Battery 1 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117563393,Battery 2 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117567489,Battery Unavailable,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117571585,Boost Charge,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117575681,Battery Test,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117579777,Battery Discharge,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117583873,Battery Short Test Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117587969,Battery Test Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117592065,Battery 1 Voltage Imba,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117596161,Battery Charge Over,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117600257,Battery Short Test,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117604353,Input Phase Fail-A,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117608449,Input Under Voltage-A,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117612545,Input Over Voltage-A,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117616641,Input Phase Fail-B,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117620737,Input Under Voltage-B,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117624833,Input Over Voltage-B,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117628929,Input Phase Fail-C,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117633025,Input Under Voltage-C,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117637121,Input Over Voltage-C,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117641217,Input Breaker Open,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117645313,Module Address Error,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117649409,Power Input Failure,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117653505,Module Current Imbalance,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117657601,Multi Module Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117661697,Module Input Voltage Low,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117665793,Module Input Voltage High,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117669889,Module Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117673985,Module Input Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117678081,Module Temperature High,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117682177,Module HW Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117686273,Module Protection,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117690369,Module Fan Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117694465,Module Derated,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117698561,Module Load Share,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117702657,Module Out Over Voltage,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117706753,Module Off,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117710849,Inverter Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117714945,Inverter DC CAN Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117719041,AC Grid Input Voltage Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117723137,AC Grid Input Frequency Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117727233,Bus Voltage Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117731329,Inverter DC Over Voltage,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117735425,Inverter DC Protection,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117739521,Inverter DC Under Voltage,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117743617,Inverter DC Over Current,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117747713,Inverter Output Over Voltage,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117751809,Inverter Output Under Voltage,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117755905,Inverter Output Over Current,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117760001,Inverter Amb Temperature High,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117764097,Inverter Address Conflict,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117768193,Inverter Inter Temperature High,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117772289,Inverter Fan Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117776385,Inverter SCI Communication Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117780481,Inverter Short Out,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117784577,Inverter Emer Stop,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117788673,Inverter Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117792769,Inverter Off,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117796865,DI 1 Alarm,1,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117800961,DI 2 Alarm,2,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117805057,DI 3 Alarm,3,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117809153,DI 4 Alarm,4,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117813249,DI 5 Alarm,5,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117817345,DI 6 Alarm,6,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117821441,DI 7 Alarm,7,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117825537,DI 8 Alarm,8,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117829633,DI 9 Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117833729,DI 10 Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117837825,DI 11 Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117841921,DI 12 Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117846017,Minor Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117850113,Major Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117854209,BMS Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117858305,BMS Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117862401,BMS  Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117866497,BMS  Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117870593,BMS Cell Over Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117874689,BMS Cell Under Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117878785,BMS Pack Over Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117882881,BMS Pack Under Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117886977,BMS Over Charge Current,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117891073,BMS Discharge Current Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117895169,BMS Cell Over Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117899265,BMS Cell Under Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117903361,BMS Environment Over Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117907457,BMS Environment Under Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117911553,BMS PCB Over Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117915649,BMS SOC Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117919745,BMS Diff Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117923841,BMS Cell Temperature Unbalance Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117927937,BMS Cell Over Voltage Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117932033,BMS Cell Under Voltage Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117936129,BMS Over Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117940225,BMS Under Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117944321,BMS Short Circuit Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117948417,BMS Open Circuit Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117952513,BMS Over Battery Temperature,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117956609,BMS Under Battery Temperature,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117960705,BMS Discharge Over Temperature Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117964801,BMS Discharge Under Temperature Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117968897,BMS Over Charge Current Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117972993,BMS Over Discharge Current,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117977089,BMS Current Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117981185,BMS PCB Over Temperature Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117985281,BMS Cell Temperature Unbalance Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117989377,BMS Cell Voltage Unbalance Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117993473,BMS ANTI-THEFT,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+117997569,BMS Sample Error,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118001665,BMS Temperature Sense Disconnect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118005761,BMS Inversed Graft Error,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118009857,BMS Breaker,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118013953,BMS Temperature Sense Short,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118018049,BMS Charge Over Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118022145,BMS Charge Under Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118026241,BMS Discharge Over Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118030337,BMS Discharge Under Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118034433,BMS Charge Over Current Protect2,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118038529,BMS Discharge Over Current Protect2,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118042625,BMS Charge Mos Error,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118046721,BMS Discharge Mos Error,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118050817,BMS CB Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118054913,BMS Hardware Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118059009,BMS Cell Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118063105,BMS Rev Polarity Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118067201,BMS Fuse Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118071297,BMS Cell xx Over Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118075393,BMS Cell xx Under Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118079489,BMS Cell xx Over Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118083585,BMS Cell xx Under Temperature Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118087681,BMS Cell xx Over Voltage Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118091777,BMS Cell xx Under Voltage Protect,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118095873,Environment Humidity Low,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118099969,Environment Humidity High,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118104065,HEX Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118108161,HEX Temperature High,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118112257,HEX Temperature Low,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118116353,HEX Inner Fan Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118120449,HEX Outer Fan Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118124545,HEX Heat Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118128641,HEX Input Voltage High,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118132737,HEX Input Voltage Low,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118136833,HEX Temperature Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118140929,Temperature Sensor 1 Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118145025,Temperature Sensor 2 Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118149121,Temperature Sensor 3 Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118153217,Temperature Sensor 4 Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118157313,CB Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118161409,CB Trip Coils Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118165505,CB HW Short Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118169601,CB HW Over Current Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118173697,CB Short Fail Lock,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118177793,CB Under Voltage Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118181889,CB Over Voltage L1 Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118185985,CB Over Voltage L2 Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118190081,CB Over Current L1 Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118194177,CB Over Current L2 Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118198273,CB Over Current L3 Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118202369,CB Temperature A Over Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118206465,CB Temperature B Over Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118210561,CB E-Switch Fail Over Current Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118214657,CB E-Switch Fail Over Temperature Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118218753,CB Switch Reverse Trip,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118222849,CB Under Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118226945,CB Over Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118231041,CB Over Current Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118235137,CB Temperature A Over Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118239233,CB Temperature B Over Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118243329,CB E-Switch Short Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118247425,CB E-Switch Open Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118251521,CB M-Switch Short Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118255617,CB M-Switch Open Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118259713,CB GDT Fault Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118263809,CB Power Down Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118267905,CB Check Error Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118272001,CB Memory Error Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118276097,CB Address Error Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118280193,Fuel Level Low,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118284289,DG Turned on,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118288385,DC Meter Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118292481,AC Meter Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118296577,Battery Missing,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118300673,CB Overload Fault Tripping,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118304769,CB Switch on-off Failure Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118308865,CB LVD Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118312961,Smart PDU Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118317057,Smart PDU SPD Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118321153,CB Label Lack Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118325249,CB Manual OFF Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118329345,Battery 3 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118333441,Battery 4 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118337537,Battery 5 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118341633,Battery 6 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118345729,Battery 7 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118349825,Battery 8 Fuse Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118353921,EX1-DI 1 Alarm,9,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118358017,EX1-DI 2 Alarm,10,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118362113,EX1-DI 3 Alarm,11,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118366209,EX1-DI 4 Alarm,12,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118370305,EX1-DI 5 Alarm,13,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118374401,EX1-DI 6 Alarm,14,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118378497,EX1-DI 7 Alarm,15,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118382593,EX1-DI 8 Alarm,16,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118386689,IOB Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118390785,BLVD Control Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118394881,System Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118398977,Temperature 5 Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118403073,Temperature 5 High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118407169,Temperature 5 Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118411265,Temperature Sensor 5 Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118415361,Battery 1 Temperature Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118419457,Battery 1 Temperature High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118423553,Battery 1 Temperature Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118427649,Battery 2 Temperature Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118431745,Battery 2 Temperature High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118435841,Battery 2 Temperature Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118439937,Battery 3 Temperature Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118444033,Battery 3 Temperature High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118448129,Battery 3 Temperature Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118452225,Battery 4 Temperature Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118456321,Battery 4 Temperature High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118460417,Battery 4 Temperature Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118464513,Environment Temperature Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118468609,Environment Temperature High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118472705,Environment Temperature Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118476801,Battery 1 Temperature Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118480897,Battery 2 Temperature Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118484993,Battery 3 Temperature Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118489089,Battery 4 Temperature Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118493185,Environment Temperature Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118497281,Battery 2 Voltage Imba,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118501377,Battery 3 Voltage Imba,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118505473,Battery 4 Voltage Imba,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118509569,DCDU Communication Fail Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118513665,Air_conditioner Communication Fail,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118517761,Air-conditioner High Temperature Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118521857,Air-conditioner Low Temperature Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118525953,Air-conditioner High Voltage Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118530049,Air-conditioner Low Voltage Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118534145,Air-conditioner Compressor Failure Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118538241,Air-conditioner Internal Fan Failure Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118542337,Air-conditioner External Fan Failure Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118546433,Air-conditioner Temperature Sensor Failure Warning,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118550529,AC Current Imbalance Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118554625,DC Voltage Very Low Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118558721,DC Voltage Very High Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118562817,HEX Compressor Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118566913,Heater Overload Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118571009,Heater Underload Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118575105,Return Air Sensor Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118579201,Condenser Sensor Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118583297,High Pressure Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118587393,Humidity Sensor Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118591489,High Humidity alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118595585,Filter alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118599681,Air_conditioner Heater Overload Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118603777,Air_conditioner Heater Underload Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118607873,Air_conditioner Return Air Sensor Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118611969,Air_conditioner Condenser Sensor Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118616065,Air_conditioner High Pressure Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118620161,Air_conditioner Door alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118624257,Air_conditioner Water alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118628353,Air_conditioner Smoke alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118632449,Air_conditioner Humidity sensor fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118636545,HEX Inner Fan 2 Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118640641,HEX Outer Fan 2 Fault,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118644737,HEX Door alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118648833,DG Run Fault alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118652929,Battery 1 Low Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118657025,Battery 2 Low Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118661121,Battery 3 Low Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118665217,Battery 4 Low Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118669313,Battery 5 Low Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118673409,Battery 6 Low Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118677505,Battery 7 Low Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118681601,Battery 8 Low Voltage Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118685697,Abnormal Voltage Detection of Battery 1,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118689793,Abnormal Voltage Detection of Battery 2,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118693889,Abnormal Voltage Detection of Battery 3,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118697985,Abnormal Voltage Detection of Battery 4,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118702081,Abnormal Voltage Detection of Battery 5,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118706177,Abnormal Voltage Detection of Battery 6,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118710273,Abnormal Voltage Detection of Battery 7,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118714369,Abnormal Voltage Detection of Battery 8,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118718465,CB Control Abnormal Alarm,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+118722561,Module HW-addr conflict,0,,range:(0:None)/(1:DO1)/(2:DO2)/(3:DO3)//...
+50335745,Site Name,Site Name,,range:---
+50339841,Power Input Type,1,,range:(0:1-PH)/(1:3-PH)/(5:HVDC)/
+50343937,Time Zone,104,,range:(0:(UTC-12:00) International Date Line West)/(1:(UTC-11:00) Coordinated Universal Time-11)/(2:(UTC-10:00) Aleutian Islands)/(3:(UTC-10:00) Hawaii)//...
+50356225,Buzzer,0,,range:(1:OFF)/(0:ON)/
+50360321,Solar Delta Voltage,1.00,V,range:0.00~2.00
+50364417,Data Log Interval,15,min,range:1~1440
+50376705,Web Enabled,0,,range:(0:Yes)/(1:No)/
+50380801,SNMP Enabled,0,,range:(0:Yes)/(1:No)/
+50384897,USB Enabled,0,,range:(0:Enabled)/(1:Disabled)/
+50388993,Web Port,443,,range:1~65535
+50393089,Load Branch 1 Leased,0,,range:(0:Yes)/(1:No)/
+50397185,Load Branch 2 Leased,0,,range:(0:Yes)/(1:No)/
+50401281,Load Branch 3 Leased,0,,range:(0:Yes)/(1:No)/
+50405377,Load Branch 4 Leased,0,,range:(0:Yes)/(1:No)/
+50413569,Temperature Sensor 1,0,,range:(0:Batt1)/(1:NotConfigured)/(3:Batt2)/(4:Batt3)//...
+50417665,Temperature Sensor 2,1,,range:(0:Batt1)/(1:NotConfigured)/(3:Batt2)/(4:Batt3)//...
+50421761,Temperature Sensor 3,2,,range:(0:Batt1)/(1:NotConfigured)/(2:Env)/(3:Batt2)//...
+50425857,Temperature Sensor 4,1,,range:(0:Batt1)/(1:NotConfigured)/(3:Batt2)/(4:Batt3)//...
+50429953,Temperature Sensor 5,1,,range:(0:Batt1)/(1:NotConfigured)/(3:Batt2)/(4:Batt3)//...
+50434049,Humidity Sensor,1,,range:(0:Yes)/(1:No)/
+50438145,Fuel Sensor,1,,range:(0:Yes)/(1:No)/
+50442241,Battery 1 Shunt,0,,range:(0:Yes)/(1:No)/
+50458625,Load 1 Shunt,0,,range:(0:Yes)/(1:No)/
+50462721,Load 2 Shunt,1,,range:(0:Yes)/(1:No)/
+50466817,Load 3 Shunt,1,,range:(0:Yes)/(1:No)/
+50470913,Load 4 Shunt,1,,range:(0:Yes)/(1:No)/
+50475009,Battery 1 Shunt Current,400,A,range:0~2000
+50479105,Battery 1 Shunt Voltage,25,mV,range:1~500
+50507777,Load 1 Shunt Current,400,A,range:0~2000
+50511873,Load 1 Shunt Voltage,25,mV,range:1~500
+50515969,Load 2 Shunt Current,300,A,range:0~2000
+50520065,Load 2 Shunt Voltage,25,mV,range:1~500
+50524161,Load 3 Shunt Current,300,A,range:0~2000
+50528257,Load 3 Shunt Voltage,25,mV,range:1~500
+50532353,Load 4 Shunt Current,300,A,range:0~2000
+50536449,Load 4 Shunt Voltage,25,mV,range:1~500
+50540545,Extra Load Current Calculation,0,,range:(0:Enabled)/(1:Disabled)/
+50544641,BMS Unlock Password,123456,,range:---
+50548737,DO 1,0,,range:(0:Normal Close)/(1:Normal Open)/
+50552833,DO 2,0,,range:(0:Normal Close)/(1:Normal Open)/
+50556929,DO 3,0,,range:(0:Normal Close)/(1:Normal Open)/
+50561025,DO 4,0,,range:(0:Normal Close)/(1:Normal Open)/
+50565121,DO 5,0,,range:(0:Normal Close)/(1:Normal Open)/
+50569217,DO 6,0,,range:(0:Normal Close)/(1:Normal Open)/
+50573313,DO 7,0,,range:(0:Normal Close)/(1:Normal Open)/
+50577409,DO 8,0,,range:(0:Normal Close)/(1:Normal Open)/
+50581505,DI 1,0,,range:(0:Normal Close)/(1:Normal Open)/
+50585601,DI 2,0,,range:(0:Normal Close)/(1:Normal Open)/
+50589697,DI 3,1,,range:(0:Normal Close)/(1:Normal Open)/
+50593793,DI 4,1,,range:(0:Normal Close)/(1:Normal Open)/
+50597889,DI 5,0,,range:(0:Normal Close)/(1:Normal Open)/
+50601985,DI 6,0,,range:(0:Normal Close)/(1:Normal Open)/
+50606081,DI 7,0,,range:(0:Normal Close)/(1:Normal Open)/
+50610177,DI 8,0,,range:(0:Normal Close)/(1:Normal Open)/
+50614273,DI 9,0,,range:(0:Normal Close)/(1:Normal Open)/
+50618369,DI 10,1,,range:(0:Normal Close)/(1:Normal Open)/
+50622465,DI 11,1,,range:(0:Normal Close)/(1:Normal Open)/
+50626561,DI 12,1,,range:(0:Normal Close)/(1:Normal Open)/
+50630657,Input Over Voltage,280,V,range:180~500
+50634753,Input Under Voltage,180,V,range:80~280
+50638849,Phase Loss Voltage,80,V,range:50~80
+50651137,DC Over Voltage,58.5,V,range:48.0~59.0
+50655233,DC Under Voltage,48.0,V,range:45.0~58.5
+50659329,Temperature 1 Very High,60,℃,range:55~100
+50663425,Temperature 1 High,55,℃,range:10~60
+50667521,Temperature 1 Low,-33,℃,range:-40~10
+50671617,Temperature 2 Very High,60,℃,range:55~100
+50675713,Temperature 2 High,55,℃,range:10~60
+50679809,Temperature 2 Low,-33,℃,range:-40~10
+50683905,Temperature 3 Very High,60,℃,range:55~100
+50688001,Temperature 3 High,55,℃,range:10~60
+50692097,Temperature 3 Low,-33,℃,range:-40~10
+50696193,Temperature 4 Very High,60,℃,range:55~100
+50700289,Temperature 4 High,55,℃,range:10~60
+50704385,Temperature 4 Low,-33,℃,range:-40~10
+50708481,Temperature 5 Very High,60,℃,range:55~100
+50712577,Temperature 5 High,55,℃,range:10~60
+50716673,Temperature 5 Low,-33,℃,range:-40~10
+50720769,Environment Humidity High Threshold,95,%RH,range:50~100
+50724865,Environment Humidity Low Threshold,5,%RH,range:0~50
+50728961,BatteryFuse VTH,0.40,V,range:0.10~0.50
+50737153,Discharge Threshold,-2,A,range:-10~-2
+50741249,Heavy Load Ratio,100,%,range:50~120
+50745345,Temperature Compensation Enable,1,,range:(0:Enabled)/(1:Disabled)/
+50749441,Temperature Compensation Coef,96,mV/℃,range:0~500
+50753537,Temperature Compensation Center,25,℃,range:-10~50
+50757633,OverTemperature Prot. Mode,0,,range:(0:None)/(1:BLVD)/
+50761729,Derated Output Voltage,52.0,V,range:48.0~58.5
+50765825,UnderTemperature Prot. Mode,0,,range:(0:None)/(1:BLVD)/
+50769921,Load Shifting,1,,range:(0:Enabled)/(1:Disabled)/
+50774017,Flat Charge,1,,range:(0:Enabled)/(1:Disabled)/
+50786305,Shifting End SOC,50,%,range:15~100
+50790401,Shifting End Voltage,50.0,V,range:45.0~56.4
+50794497,Peak Period 1,00:00~00:00,,range:---
+50798593,Peak Period 2,00:00~00:00,,range:---
+50802689,Peak Period 3,00:00~00:00,,range:---
+50806785,Peak Period 4,00:00~00:00,,range:---
+50810881,Valley Period 1,00:00~00:00,,range:---
+50814977,Valley Period 2,00:00~00:00,,range:---
+50819073,Valley Period 3,00:00~00:00,,range:---
+50823169,Valley Period 4,00:00~00:00,,range:---
+50827265,Peak Period 1 Tariff,0.00,,range:---
+50831361,Peak Period 2 Tariff,0.00,,range:---
+50835457,Peak Period 3 Tariff,0.00,,range:---
+50839553,Peak Period 4 Tariff,0.00,,range:---
+50843649,Valley Period 1 Tariff,0.00,,range:---
+50847745,Valley Period 2 Tariff,0.00,,range:---
+50851841,Valley Period 3 Tariff,0.00,,range:---
+50855937,Valley Period 4 Tariff,0.00,,range:---
+50860033,Partial Charge,1,,range:(0:Enabled)/(1:Disabled)/
+50864129,Partial Charge Number(Day),2,,range:1~10
+50868225,Partial Charge Start SOC,70,%,range:50~100
+50872321,Partial Charge Start Voltage,51.0,V,range:50.0~56.4
+50876417,Partial Charge Stop SOC,20,%,range:15~70
+50880513,Partial Charge End Voltage,50.0,V,range:45.0~51.0
+50884609,Peak Shaving Enable,1,,range:(0:Enabled)/(1:Disabled)/
+50888705,AC Rated Capacity,200.0,kW,range:1.0~999.0
+50892801,AC Circuit Breaker Rated Current,500,A,range:1~10000
+50896897,AC Circuit Breaker Derated Coef,80,%,range:10~100
+50900993,AC Rated Phase Voltage,220,V,range:60~300
+50905089,Peak Shaving LLVD Enable,1,,range:(0:Enabled)/(1:Disabled)/
+50909185,Peak Shaving End SOC,30,%,range:10~100
+50913281,Mixed Shaving End SOC,15,%,range:10~100
+50917377,VPP Enable,1,,range:(0:Enabled)/(1:Disabled)/
+50921473,VPP Period 1,00:00~00:00,,range:---
+50925569,VPP Period 2,00:00~00:00,,range:---
+50929665,VPP Period 3,00:00~00:00,,range:---
+50933761,VPP Period 4,00:00~00:00,,range:---
+50937857,VPP Period 1 Capacity,200.0,kW,range:1.0~999.0
+50941953,VPP Period 2 Capacity,200.0,kW,range:1.0~999.0
+50946049,VPP Period 3 Capacity,200.0,kW,range:1.0~999.0
+50950145,VPP Period 4 Capacity,200.0,kW,range:1.0~999.0
+50962433,DG Power Priority,1,,range:(0:Enabled)/(1:Disabled)/
+50966529,DG Start Voltage,50.0,V,range:45.0~53.5
+50970625,DG Start SOC,80,%,range:15~100
+50974721,DG Stop Voltage,53.5,V,range:50.0~56.4
+50978817,DG Stop Current,0.100,C10,range:0.000~1.000
+50982913,DG Stop SOC,100,%,range:80~100
+50987009,DG Status,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+50991105,DG Start/Stop DO,0,,range:(0:None)/
+50995201,ATS Status,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+50999297,DG Voltage Control,0,,range:(0:Enabled)/(1:Disabled)/
+51003393,DG Current Control,0,,range:(0:Enabled)/(1:Disabled)/
+51007489,DG SOC Control,1,,range:(0:Enabled)/(1:Disabled)/
+51011585,DG Max Run Time,480,min,range:30~44640
+51015681,DG Run Fault Time,5,min,range:0~30
+51019777,Rectifier Output Min Stop DG,10,min,range:1~4320
+51023873,DG Stop Delay,5,min,range:1~1440
+51027969,DG Monthly Control,0,,range:(0:Enabled)/(1:Disabled)/
+51032065,DG Monthly Date 1,1,,range:1~31
+51036161,DG Monthly Date 2,10,,range:1~31
+51040257,DG Monthly Date 3,20,,range:1~31
+51044353,Monthly Start DG On(Hour),21,,range:0~23
+51048449,Monthly Start DG On(Minute),0,,range:0~59
+51052545,Monthly Work Duration,30,min,range:30~480
+51056641,DG Daily Control,1,,range:(0:Enabled)/(1:Disabled)/
+51060737,Daily Work Period1,00:00~00:00,,range:---
+51064833,Daily Work Period2,00:00~00:00,,range:---
+51068929,Daily Work Period3,00:00~00:00,,range:---
+51077121,Tank Cap_L Alarm,10,%,range:0~50
+51081217,Low Fuel Stop DG En,1,,range:(0:Enabled)/(1:Disabled)/
+51085313,DG Limit Power,1,,range:(0:Enabled)/(1:Disabled)/
+51089409,DG Max Power,21000,W,range:500~60000
+51093505,Level Total Number Setting,0,,range:---
+51097601,Tank Full Capacity,100,L,range:0~10000
+51101697,Tank Cap Level-Zero Level(Voltage),0.00,V,range:0.00~12.00
+51105793,Tank Cap Level-Zero Level(Volume),0.00,L,range:0.00~10000.00
+51109889,Tank Cap Level-Full Level(Voltage),5.00,V,range:0.00~12.00
+51113985,Tank Cap Level-Full Level(Volume),100.00,L,range:0.00~10000.00
+51118081,Tank Cap Level-1 Level(Voltage),0.00,V,range:0.00~12.00
+51122177,Tank Cap Level-1 Level(Volume),0.00,L,range:0.00~10000.00
+51126273,Tank Cap Level-2 Level(Voltage),0.00,V,range:0.00~12.00
+51130369,Tank Cap Level-2 Level(Volume),0.00,L,range:0.00~10000.00
+51134465,Tank Cap Level-3 Level(Voltage),0.00,V,range:0.00~12.00
+51138561,Tank Cap Level-3 Level(Volume),0.00,L,range:0.00~10000.00
+51142657,Tank Cap Level-4 Level(Voltage),0.00,V,range:0.00~12.00
+51146753,Tank Cap Level-4 Level(Volume),0.00,L,range:0.00~10000.00
+51150849,Tank Cap Level-5 Level(Voltage),0.00,V,range:0.00~12.00
+51154945,Tank Cap Level-5 Level(Volume),0.00,L,range:0.00~10000.00
+51159041,Tank Cap Level-6 Level(Voltage),0.00,V,range:0.00~12.00
+51163137,Tank Cap Level-6 Level(Volume),0.00,L,range:0.00~10000.00
+51167233,Tank Cap Level-7 Level(Voltage),0.00,V,range:0.00~12.00
+51171329,Tank Cap Level-7 Level(Volume),0.00,L,range:0.00~10000.00
+51175425,Tank Cap Level-8 Level(Voltage),0.00,V,range:0.00~12.00
+51179521,Tank Cap Level-8 Level(Volume),0.00,L,range:0.00~10000.00
+51183617,Tank Cap Level-9 Level(Voltage),0.00,V,range:0.00~12.00
+51187713,Tank Cap Level-9 Level(Volume),0.00,L,range:0.00~10000.00
+51191809,Tank Cap Level-10 Level(Voltage),0.00,V,range:0.00~12.00
+51195905,Tank Cap Level-10 Level(Volume),0.00,L,range:0.00~10000.00
+51200001,Tank Cap Level-11 Level(Voltage),0.00,V,range:0.00~12.00
+51204097,Tank Cap Level-11 Level(Volume),0.00,L,range:0.00~10000.00
+51208193,Tank Cap Level-12 Level(Voltage),0.00,V,range:0.00~12.00
+51212289,Tank Cap Level-12 Level(Volume),0.00,L,range:0.00~10000.00
+51216385,Tank Cap Level-13 Level(Voltage),0.00,V,range:0.00~12.00
+51220481,Tank Cap Level-13 Level(Volume),0.00,L,range:0.00~10000.00
+51224577,Tank Cap Level-14 Level(Voltage),0.00,V,range:0.00~12.00
+51228673,Tank Cap Level-14 Level(Volume),0.00,L,range:0.00~10000.00
+51232769,Tank Cap Level-15 Level(Voltage),0.00,V,range:0.00~12.00
+51236865,Tank Cap Level-15 Level(Volume),0.00,L,range:0.00~10000.00
+51240961,Tank Cap Level-16 Level(Voltage),0.00,V,range:0.00~12.00
+51245057,Tank Cap Level-16 Level(Volume),0.00,L,range:0.00~10000.00
+51249153,Tank Cap Level-17 Level(Voltage),0.00,V,range:0.00~12.00
+51253249,Tank Cap Level-17 Level(Volume),0.00,L,range:0.00~10000.00
+51257345,Tank Cap Level-18 Level(Voltage),0.00,V,range:0.00~12.00
+51261441,Tank Cap Level-18 Level(Volume),0.00,L,range:0.00~10000.00
+51265537,Battery Type,0,,range:(0:Lead Acid)/(1:Lithium)/(2:Mixed)/
+51269633,Battery1 Capacity,100,Ah,range:0~20000
+51273729,Battery2 Capacity,100,Ah,range:0~20000
+51277825,Battery3 Capacity,0,Ah,range:0~20000
+51281921,Battery4 Capacity,0,Ah,range:0~20000
+51286017,Float Voltage,53.5,V,range:42.0~56.4
+51290113,Boost Voltage,56.4,V,range:53.5~58.5
+51294209,Battery Charge Current Limit,0.100,C10,range:0.000~1.000
+51298305,Boost Charge Enable,0,,range:(0:Enabled)/(1:Disabled)/
+51302401,Float to Boost Current,0.020,C10,range:0.000~1.000
+51306497,Float to Boost SOC,80,%,range:10~99
+51314689,Boost to Float Current,0.010,C10,range:0.000~1.000
+51318785,Const Boost Time,180,min,range:0~1440
+51322881,Planned Boost MaxTime,720,min,range:30~2880
+51326977,Boost Max Time,780,min,range:480~2880
+51331073,Planned Boost Charge,1,,range:(1:Disabled)/(2:Cycle Boost)/(3:Scheduled Boost)/
+51335169,Cycle Boost Period,4320,hour,range:48~8760
+51339265,Scheduled Boost Time,2026-03-17 10:03:35,,range:---
+51343361,IPV4 Mode,0,,range:(0:Static)/(1:DHCP)/
+51347457,IPV4 Address,192.168.70.2,,range:---
+51351553,IPV4 Subnet Mask,255.255.255.0,,range:---
+51355649,IPV4 Gateway,192.168.70.1,,range:---
+51359745,IPV4 Primary DNS,0.0.0.0,,range:---
+51363841,IPV4 Secondary DNS,0.0.0.0,,range:---
+51367937,IPV6 Mode,0,,range:(0:Static)/(1:DHCP)/
+51372033,IPV6 Address,2405:200:1410:292::10,,range:---
+51376129,IPV6 Prefix Length,64,,range:0~128
+51380225,IPV6 Gateway,fe80::1,,range:---
+51384321,IPV6 Primary DNS,2001:4860:4860::8888,,range:---
+51388417,IPV6 Secondary DNS,2001:4860:4860::8888,,range:---
+51396609,NTP Server IPv4,0.0.0.0,,range:---
+51408897,SNMP Version,1,,range:(1:SNMPv2c)/(2:SNMPv3)/
+51412993,SNMP Agent Port,161,,range:0~65535
+51417089,Read Community,PowerPublic,,range:---
+51421185,Write Community,PowerPrivate,,range:---
+51425281,Enterprise OID,40211,,range:0~65535
+51429377,SNMP V3 User Authority Level,1,,range:(0:NoAuth,NoPriv)/(1:Auth,NoPriv)/(2:Auth,Priv)/
+51433473,SNMP V3 User Name,User,,range:---
+51437569,SNMP V3 Authority Algorithm,0,,range:(0:MD5)/(1:SHA)/
+51441665,SNMP V3 Authority Password,12345678,,range:---
+51449857,SNMP V3 Private Password,12345678,,range:---
+51453953,Trap IPV4 1,0.0.0.0,,range:---
+51458049,Trap IPV6 1,::,,range:---
+51462145,Trap Port 1,163,,range:0~65535
+51466241,Trap IPV4 2,0.0.0.0,,range:---
+51470337,Trap IPV6 2,::,,range:---
+51474433,Trap Port 2,162,,range:0~65535
+51478529,Trap IPV4 3,0.0.0.0,,range:---
+51482625,Trap IPV6 3,::,,range:---
+51486721,Trap Port 3,162,,range:0~65535
+51490817,Trap IPV4 4,0.0.0.0,,range:---
+51494913,Trap IPV6 4,::,,range:---
+51499009,Trap Port 4,162,,range:0~65535
+51507201,North RS485 Address,1,,range:1~255
+51511297,North Baud Rate,2,bps,range:(0:2400)/(1:4800)/(2:9600)/(3:19200)//...
+51515393,LLVD 1 Enable,0,,range:(0:Enabled)/(1:Disabled)/
+51519489,LLVD 2 Enable,1,,range:(0:Enabled)/(1:Disabled)/
+51523585,LLVD 3 Enable,1,,range:(0:Enabled)/(1:Disabled)/
+51527681,LLVD 4 Enable,1,,range:(0:Enabled)/(1:Disabled)/
+51531777,BLVD Enable,0,,range:(0:Enabled)/(1:Disabled)/
+51535873,LLVD1 Mode,0,,range:(0:Voltage Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+51539969,LLVD2 Mode,0,,range:(0:Voltage Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+51544065,LLVD3 Mode,0,,range:(0:Voltage Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+51548161,LLVD4 Mode,0,,range:(0:Voltage Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+51552257,BLVD Mode,0,,range:(0:Voltage Mode)/(1:Time Mode)/(2:Cap Mode)/
+51556353,LLVD 1 Voltage,44.0,V,range:43.2~45.2
+51560449,LLVD 2 Voltage,45.0,V,range:43.2~45.2
+51564545,LLVD 3 Voltage,44.0,V,range:43.2~45.2
+51568641,LLVD 4 Voltage,44.0,V,range:43.2~45.2
+51572737,BLVD Voltage,43.2,V,range:35.0~44.0
+51576833,LLVD 1 Time,360,min,range:1~480
+51580929,LLVD 2 Time,360,min,range:1~480
+51585025,LLVD 3 Time,360,min,range:1~480
+51589121,LLVD 4 Time,360,min,range:1~480
+51593217,BLVD Time,480,min,range:360~3600
+51597313,LLVD 1 SOC,15,%,range:5~20
+51601409,LLVD 2 SOC,15,%,range:5~20
+51605505,LLVD 3 SOC,15,%,range:5~20
+51609601,LLVD 4 SOC,15,%,range:5~20
+51613697,BLVD SOC,5,%,range:0~15
+51617793,LLVD 1 Recovery Voltage,50.0,V,range:44.0~58.5
+51621889,LLVD 2 Recovery Voltage,50.0,V,range:45.0~58.5
+51625985,LLVD 3 Recovery Voltage,50.0,V,range:44.0~58.5
+51630081,LLVD 4 Recovery Voltage,50.0,V,range:44.0~58.5
+51634177,BLVD Recovery Voltage,50.0,V,range:43.2~58.5
+51638273,LVD1 Recovery Mode,0,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+51642369,Test End Voltage,45.2,V,range:45.0~57.9
+51646465,Test End Time,300,min,range:5~1440
+51650561,Test End SOC,70,%,range:1~90
+51654657,Short Test Enable,1,,range:(0:Enabled)/(1:Disabled)/
+51658753,Short Test Period,720,hour,range:24~8760
+51662849,Short Test Time,5,min,range:1~60
+51671041,Planned Battery Test Mode,1,,range:(1:Disabled)/(2:Cycle Test)/(3:Scheduled Test)/
+51675137,Battery Test Type,2,,range:(2:CC Test)/(4:Normal Test)/
+51679233,Const Current Test Current,0.200,C10,range:0.000~1.000
+51683329,Battery Test Period,4320,hour,range:24~8760
+51687425,Scheduled Test Time,2022-05-15 03:40:01,,range:---
+51691521,ECO Enable,1,,range:(0:Enabled)/(1:Disabled)/
+51695617,Min Rectifier Number,2,,range:1~8
+51699713,Best Load Ratio,60,%,range:30~90
+51703809,Rectifier Save Stop,90,%,range:60~100
+51707905,ECO Cycle Period,168,h,range:1~8760
+51712001,Dry time,120,min,range:5~240
+51716097,Phase Balance Prio,0,,range:(0:Enabled)/(1:Disabled)/
+51720193,Dc.KCoeff,1.000,,range:0.100~5.000
+51724289,Battery1Cur.KCoeff,1.016,,range:0.100~5.000
+51728385,Battery1Cur.BCoeff,0.087,,range:-500.000~500.000
+51757057,Battery1Voltage.KCoeff,0.996,,range:0.100~5.000
+51765249,Battery2Voltage.KCoeff,0.998,,range:0.100~5.000
+51773441,Battery3Voltage.KCoeff,1.000,,range:0.100~5.000
+51781633,Battery4Voltage.KCoeff,1.000,,range:0.100~5.000
+51789825,Battery1 Mid Voltage KCoeff,1.000,,range:0.001~5.000
+51798017,Load1Cur.KCoeff,1.013,,range:0.100~5.000
+51802113,Load1Cur.BCoeff,0.118,,range:-80.000~80.000
+51806209,Load2Cur.KCoeff,1.000,,range:0.100~5.000
+51810305,Load2Cur.BCoeff,0.000,,range:-80.000~80.000
+51814401,Load3Cur.KCoeff,1.000,,range:0.100~5.000
+51818497,Load3Cur.BCoeff,0.000,,range:-80.000~80.000
+51822593,Load4Cur.KCoeff,1.000,,range:0.100~5.000
+51826689,Load4Cur.BCoeff,0.000,,range:-80.000~80.000
+51830785,Temperature 1 KCoeff,1.000,,range:0.100~5.000
+51834881,Temperature 2 KCoeff,1.000,,range:0.100~5.000
+51838977,Temperature 3 KCoeff,1.000,,range:0.100~5.000
+51843073,Temperature 1 BCoeff,0.0,,range:-20.0~20.0
+51847169,Temperature 2 BCoeff,0.6,,range:-20.0~20.0
+51851265,Temperature 3 BCoeff,0.5,,range:-20.0~20.0
+51855361,Temperature 4 BCoeff,0.0,,range:-20.0~20.0
+51859457,Temperature 5 BCoeff,0.0,,range:-20.0~20.0
+51863553,DG Fuel Level KCoeff,1.000,,range:0.100~5.000
+51867649,DG Fuel Level BCoeff,-0.1,,range:-20.0~20.0
+51871745,Environment Humidity KCoeff,1.000,,range:0.100~5.000
+51875841,Environment Humidity BCoeff,1.1,,range:-20.0~20.0
+51879937,Input Voltage L1 KCoeff,1.000,,range:0.100~5.000
+51884033,Input Voltage L2 KCoeff,1.000,,range:0.100~5.000
+51888129,Input Voltage L3 KCoeff,1.000,,range:0.100~5.000
+51892225,Input Voltage L1 BCoeff,0.0,,range:-200.0~200.0
+51896321,Input Voltage L2 BCoeff,0.0,,range:-200.0~200.0
+51900417,Input Voltage L3 BCoeff,0.0,,range:-200.0~200.0
+51904513,DI 1 Name,Door Alarm,,range:---
+51908609,DI 2 Name,Fan Alarm,,range:---
+51912705,DI 3 Name,Smoke Alarm,,range:---
+51916801,DI 4 Name,DCDU SPD  Alarm,,range:---
+51920897,DI 5 Name,Pressure Alarm,,range:---
+51924993,DI 6 Name,Fan2 Alarm,,range:---
+51929089,DI 7 Name,Pressure2 Alarm,,range:---
+51933185,DI 8 Name,DCDU Fuse Alarm,,range:---
+51937281,DI 9 Name,AC SPD Alarm,,range:---
+51941377,DI 10 Name,DC SPD Alarm,,range:---
+51945473,DI 11 Name,DI 11 Alarm,,range:---
+51949569,DI 12 Name,DI 12 Alarm,,range:---
+51961857,Start Mode,1,,range:(0:Walk-In)/(1:Pocl)/(2:Immed Mode)/
+51965953,Walk-in Time,12,s,range:8~200
+51974145,Output Over Voltage,60.5,V,range:59.5~60.5
+51978241,Default Output Voltage,52.0,V,range:42.0~60.0
+51982337,MPPT Scan Peroid,0,s,range:0~1800
+51990529,Load Fluct. Ratio,0.10,,range:0.01~0.10
+51998721,Solar Input Alarm Delay,10,Min,range:1~7200
+52002817,Module Default Limit Point,122,%,range:5~122
+52133889,Battery Contactor Ctrl,0,,range:(0:Normal Close)/(1:Normal Open)/
+52137985,Exit Manual Time,30,min,range:30~240
+52142081,Battery Mid Voltage Detect,1,,range:(0:Yes)/(1:No)/
+52146177,Battery Mid Voltage Difference,2.0,V,range:1.0~10.0
+52150273,Battery Fuse Detect,0,,range:(0:Voltage Diff)/(1:DI)/
+52154369,Web Logout Time,20,min,range:1~20
+52158465,Load Fuse Alarm Type,0,,range:(0:Close Alarm)/(1:Open Alarm)/
+52162561,Controller Name,Controller,,range:---
+52166657,Controller Manufacturer,Default,,range:---
+52170753,Controller Model,MC2900-EF,,range:---
+52174849,Battery Test Enable,1,,range:(0:Enabled)/(1:Disabled)/
+52178945,Module Address Mode,1,,range:(0:Mode0)/(1:Mode1)/(2:Mode2)/
+52183041,AC Power Priority,1,,range:(0:Enabled)/(1:Disabled)/
+52187137,Current Setting Type,0,,range:(0:C10)/(1:A)/
+52191233,DG Stop Current(A),20,A,range:0~200
+52195329,Battery Charge Current Limit(A),20,A,range:0~200
+52199425,Float to Boost Current(A),4,A,range:0~200
+52203521,Boost to Float Current(A),2,A,range:0~200
+52207617,Const Current Test Current(A),40,A,range:0~200
+52211713,Temperature Display Type,0,,range:(0:Celsius)/(1:Fahrenheit)/
+52215809,Temperature 1 Very High(℉),140.0,℉,range:131.0~212.0
+52219905,Temperature 1 High(℉),131.0,℉,range:50.0~140.0
+52224001,Temperature 1 Low(℉),-27.4,℉,range:-40.0~50.0
+52228097,Temperature 2 Very High(℉),140.0,℉,range:131.0~212.0
+52232193,Temperature 2 High(℉),131.0,℉,range:50.0~140.0
+52236289,Temperature 2 Low(℉),-27.4,℉,range:-40.0~50.0
+52240385,Temperature 3 Very High(℉),140.0,℉,range:131.0~212.0
+52244481,Temperature 3 High(℉),131.0,℉,range:50.0~140.0
+52248577,Temperature 3 Low(℉),-27.4,℉,range:-40.0~50.0
+52252673,Temperature 4 Very High(℉),140.0,℉,range:131.0~212.0
+52256769,Temperature 4 High(℉),131.0,℉,range:50.0~140.0
+52260865,Temperature 4 Low(℉),-27.4,℉,range:-40.0~50.0
+52264961,Temperature 5 Very High(℉),140.0,℉,range:131.0~212.0
+52269057,Temperature 5 High(℉),131.0,℉,range:50.0~140.0
+52273153,Temperature 5 Low(℉),-27.4,℉,range:-40.0~50.0
+52277249,Temperature Compensation Coef(℉),53.333,mV/℉,range:0.000~277.778
+52281345,Temperature Compensation Center(℉),77.0,℉,range:14.0~122.0
+52285441,Local Upgrades Enabled,0,,range:(0:Enabled)/(1:Disabled)/
+52289537,CB Address-1,0,,range:0~255
+52289538,CB Address-2,0,,range:0~255
+52289539,CB Address-3,0,,range:0~255
+52289540,CB Address-4,0,,range:0~255
+52289541,CB Address-5,0,,range:0~255
+52289542,CB Address-6,0,,range:0~255
+52289543,CB Address-7,0,,range:0~255
+52289544,CB Address-8,0,,range:0~255
+52289545,CB Address-9,0,,range:0~255
+52289546,CB Address-10,0,,range:0~255
+52289547,CB Address-11,0,,range:0~255
+52289548,CB Address-12,0,,range:0~255
+52289549,CB Address-13,0,,range:0~255
+52289550,CB Address-14,0,,range:0~255
+52289551,CB Address-15,0,,range:0~255
+52289552,CB Address-16,0,,range:0~255
+52289553,CB Address-17,0,,range:0~255
+52289554,CB Address-18,0,,range:0~255
+52289555,CB Address-19,0,,range:0~255
+52289556,CB Address-20,0,,range:0~255
+52289557,CB Address-21,0,,range:0~255
+52289558,CB Address-22,0,,range:0~255
+52289559,CB Address-23,0,,range:0~255
+52289560,CB Address-24,0,,range:0~255
+52289561,CB Address-25,0,,range:0~255
+52289562,CB Address-26,0,,range:0~255
+52289563,CB Address-27,0,,range:0~255
+52289564,CB Address-28,0,,range:0~255
+52289565,CB Address-29,0,,range:0~255
+52289566,CB Address-30,0,,range:0~255
+52289567,CB Address-31,0,,range:0~255
+52289568,CB Address-32,0,,range:0~255
+52289569,CB Address-33,0,,range:0~255
+52289570,CB Address-34,0,,range:0~255
+52289571,CB Address-35,0,,range:0~255
+52289572,CB Address-36,0,,range:0~255
+52289573,CB Address-37,0,,range:0~255
+52289574,CB Address-38,0,,range:0~255
+52289575,CB Address-39,0,,range:0~255
+52289576,CB Address-40,0,,range:0~255
+52289577,CB Address-41,0,,range:0~255
+52289578,CB Address-42,0,,range:0~255
+52289579,CB Address-43,0,,range:0~255
+52289580,CB Address-44,0,,range:0~255
+52289581,CB Address-45,0,,range:0~255
+52289582,CB Address-46,0,,range:0~255
+52289583,CB Address-47,0,,range:0~255
+52289584,CB Address-48,0,,range:0~255
+52289585,CB Address-49,0,,range:0~255
+52289586,CB Address-50,0,,range:0~255
+52289587,CB Address-51,0,,range:0~255
+52289588,CB Address-52,0,,range:0~255
+52289589,CB Address-53,0,,range:0~255
+52289590,CB Address-54,0,,range:0~255
+52289591,CB Address-55,0,,range:0~255
+52289592,CB Address-56,0,,range:0~255
+52289593,CB Address-57,0,,range:0~255
+52289594,CB Address-58,0,,range:0~255
+52289595,CB Address-59,0,,range:0~255
+52289596,CB Address-60,0,,range:0~255
+52289597,CB Address-61,0,,range:0~255
+52289598,CB Address-62,0,,range:0~255
+52289599,CB Address-63,0,,range:0~255
+52289600,CB Address-64,0,,range:0~255
+52293633,CB Name-1,CB,,range:---
+52293634,CB Name-2,CB,,range:---
+52293635,CB Name-3,CB,,range:---
+52293636,CB Name-4,CB,,range:---
+52293637,CB Name-5,CB,,range:---
+52293638,CB Name-6,CB,,range:---
+52293639,CB Name-7,CB,,range:---
+52293640,CB Name-8,CB,,range:---
+52293641,CB Name-9,CB,,range:---
+52293642,CB Name-10,CB,,range:---
+52293643,CB Name-11,CB,,range:---
+52293644,CB Name-12,CB,,range:---
+52293645,CB Name-13,CB,,range:---
+52293646,CB Name-14,CB,,range:---
+52293647,CB Name-15,CB,,range:---
+52293648,CB Name-16,CB,,range:---
+52293649,CB Name-17,CB,,range:---
+52293650,CB Name-18,CB,,range:---
+52293651,CB Name-19,CB,,range:---
+52293652,CB Name-20,CB,,range:---
+52293653,CB Name-21,CB,,range:---
+52293654,CB Name-22,CB,,range:---
+52293655,CB Name-23,CB,,range:---
+52293656,CB Name-24,CB,,range:---
+52293657,CB Name-25,CB,,range:---
+52293658,CB Name-26,CB,,range:---
+52293659,CB Name-27,CB,,range:---
+52293660,CB Name-28,CB,,range:---
+52293661,CB Name-29,CB,,range:---
+52293662,CB Name-30,CB,,range:---
+52293663,CB Name-31,CB,,range:---
+52293664,CB Name-32,CB,,range:---
+52293665,CB Name-33,CB,,range:---
+52293666,CB Name-34,CB,,range:---
+52293667,CB Name-35,CB,,range:---
+52293668,CB Name-36,CB,,range:---
+52293669,CB Name-37,CB,,range:---
+52293670,CB Name-38,CB,,range:---
+52293671,CB Name-39,CB,,range:---
+52293672,CB Name-40,CB,,range:---
+52293673,CB Name-41,CB,,range:---
+52293674,CB Name-42,CB,,range:---
+52293675,CB Name-43,CB,,range:---
+52293676,CB Name-44,CB,,range:---
+52293677,CB Name-45,CB,,range:---
+52293678,CB Name-46,CB,,range:---
+52293679,CB Name-47,CB,,range:---
+52293680,CB Name-48,CB,,range:---
+52293681,CB Name-49,CB,,range:---
+52293682,CB Name-50,CB,,range:---
+52293683,CB Name-51,CB,,range:---
+52293684,CB Name-52,CB,,range:---
+52293685,CB Name-53,CB,,range:---
+52293686,CB Name-54,CB,,range:---
+52293687,CB Name-55,CB,,range:---
+52293688,CB Name-56,CB,,range:---
+52293689,CB Name-57,CB,,range:---
+52293690,CB Name-58,CB,,range:---
+52293691,CB Name-59,CB,,range:---
+52293692,CB Name-60,CB,,range:---
+52293693,CB Name-61,CB,,range:---
+52293694,CB Name-62,CB,,range:---
+52293695,CB Name-63,CB,,range:---
+52293696,CB Name-64,CB,,range:---
+52297729,CB LVD Enable-1,0,,range:(0:Enabled)/(1:Disabled)/
+52297730,CB LVD Enable-2,0,,range:(0:Enabled)/(1:Disabled)/
+52297731,CB LVD Enable-3,0,,range:(0:Enabled)/(1:Disabled)/
+52297732,CB LVD Enable-4,0,,range:(0:Enabled)/(1:Disabled)/
+52297733,CB LVD Enable-5,0,,range:(0:Enabled)/(1:Disabled)/
+52297734,CB LVD Enable-6,0,,range:(0:Enabled)/(1:Disabled)/
+52297735,CB LVD Enable-7,0,,range:(0:Enabled)/(1:Disabled)/
+52297736,CB LVD Enable-8,0,,range:(0:Enabled)/(1:Disabled)/
+52297737,CB LVD Enable-9,0,,range:(0:Enabled)/(1:Disabled)/
+52297738,CB LVD Enable-10,0,,range:(0:Enabled)/(1:Disabled)/
+52297739,CB LVD Enable-11,0,,range:(0:Enabled)/(1:Disabled)/
+52297740,CB LVD Enable-12,0,,range:(0:Enabled)/(1:Disabled)/
+52297741,CB LVD Enable-13,0,,range:(0:Enabled)/(1:Disabled)/
+52297742,CB LVD Enable-14,0,,range:(0:Enabled)/(1:Disabled)/
+52297743,CB LVD Enable-15,0,,range:(0:Enabled)/(1:Disabled)/
+52297744,CB LVD Enable-16,0,,range:(0:Enabled)/(1:Disabled)/
+52297745,CB LVD Enable-17,0,,range:(0:Enabled)/(1:Disabled)/
+52297746,CB LVD Enable-18,0,,range:(0:Enabled)/(1:Disabled)/
+52297747,CB LVD Enable-19,0,,range:(0:Enabled)/(1:Disabled)/
+52297748,CB LVD Enable-20,0,,range:(0:Enabled)/(1:Disabled)/
+52297749,CB LVD Enable-21,0,,range:(0:Enabled)/(1:Disabled)/
+52297750,CB LVD Enable-22,0,,range:(0:Enabled)/(1:Disabled)/
+52297751,CB LVD Enable-23,0,,range:(0:Enabled)/(1:Disabled)/
+52297752,CB LVD Enable-24,0,,range:(0:Enabled)/(1:Disabled)/
+52297753,CB LVD Enable-25,0,,range:(0:Enabled)/(1:Disabled)/
+52297754,CB LVD Enable-26,0,,range:(0:Enabled)/(1:Disabled)/
+52297755,CB LVD Enable-27,0,,range:(0:Enabled)/(1:Disabled)/
+52297756,CB LVD Enable-28,0,,range:(0:Enabled)/(1:Disabled)/
+52297757,CB LVD Enable-29,0,,range:(0:Enabled)/(1:Disabled)/
+52297758,CB LVD Enable-30,0,,range:(0:Enabled)/(1:Disabled)/
+52297759,CB LVD Enable-31,0,,range:(0:Enabled)/(1:Disabled)/
+52297760,CB LVD Enable-32,0,,range:(0:Enabled)/(1:Disabled)/
+52297761,CB LVD Enable-33,0,,range:(0:Enabled)/(1:Disabled)/
+52297762,CB LVD Enable-34,0,,range:(0:Enabled)/(1:Disabled)/
+52297763,CB LVD Enable-35,0,,range:(0:Enabled)/(1:Disabled)/
+52297764,CB LVD Enable-36,0,,range:(0:Enabled)/(1:Disabled)/
+52297765,CB LVD Enable-37,0,,range:(0:Enabled)/(1:Disabled)/
+52297766,CB LVD Enable-38,0,,range:(0:Enabled)/(1:Disabled)/
+52297767,CB LVD Enable-39,0,,range:(0:Enabled)/(1:Disabled)/
+52297768,CB LVD Enable-40,0,,range:(0:Enabled)/(1:Disabled)/
+52297769,CB LVD Enable-41,0,,range:(0:Enabled)/(1:Disabled)/
+52297770,CB LVD Enable-42,0,,range:(0:Enabled)/(1:Disabled)/
+52297771,CB LVD Enable-43,0,,range:(0:Enabled)/(1:Disabled)/
+52297772,CB LVD Enable-44,0,,range:(0:Enabled)/(1:Disabled)/
+52297773,CB LVD Enable-45,0,,range:(0:Enabled)/(1:Disabled)/
+52297774,CB LVD Enable-46,0,,range:(0:Enabled)/(1:Disabled)/
+52297775,CB LVD Enable-47,0,,range:(0:Enabled)/(1:Disabled)/
+52297776,CB LVD Enable-48,0,,range:(0:Enabled)/(1:Disabled)/
+52297777,CB LVD Enable-49,0,,range:(0:Enabled)/(1:Disabled)/
+52297778,CB LVD Enable-50,0,,range:(0:Enabled)/(1:Disabled)/
+52297779,CB LVD Enable-51,0,,range:(0:Enabled)/(1:Disabled)/
+52297780,CB LVD Enable-52,0,,range:(0:Enabled)/(1:Disabled)/
+52297781,CB LVD Enable-53,0,,range:(0:Enabled)/(1:Disabled)/
+52297782,CB LVD Enable-54,0,,range:(0:Enabled)/(1:Disabled)/
+52297783,CB LVD Enable-55,0,,range:(0:Enabled)/(1:Disabled)/
+52297784,CB LVD Enable-56,0,,range:(0:Enabled)/(1:Disabled)/
+52297785,CB LVD Enable-57,0,,range:(0:Enabled)/(1:Disabled)/
+52297786,CB LVD Enable-58,0,,range:(0:Enabled)/(1:Disabled)/
+52297787,CB LVD Enable-59,0,,range:(0:Enabled)/(1:Disabled)/
+52297788,CB LVD Enable-60,0,,range:(0:Enabled)/(1:Disabled)/
+52297789,CB LVD Enable-61,0,,range:(0:Enabled)/(1:Disabled)/
+52297790,CB LVD Enable-62,0,,range:(0:Enabled)/(1:Disabled)/
+52297791,CB LVD Enable-63,0,,range:(0:Enabled)/(1:Disabled)/
+52297792,CB LVD Enable-64,0,,range:(0:Enabled)/(1:Disabled)/
+52301825,CB LVD Mode-1,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301826,CB LVD Mode-2,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301827,CB LVD Mode-3,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301828,CB LVD Mode-4,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301829,CB LVD Mode-5,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301830,CB LVD Mode-6,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301831,CB LVD Mode-7,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301832,CB LVD Mode-8,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301833,CB LVD Mode-9,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301834,CB LVD Mode-10,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301835,CB LVD Mode-11,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301836,CB LVD Mode-12,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301837,CB LVD Mode-13,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301838,CB LVD Mode-14,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301839,CB LVD Mode-15,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301840,CB LVD Mode-16,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301841,CB LVD Mode-17,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301842,CB LVD Mode-18,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301843,CB LVD Mode-19,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301844,CB LVD Mode-20,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301845,CB LVD Mode-21,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301846,CB LVD Mode-22,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301847,CB LVD Mode-23,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301848,CB LVD Mode-24,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301849,CB LVD Mode-25,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301850,CB LVD Mode-26,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301851,CB LVD Mode-27,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301852,CB LVD Mode-28,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301853,CB LVD Mode-29,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301854,CB LVD Mode-30,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301855,CB LVD Mode-31,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301856,CB LVD Mode-32,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301857,CB LVD Mode-33,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301858,CB LVD Mode-34,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301859,CB LVD Mode-35,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301860,CB LVD Mode-36,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301861,CB LVD Mode-37,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301862,CB LVD Mode-38,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301863,CB LVD Mode-39,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301864,CB LVD Mode-40,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301865,CB LVD Mode-41,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301866,CB LVD Mode-42,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301867,CB LVD Mode-43,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301868,CB LVD Mode-44,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301869,CB LVD Mode-45,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301870,CB LVD Mode-46,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301871,CB LVD Mode-47,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301872,CB LVD Mode-48,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301873,CB LVD Mode-49,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301874,CB LVD Mode-50,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301875,CB LVD Mode-51,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301876,CB LVD Mode-52,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301877,CB LVD Mode-53,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301878,CB LVD Mode-54,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301879,CB LVD Mode-55,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301880,CB LVD Mode-56,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301881,CB LVD Mode-57,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301882,CB LVD Mode-58,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301883,CB LVD Mode-59,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301884,CB LVD Mode-60,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301885,CB LVD Mode-61,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301886,CB LVD Mode-62,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301887,CB LVD Mode-63,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52301888,CB LVD Mode-64,0,,range:(0:Volt Mode)/(1:Time Mode)/(2:Cap Mode)/(3:Backup Energy Mode)/
+52305921,CB Recovery Voltage-1,50.0,V,range:45.0~58.5
+52305922,CB Recovery Voltage-2,50.0,V,range:45.0~58.5
+52305923,CB Recovery Voltage-3,50.0,V,range:45.0~58.5
+52305924,CB Recovery Voltage-4,50.0,V,range:45.0~58.5
+52305925,CB Recovery Voltage-5,50.0,V,range:45.0~58.5
+52305926,CB Recovery Voltage-6,50.0,V,range:45.0~58.5
+52305927,CB Recovery Voltage-7,50.0,V,range:45.0~58.5
+52305928,CB Recovery Voltage-8,50.0,V,range:45.0~58.5
+52305929,CB Recovery Voltage-9,50.0,V,range:45.0~58.5
+52305930,CB Recovery Voltage-10,50.0,V,range:45.0~58.5
+52305931,CB Recovery Voltage-11,50.0,V,range:45.0~58.5
+52305932,CB Recovery Voltage-12,50.0,V,range:45.0~58.5
+52305933,CB Recovery Voltage-13,50.0,V,range:45.0~58.5
+52305934,CB Recovery Voltage-14,50.0,V,range:45.0~58.5
+52305935,CB Recovery Voltage-15,50.0,V,range:45.0~58.5
+52305936,CB Recovery Voltage-16,50.0,V,range:45.0~58.5
+52305937,CB Recovery Voltage-17,50.0,V,range:45.0~58.5
+52305938,CB Recovery Voltage-18,50.0,V,range:45.0~58.5
+52305939,CB Recovery Voltage-19,50.0,V,range:45.0~58.5
+52305940,CB Recovery Voltage-20,50.0,V,range:45.0~58.5
+52305941,CB Recovery Voltage-21,50.0,V,range:45.0~58.5
+52305942,CB Recovery Voltage-22,50.0,V,range:45.0~58.5
+52305943,CB Recovery Voltage-23,50.0,V,range:45.0~58.5
+52305944,CB Recovery Voltage-24,50.0,V,range:45.0~58.5
+52305945,CB Recovery Voltage-25,50.0,V,range:45.0~58.5
+52305946,CB Recovery Voltage-26,50.0,V,range:45.0~58.5
+52305947,CB Recovery Voltage-27,50.0,V,range:45.0~58.5
+52305948,CB Recovery Voltage-28,50.0,V,range:45.0~58.5
+52305949,CB Recovery Voltage-29,50.0,V,range:45.0~58.5
+52305950,CB Recovery Voltage-30,50.0,V,range:45.0~58.5
+52305951,CB Recovery Voltage-31,50.0,V,range:45.0~58.5
+52305952,CB Recovery Voltage-32,50.0,V,range:45.0~58.5
+52305953,CB Recovery Voltage-33,50.0,V,range:45.0~58.5
+52305954,CB Recovery Voltage-34,50.0,V,range:45.0~58.5
+52305955,CB Recovery Voltage-35,50.0,V,range:45.0~58.5
+52305956,CB Recovery Voltage-36,50.0,V,range:45.0~58.5
+52305957,CB Recovery Voltage-37,50.0,V,range:45.0~58.5
+52305958,CB Recovery Voltage-38,50.0,V,range:45.0~58.5
+52305959,CB Recovery Voltage-39,50.0,V,range:45.0~58.5
+52305960,CB Recovery Voltage-40,50.0,V,range:45.0~58.5
+52305961,CB Recovery Voltage-41,50.0,V,range:45.0~58.5
+52305962,CB Recovery Voltage-42,50.0,V,range:45.0~58.5
+52305963,CB Recovery Voltage-43,50.0,V,range:45.0~58.5
+52305964,CB Recovery Voltage-44,50.0,V,range:45.0~58.5
+52305965,CB Recovery Voltage-45,50.0,V,range:45.0~58.5
+52305966,CB Recovery Voltage-46,50.0,V,range:45.0~58.5
+52305967,CB Recovery Voltage-47,50.0,V,range:45.0~58.5
+52305968,CB Recovery Voltage-48,50.0,V,range:45.0~58.5
+52305969,CB Recovery Voltage-49,50.0,V,range:45.0~58.5
+52305970,CB Recovery Voltage-50,50.0,V,range:45.0~58.5
+52305971,CB Recovery Voltage-51,50.0,V,range:45.0~58.5
+52305972,CB Recovery Voltage-52,50.0,V,range:45.0~58.5
+52305973,CB Recovery Voltage-53,50.0,V,range:45.0~58.5
+52305974,CB Recovery Voltage-54,50.0,V,range:45.0~58.5
+52305975,CB Recovery Voltage-55,50.0,V,range:45.0~58.5
+52305976,CB Recovery Voltage-56,50.0,V,range:45.0~58.5
+52305977,CB Recovery Voltage-57,50.0,V,range:45.0~58.5
+52305978,CB Recovery Voltage-58,50.0,V,range:45.0~58.5
+52305979,CB Recovery Voltage-59,50.0,V,range:45.0~58.5
+52305980,CB Recovery Voltage-60,50.0,V,range:45.0~58.5
+52305981,CB Recovery Voltage-61,50.0,V,range:45.0~58.5
+52305982,CB Recovery Voltage-62,50.0,V,range:45.0~58.5
+52305983,CB Recovery Voltage-63,50.0,V,range:45.0~58.5
+52305984,CB Recovery Voltage-64,50.0,V,range:45.0~58.5
+52310017,CB LVD Voltage-1,45.0,V,range:42.0~50.0
+52310018,CB LVD Voltage-2,45.0,V,range:42.0~50.0
+52310019,CB LVD Voltage-3,45.0,V,range:42.0~50.0
+52310020,CB LVD Voltage-4,45.0,V,range:42.0~50.0
+52310021,CB LVD Voltage-5,45.0,V,range:42.0~50.0
+52310022,CB LVD Voltage-6,45.0,V,range:42.0~50.0
+52310023,CB LVD Voltage-7,45.0,V,range:42.0~50.0
+52310024,CB LVD Voltage-8,45.0,V,range:42.0~50.0
+52310025,CB LVD Voltage-9,45.0,V,range:42.0~50.0
+52310026,CB LVD Voltage-10,45.0,V,range:42.0~50.0
+52310027,CB LVD Voltage-11,45.0,V,range:42.0~50.0
+52310028,CB LVD Voltage-12,45.0,V,range:42.0~50.0
+52310029,CB LVD Voltage-13,45.0,V,range:42.0~50.0
+52310030,CB LVD Voltage-14,45.0,V,range:42.0~50.0
+52310031,CB LVD Voltage-15,45.0,V,range:42.0~50.0
+52310032,CB LVD Voltage-16,45.0,V,range:42.0~50.0
+52310033,CB LVD Voltage-17,45.0,V,range:42.0~50.0
+52310034,CB LVD Voltage-18,45.0,V,range:42.0~50.0
+52310035,CB LVD Voltage-19,45.0,V,range:42.0~50.0
+52310036,CB LVD Voltage-20,45.0,V,range:42.0~50.0
+52310037,CB LVD Voltage-21,45.0,V,range:42.0~50.0
+52310038,CB LVD Voltage-22,45.0,V,range:42.0~50.0
+52310039,CB LVD Voltage-23,45.0,V,range:42.0~50.0
+52310040,CB LVD Voltage-24,45.0,V,range:42.0~50.0
+52310041,CB LVD Voltage-25,45.0,V,range:42.0~50.0
+52310042,CB LVD Voltage-26,45.0,V,range:42.0~50.0
+52310043,CB LVD Voltage-27,45.0,V,range:42.0~50.0
+52310044,CB LVD Voltage-28,45.0,V,range:42.0~50.0
+52310045,CB LVD Voltage-29,45.0,V,range:42.0~50.0
+52310046,CB LVD Voltage-30,45.0,V,range:42.0~50.0
+52310047,CB LVD Voltage-31,45.0,V,range:42.0~50.0
+52310048,CB LVD Voltage-32,45.0,V,range:42.0~50.0
+52310049,CB LVD Voltage-33,45.0,V,range:42.0~50.0
+52310050,CB LVD Voltage-34,45.0,V,range:42.0~50.0
+52310051,CB LVD Voltage-35,45.0,V,range:42.0~50.0
+52310052,CB LVD Voltage-36,45.0,V,range:42.0~50.0
+52310053,CB LVD Voltage-37,45.0,V,range:42.0~50.0
+52310054,CB LVD Voltage-38,45.0,V,range:42.0~50.0
+52310055,CB LVD Voltage-39,45.0,V,range:42.0~50.0
+52310056,CB LVD Voltage-40,45.0,V,range:42.0~50.0
+52310057,CB LVD Voltage-41,45.0,V,range:42.0~50.0
+52310058,CB LVD Voltage-42,45.0,V,range:42.0~50.0
+52310059,CB LVD Voltage-43,45.0,V,range:42.0~50.0
+52310060,CB LVD Voltage-44,45.0,V,range:42.0~50.0
+52310061,CB LVD Voltage-45,45.0,V,range:42.0~50.0
+52310062,CB LVD Voltage-46,45.0,V,range:42.0~50.0
+52310063,CB LVD Voltage-47,45.0,V,range:42.0~50.0
+52310064,CB LVD Voltage-48,45.0,V,range:42.0~50.0
+52310065,CB LVD Voltage-49,45.0,V,range:42.0~50.0
+52310066,CB LVD Voltage-50,45.0,V,range:42.0~50.0
+52310067,CB LVD Voltage-51,45.0,V,range:42.0~50.0
+52310068,CB LVD Voltage-52,45.0,V,range:42.0~50.0
+52310069,CB LVD Voltage-53,45.0,V,range:42.0~50.0
+52310070,CB LVD Voltage-54,45.0,V,range:42.0~50.0
+52310071,CB LVD Voltage-55,45.0,V,range:42.0~50.0
+52310072,CB LVD Voltage-56,45.0,V,range:42.0~50.0
+52310073,CB LVD Voltage-57,45.0,V,range:42.0~50.0
+52310074,CB LVD Voltage-58,45.0,V,range:42.0~50.0
+52310075,CB LVD Voltage-59,45.0,V,range:42.0~50.0
+52310076,CB LVD Voltage-60,45.0,V,range:42.0~50.0
+52310077,CB LVD Voltage-61,45.0,V,range:42.0~50.0
+52310078,CB LVD Voltage-62,45.0,V,range:42.0~50.0
+52310079,CB LVD Voltage-63,45.0,V,range:42.0~50.0
+52310080,CB LVD Voltage-64,45.0,V,range:42.0~50.0
+52314113,CB LVD Time-1,360,min,range:1~3600
+52314114,CB LVD Time-2,360,min,range:1~3600
+52314115,CB LVD Time-3,360,min,range:1~3600
+52314116,CB LVD Time-4,360,min,range:1~3600
+52314117,CB LVD Time-5,360,min,range:1~3600
+52314118,CB LVD Time-6,360,min,range:1~3600
+52314119,CB LVD Time-7,360,min,range:1~3600
+52314120,CB LVD Time-8,360,min,range:1~3600
+52314121,CB LVD Time-9,360,min,range:1~3600
+52314122,CB LVD Time-10,360,min,range:1~3600
+52314123,CB LVD Time-11,360,min,range:1~3600
+52314124,CB LVD Time-12,360,min,range:1~3600
+52314125,CB LVD Time-13,360,min,range:1~3600
+52314126,CB LVD Time-14,360,min,range:1~3600
+52314127,CB LVD Time-15,360,min,range:1~3600
+52314128,CB LVD Time-16,360,min,range:1~3600
+52314129,CB LVD Time-17,360,min,range:1~3600
+52314130,CB LVD Time-18,360,min,range:1~3600
+52314131,CB LVD Time-19,360,min,range:1~3600
+52314132,CB LVD Time-20,360,min,range:1~3600
+52314133,CB LVD Time-21,360,min,range:1~3600
+52314134,CB LVD Time-22,360,min,range:1~3600
+52314135,CB LVD Time-23,360,min,range:1~3600
+52314136,CB LVD Time-24,360,min,range:1~3600
+52314137,CB LVD Time-25,360,min,range:1~3600
+52314138,CB LVD Time-26,360,min,range:1~3600
+52314139,CB LVD Time-27,360,min,range:1~3600
+52314140,CB LVD Time-28,360,min,range:1~3600
+52314141,CB LVD Time-29,360,min,range:1~3600
+52314142,CB LVD Time-30,360,min,range:1~3600
+52314143,CB LVD Time-31,360,min,range:1~3600
+52314144,CB LVD Time-32,360,min,range:1~3600
+52314145,CB LVD Time-33,360,min,range:1~3600
+52314146,CB LVD Time-34,360,min,range:1~3600
+52314147,CB LVD Time-35,360,min,range:1~3600
+52314148,CB LVD Time-36,360,min,range:1~3600
+52314149,CB LVD Time-37,360,min,range:1~3600
+52314150,CB LVD Time-38,360,min,range:1~3600
+52314151,CB LVD Time-39,360,min,range:1~3600
+52314152,CB LVD Time-40,360,min,range:1~3600
+52314153,CB LVD Time-41,360,min,range:1~3600
+52314154,CB LVD Time-42,360,min,range:1~3600
+52314155,CB LVD Time-43,360,min,range:1~3600
+52314156,CB LVD Time-44,360,min,range:1~3600
+52314157,CB LVD Time-45,360,min,range:1~3600
+52314158,CB LVD Time-46,360,min,range:1~3600
+52314159,CB LVD Time-47,360,min,range:1~3600
+52314160,CB LVD Time-48,360,min,range:1~3600
+52314161,CB LVD Time-49,360,min,range:1~3600
+52314162,CB LVD Time-50,360,min,range:1~3600
+52314163,CB LVD Time-51,360,min,range:1~3600
+52314164,CB LVD Time-52,360,min,range:1~3600
+52314165,CB LVD Time-53,360,min,range:1~3600
+52314166,CB LVD Time-54,360,min,range:1~3600
+52314167,CB LVD Time-55,360,min,range:1~3600
+52314168,CB LVD Time-56,360,min,range:1~3600
+52314169,CB LVD Time-57,360,min,range:1~3600
+52314170,CB LVD Time-58,360,min,range:1~3600
+52314171,CB LVD Time-59,360,min,range:1~3600
+52314172,CB LVD Time-60,360,min,range:1~3600
+52314173,CB LVD Time-61,360,min,range:1~3600
+52314174,CB LVD Time-62,360,min,range:1~3600
+52314175,CB LVD Time-63,360,min,range:1~3600
+52314176,CB LVD Time-64,360,min,range:1~3600
+52318209,CB LVD SOC-1,15,%,range:0~30
+52318210,CB LVD SOC-2,15,%,range:0~30
+52318211,CB LVD SOC-3,15,%,range:0~30
+52318212,CB LVD SOC-4,15,%,range:0~30
+52318213,CB LVD SOC-5,15,%,range:0~30
+52318214,CB LVD SOC-6,15,%,range:0~30
+52318215,CB LVD SOC-7,15,%,range:0~30
+52318216,CB LVD SOC-8,15,%,range:0~30
+52318217,CB LVD SOC-9,15,%,range:0~30
+52318218,CB LVD SOC-10,15,%,range:0~30
+52318219,CB LVD SOC-11,15,%,range:0~30
+52318220,CB LVD SOC-12,15,%,range:0~30
+52318221,CB LVD SOC-13,15,%,range:0~30
+52318222,CB LVD SOC-14,15,%,range:0~30
+52318223,CB LVD SOC-15,15,%,range:0~30
+52318224,CB LVD SOC-16,15,%,range:0~30
+52318225,CB LVD SOC-17,15,%,range:0~30
+52318226,CB LVD SOC-18,15,%,range:0~30
+52318227,CB LVD SOC-19,15,%,range:0~30
+52318228,CB LVD SOC-20,15,%,range:0~30
+52318229,CB LVD SOC-21,15,%,range:0~30
+52318230,CB LVD SOC-22,15,%,range:0~30
+52318231,CB LVD SOC-23,15,%,range:0~30
+52318232,CB LVD SOC-24,15,%,range:0~30
+52318233,CB LVD SOC-25,15,%,range:0~30
+52318234,CB LVD SOC-26,15,%,range:0~30
+52318235,CB LVD SOC-27,15,%,range:0~30
+52318236,CB LVD SOC-28,15,%,range:0~30
+52318237,CB LVD SOC-29,15,%,range:0~30
+52318238,CB LVD SOC-30,15,%,range:0~30
+52318239,CB LVD SOC-31,15,%,range:0~30
+52318240,CB LVD SOC-32,15,%,range:0~30
+52318241,CB LVD SOC-33,15,%,range:0~30
+52318242,CB LVD SOC-34,15,%,range:0~30
+52318243,CB LVD SOC-35,15,%,range:0~30
+52318244,CB LVD SOC-36,15,%,range:0~30
+52318245,CB LVD SOC-37,15,%,range:0~30
+52318246,CB LVD SOC-38,15,%,range:0~30
+52318247,CB LVD SOC-39,15,%,range:0~30
+52318248,CB LVD SOC-40,15,%,range:0~30
+52318249,CB LVD SOC-41,15,%,range:0~30
+52318250,CB LVD SOC-42,15,%,range:0~30
+52318251,CB LVD SOC-43,15,%,range:0~30
+52318252,CB LVD SOC-44,15,%,range:0~30
+52318253,CB LVD SOC-45,15,%,range:0~30
+52318254,CB LVD SOC-46,15,%,range:0~30
+52318255,CB LVD SOC-47,15,%,range:0~30
+52318256,CB LVD SOC-48,15,%,range:0~30
+52318257,CB LVD SOC-49,15,%,range:0~30
+52318258,CB LVD SOC-50,15,%,range:0~30
+52318259,CB LVD SOC-51,15,%,range:0~30
+52318260,CB LVD SOC-52,15,%,range:0~30
+52318261,CB LVD SOC-53,15,%,range:0~30
+52318262,CB LVD SOC-54,15,%,range:0~30
+52318263,CB LVD SOC-55,15,%,range:0~30
+52318264,CB LVD SOC-56,15,%,range:0~30
+52318265,CB LVD SOC-57,15,%,range:0~30
+52318266,CB LVD SOC-58,15,%,range:0~30
+52318267,CB LVD SOC-59,15,%,range:0~30
+52318268,CB LVD SOC-60,15,%,range:0~30
+52318269,CB LVD SOC-61,15,%,range:0~30
+52318270,CB LVD SOC-62,15,%,range:0~30
+52318271,CB LVD SOC-63,15,%,range:0~30
+52318272,CB LVD SOC-64,15,%,range:0~30
+52322305,CB Branch Leased-1,1,,range:(0:Non-Lease)/(1:Lease)/
+52322306,CB Branch Leased-2,1,,range:(0:Non-Lease)/(1:Lease)/
+52322307,CB Branch Leased-3,1,,range:(0:Non-Lease)/(1:Lease)/
+52322308,CB Branch Leased-4,1,,range:(0:Non-Lease)/(1:Lease)/
+52322309,CB Branch Leased-5,1,,range:(0:Non-Lease)/(1:Lease)/
+52322310,CB Branch Leased-6,1,,range:(0:Non-Lease)/(1:Lease)/
+52322311,CB Branch Leased-7,1,,range:(0:Non-Lease)/(1:Lease)/
+52322312,CB Branch Leased-8,1,,range:(0:Non-Lease)/(1:Lease)/
+52322313,CB Branch Leased-9,1,,range:(0:Non-Lease)/(1:Lease)/
+52322314,CB Branch Leased-10,1,,range:(0:Non-Lease)/(1:Lease)/
+52322315,CB Branch Leased-11,1,,range:(0:Non-Lease)/(1:Lease)/
+52322316,CB Branch Leased-12,1,,range:(0:Non-Lease)/(1:Lease)/
+52322317,CB Branch Leased-13,1,,range:(0:Non-Lease)/(1:Lease)/
+52322318,CB Branch Leased-14,1,,range:(0:Non-Lease)/(1:Lease)/
+52322319,CB Branch Leased-15,1,,range:(0:Non-Lease)/(1:Lease)/
+52322320,CB Branch Leased-16,1,,range:(0:Non-Lease)/(1:Lease)/
+52322321,CB Branch Leased-17,1,,range:(0:Non-Lease)/(1:Lease)/
+52322322,CB Branch Leased-18,1,,range:(0:Non-Lease)/(1:Lease)/
+52322323,CB Branch Leased-19,1,,range:(0:Non-Lease)/(1:Lease)/
+52322324,CB Branch Leased-20,1,,range:(0:Non-Lease)/(1:Lease)/
+52322325,CB Branch Leased-21,1,,range:(0:Non-Lease)/(1:Lease)/
+52322326,CB Branch Leased-22,1,,range:(0:Non-Lease)/(1:Lease)/
+52322327,CB Branch Leased-23,1,,range:(0:Non-Lease)/(1:Lease)/
+52322328,CB Branch Leased-24,1,,range:(0:Non-Lease)/(1:Lease)/
+52322329,CB Branch Leased-25,1,,range:(0:Non-Lease)/(1:Lease)/
+52322330,CB Branch Leased-26,1,,range:(0:Non-Lease)/(1:Lease)/
+52322331,CB Branch Leased-27,1,,range:(0:Non-Lease)/(1:Lease)/
+52322332,CB Branch Leased-28,1,,range:(0:Non-Lease)/(1:Lease)/
+52322333,CB Branch Leased-29,1,,range:(0:Non-Lease)/(1:Lease)/
+52322334,CB Branch Leased-30,1,,range:(0:Non-Lease)/(1:Lease)/
+52322335,CB Branch Leased-31,1,,range:(0:Non-Lease)/(1:Lease)/
+52322336,CB Branch Leased-32,1,,range:(0:Non-Lease)/(1:Lease)/
+52322337,CB Branch Leased-33,1,,range:(0:Non-Lease)/(1:Lease)/
+52322338,CB Branch Leased-34,1,,range:(0:Non-Lease)/(1:Lease)/
+52322339,CB Branch Leased-35,1,,range:(0:Non-Lease)/(1:Lease)/
+52322340,CB Branch Leased-36,1,,range:(0:Non-Lease)/(1:Lease)/
+52322341,CB Branch Leased-37,1,,range:(0:Non-Lease)/(1:Lease)/
+52322342,CB Branch Leased-38,1,,range:(0:Non-Lease)/(1:Lease)/
+52322343,CB Branch Leased-39,1,,range:(0:Non-Lease)/(1:Lease)/
+52322344,CB Branch Leased-40,1,,range:(0:Non-Lease)/(1:Lease)/
+52322345,CB Branch Leased-41,1,,range:(0:Non-Lease)/(1:Lease)/
+52322346,CB Branch Leased-42,1,,range:(0:Non-Lease)/(1:Lease)/
+52322347,CB Branch Leased-43,1,,range:(0:Non-Lease)/(1:Lease)/
+52322348,CB Branch Leased-44,1,,range:(0:Non-Lease)/(1:Lease)/
+52322349,CB Branch Leased-45,1,,range:(0:Non-Lease)/(1:Lease)/
+52322350,CB Branch Leased-46,1,,range:(0:Non-Lease)/(1:Lease)/
+52322351,CB Branch Leased-47,1,,range:(0:Non-Lease)/(1:Lease)/
+52322352,CB Branch Leased-48,1,,range:(0:Non-Lease)/(1:Lease)/
+52322353,CB Branch Leased-49,1,,range:(0:Non-Lease)/(1:Lease)/
+52322354,CB Branch Leased-50,1,,range:(0:Non-Lease)/(1:Lease)/
+52322355,CB Branch Leased-51,1,,range:(0:Non-Lease)/(1:Lease)/
+52322356,CB Branch Leased-52,1,,range:(0:Non-Lease)/(1:Lease)/
+52322357,CB Branch Leased-53,1,,range:(0:Non-Lease)/(1:Lease)/
+52322358,CB Branch Leased-54,1,,range:(0:Non-Lease)/(1:Lease)/
+52322359,CB Branch Leased-55,1,,range:(0:Non-Lease)/(1:Lease)/
+52322360,CB Branch Leased-56,1,,range:(0:Non-Lease)/(1:Lease)/
+52322361,CB Branch Leased-57,1,,range:(0:Non-Lease)/(1:Lease)/
+52322362,CB Branch Leased-58,1,,range:(0:Non-Lease)/(1:Lease)/
+52322363,CB Branch Leased-59,1,,range:(0:Non-Lease)/(1:Lease)/
+52322364,CB Branch Leased-60,1,,range:(0:Non-Lease)/(1:Lease)/
+52322365,CB Branch Leased-61,1,,range:(0:Non-Lease)/(1:Lease)/
+52322366,CB Branch Leased-62,1,,range:(0:Non-Lease)/(1:Lease)/
+52322367,CB Branch Leased-63,1,,range:(0:Non-Lease)/(1:Lease)/
+52322368,CB Branch Leased-64,1,,range:(0:Non-Lease)/(1:Lease)/
+52326401,CB Over Current Alarm Threshold-1,63.00,A,range:3.00~70.00
+52326402,CB Over Current Alarm Threshold-2,63.00,A,range:3.00~70.00
+52326403,CB Over Current Alarm Threshold-3,63.00,A,range:3.00~70.00
+52326404,CB Over Current Alarm Threshold-4,63.00,A,range:3.00~70.00
+52326405,CB Over Current Alarm Threshold-5,63.00,A,range:3.00~70.00
+52326406,CB Over Current Alarm Threshold-6,63.00,A,range:3.00~70.00
+52326407,CB Over Current Alarm Threshold-7,63.00,A,range:3.00~70.00
+52326408,CB Over Current Alarm Threshold-8,63.00,A,range:3.00~70.00
+52326409,CB Over Current Alarm Threshold-9,63.00,A,range:3.00~70.00
+52326410,CB Over Current Alarm Threshold-10,63.00,A,range:3.00~70.00
+52326411,CB Over Current Alarm Threshold-11,63.00,A,range:3.00~70.00
+52326412,CB Over Current Alarm Threshold-12,63.00,A,range:3.00~70.00
+52326413,CB Over Current Alarm Threshold-13,63.00,A,range:3.00~70.00
+52326414,CB Over Current Alarm Threshold-14,63.00,A,range:3.00~70.00
+52326415,CB Over Current Alarm Threshold-15,63.00,A,range:3.00~70.00
+52326416,CB Over Current Alarm Threshold-16,63.00,A,range:3.00~70.00
+52326417,CB Over Current Alarm Threshold-17,63.00,A,range:3.00~70.00
+52326418,CB Over Current Alarm Threshold-18,63.00,A,range:3.00~70.00
+52326419,CB Over Current Alarm Threshold-19,63.00,A,range:3.00~70.00
+52326420,CB Over Current Alarm Threshold-20,63.00,A,range:3.00~70.00
+52326421,CB Over Current Alarm Threshold-21,63.00,A,range:3.00~70.00
+52326422,CB Over Current Alarm Threshold-22,63.00,A,range:3.00~70.00
+52326423,CB Over Current Alarm Threshold-23,63.00,A,range:3.00~70.00
+52326424,CB Over Current Alarm Threshold-24,63.00,A,range:3.00~70.00
+52326425,CB Over Current Alarm Threshold-25,63.00,A,range:3.00~70.00
+52326426,CB Over Current Alarm Threshold-26,63.00,A,range:3.00~70.00
+52326427,CB Over Current Alarm Threshold-27,63.00,A,range:3.00~70.00
+52326428,CB Over Current Alarm Threshold-28,63.00,A,range:3.00~70.00
+52326429,CB Over Current Alarm Threshold-29,63.00,A,range:3.00~70.00
+52326430,CB Over Current Alarm Threshold-30,63.00,A,range:3.00~70.00
+52326431,CB Over Current Alarm Threshold-31,63.00,A,range:3.00~70.00
+52326432,CB Over Current Alarm Threshold-32,63.00,A,range:3.00~70.00
+52326433,CB Over Current Alarm Threshold-33,63.00,A,range:3.00~70.00
+52326434,CB Over Current Alarm Threshold-34,63.00,A,range:3.00~70.00
+52326435,CB Over Current Alarm Threshold-35,63.00,A,range:3.00~70.00
+52326436,CB Over Current Alarm Threshold-36,63.00,A,range:3.00~70.00
+52326437,CB Over Current Alarm Threshold-37,63.00,A,range:3.00~70.00
+52326438,CB Over Current Alarm Threshold-38,63.00,A,range:3.00~70.00
+52326439,CB Over Current Alarm Threshold-39,63.00,A,range:3.00~70.00
+52326440,CB Over Current Alarm Threshold-40,63.00,A,range:3.00~70.00
+52326441,CB Over Current Alarm Threshold-41,63.00,A,range:3.00~70.00
+52326442,CB Over Current Alarm Threshold-42,63.00,A,range:3.00~70.00
+52326443,CB Over Current Alarm Threshold-43,63.00,A,range:3.00~70.00
+52326444,CB Over Current Alarm Threshold-44,63.00,A,range:3.00~70.00
+52326445,CB Over Current Alarm Threshold-45,63.00,A,range:3.00~70.00
+52326446,CB Over Current Alarm Threshold-46,63.00,A,range:3.00~70.00
+52326447,CB Over Current Alarm Threshold-47,63.00,A,range:3.00~70.00
+52326448,CB Over Current Alarm Threshold-48,63.00,A,range:3.00~70.00
+52326449,CB Over Current Alarm Threshold-49,63.00,A,range:3.00~70.00
+52326450,CB Over Current Alarm Threshold-50,63.00,A,range:3.00~70.00
+52326451,CB Over Current Alarm Threshold-51,63.00,A,range:3.00~70.00
+52326452,CB Over Current Alarm Threshold-52,63.00,A,range:3.00~70.00
+52326453,CB Over Current Alarm Threshold-53,63.00,A,range:3.00~70.00
+52326454,CB Over Current Alarm Threshold-54,63.00,A,range:3.00~70.00
+52326455,CB Over Current Alarm Threshold-55,63.00,A,range:3.00~70.00
+52326456,CB Over Current Alarm Threshold-56,63.00,A,range:3.00~70.00
+52326457,CB Over Current Alarm Threshold-57,63.00,A,range:3.00~70.00
+52326458,CB Over Current Alarm Threshold-58,63.00,A,range:3.00~70.00
+52326459,CB Over Current Alarm Threshold-59,63.00,A,range:3.00~70.00
+52326460,CB Over Current Alarm Threshold-60,63.00,A,range:3.00~70.00
+52326461,CB Over Current Alarm Threshold-61,63.00,A,range:3.00~70.00
+52326462,CB Over Current Alarm Threshold-62,63.00,A,range:3.00~70.00
+52326463,CB Over Current Alarm Threshold-63,63.00,A,range:3.00~70.00
+52326464,CB Over Current Alarm Threshold-64,63.00,A,range:3.00~70.00
+52330497,CB Over Current Protection Enable-1,0,,range:(0:Enabled)/(1:Disabled)/
+52330498,CB Over Current Protection Enable-2,0,,range:(0:Enabled)/(1:Disabled)/
+52330499,CB Over Current Protection Enable-3,0,,range:(0:Enabled)/(1:Disabled)/
+52330500,CB Over Current Protection Enable-4,0,,range:(0:Enabled)/(1:Disabled)/
+52330501,CB Over Current Protection Enable-5,0,,range:(0:Enabled)/(1:Disabled)/
+52330502,CB Over Current Protection Enable-6,0,,range:(0:Enabled)/(1:Disabled)/
+52330503,CB Over Current Protection Enable-7,0,,range:(0:Enabled)/(1:Disabled)/
+52330504,CB Over Current Protection Enable-8,0,,range:(0:Enabled)/(1:Disabled)/
+52330505,CB Over Current Protection Enable-9,0,,range:(0:Enabled)/(1:Disabled)/
+52330506,CB Over Current Protection Enable-10,0,,range:(0:Enabled)/(1:Disabled)/
+52330507,CB Over Current Protection Enable-11,0,,range:(0:Enabled)/(1:Disabled)/
+52330508,CB Over Current Protection Enable-12,0,,range:(0:Enabled)/(1:Disabled)/
+52330509,CB Over Current Protection Enable-13,0,,range:(0:Enabled)/(1:Disabled)/
+52330510,CB Over Current Protection Enable-14,0,,range:(0:Enabled)/(1:Disabled)/
+52330511,CB Over Current Protection Enable-15,0,,range:(0:Enabled)/(1:Disabled)/
+52330512,CB Over Current Protection Enable-16,0,,range:(0:Enabled)/(1:Disabled)/
+52330513,CB Over Current Protection Enable-17,0,,range:(0:Enabled)/(1:Disabled)/
+52330514,CB Over Current Protection Enable-18,0,,range:(0:Enabled)/(1:Disabled)/
+52330515,CB Over Current Protection Enable-19,0,,range:(0:Enabled)/(1:Disabled)/
+52330516,CB Over Current Protection Enable-20,0,,range:(0:Enabled)/(1:Disabled)/
+52330517,CB Over Current Protection Enable-21,0,,range:(0:Enabled)/(1:Disabled)/
+52330518,CB Over Current Protection Enable-22,0,,range:(0:Enabled)/(1:Disabled)/
+52330519,CB Over Current Protection Enable-23,0,,range:(0:Enabled)/(1:Disabled)/
+52330520,CB Over Current Protection Enable-24,0,,range:(0:Enabled)/(1:Disabled)/
+52330521,CB Over Current Protection Enable-25,0,,range:(0:Enabled)/(1:Disabled)/
+52330522,CB Over Current Protection Enable-26,0,,range:(0:Enabled)/(1:Disabled)/
+52330523,CB Over Current Protection Enable-27,0,,range:(0:Enabled)/(1:Disabled)/
+52330524,CB Over Current Protection Enable-28,0,,range:(0:Enabled)/(1:Disabled)/
+52330525,CB Over Current Protection Enable-29,0,,range:(0:Enabled)/(1:Disabled)/
+52330526,CB Over Current Protection Enable-30,0,,range:(0:Enabled)/(1:Disabled)/
+52330527,CB Over Current Protection Enable-31,0,,range:(0:Enabled)/(1:Disabled)/
+52330528,CB Over Current Protection Enable-32,0,,range:(0:Enabled)/(1:Disabled)/
+52330529,CB Over Current Protection Enable-33,0,,range:(0:Enabled)/(1:Disabled)/
+52330530,CB Over Current Protection Enable-34,0,,range:(0:Enabled)/(1:Disabled)/
+52330531,CB Over Current Protection Enable-35,0,,range:(0:Enabled)/(1:Disabled)/
+52330532,CB Over Current Protection Enable-36,0,,range:(0:Enabled)/(1:Disabled)/
+52330533,CB Over Current Protection Enable-37,0,,range:(0:Enabled)/(1:Disabled)/
+52330534,CB Over Current Protection Enable-38,0,,range:(0:Enabled)/(1:Disabled)/
+52330535,CB Over Current Protection Enable-39,0,,range:(0:Enabled)/(1:Disabled)/
+52330536,CB Over Current Protection Enable-40,0,,range:(0:Enabled)/(1:Disabled)/
+52330537,CB Over Current Protection Enable-41,0,,range:(0:Enabled)/(1:Disabled)/
+52330538,CB Over Current Protection Enable-42,0,,range:(0:Enabled)/(1:Disabled)/
+52330539,CB Over Current Protection Enable-43,0,,range:(0:Enabled)/(1:Disabled)/
+52330540,CB Over Current Protection Enable-44,0,,range:(0:Enabled)/(1:Disabled)/
+52330541,CB Over Current Protection Enable-45,0,,range:(0:Enabled)/(1:Disabled)/
+52330542,CB Over Current Protection Enable-46,0,,range:(0:Enabled)/(1:Disabled)/
+52330543,CB Over Current Protection Enable-47,0,,range:(0:Enabled)/(1:Disabled)/
+52330544,CB Over Current Protection Enable-48,0,,range:(0:Enabled)/(1:Disabled)/
+52330545,CB Over Current Protection Enable-49,0,,range:(0:Enabled)/(1:Disabled)/
+52330546,CB Over Current Protection Enable-50,0,,range:(0:Enabled)/(1:Disabled)/
+52330547,CB Over Current Protection Enable-51,0,,range:(0:Enabled)/(1:Disabled)/
+52330548,CB Over Current Protection Enable-52,0,,range:(0:Enabled)/(1:Disabled)/
+52330549,CB Over Current Protection Enable-53,0,,range:(0:Enabled)/(1:Disabled)/
+52330550,CB Over Current Protection Enable-54,0,,range:(0:Enabled)/(1:Disabled)/
+52330551,CB Over Current Protection Enable-55,0,,range:(0:Enabled)/(1:Disabled)/
+52330552,CB Over Current Protection Enable-56,0,,range:(0:Enabled)/(1:Disabled)/
+52330553,CB Over Current Protection Enable-57,0,,range:(0:Enabled)/(1:Disabled)/
+52330554,CB Over Current Protection Enable-58,0,,range:(0:Enabled)/(1:Disabled)/
+52330555,CB Over Current Protection Enable-59,0,,range:(0:Enabled)/(1:Disabled)/
+52330556,CB Over Current Protection Enable-60,0,,range:(0:Enabled)/(1:Disabled)/
+52330557,CB Over Current Protection Enable-61,0,,range:(0:Enabled)/(1:Disabled)/
+52330558,CB Over Current Protection Enable-62,0,,range:(0:Enabled)/(1:Disabled)/
+52330559,CB Over Current Protection Enable-63,0,,range:(0:Enabled)/(1:Disabled)/
+52330560,CB Over Current Protection Enable-64,0,,range:(0:Enabled)/(1:Disabled)/
+52334593,CB Over Current Protection Threshold-1,70.00,A,range:63.00~81.90
+52334594,CB Over Current Protection Threshold-2,70.00,A,range:63.00~81.90
+52334595,CB Over Current Protection Threshold-3,70.00,A,range:63.00~81.90
+52334596,CB Over Current Protection Threshold-4,70.00,A,range:63.00~81.90
+52334597,CB Over Current Protection Threshold-5,70.00,A,range:63.00~81.90
+52334598,CB Over Current Protection Threshold-6,70.00,A,range:63.00~81.90
+52334599,CB Over Current Protection Threshold-7,70.00,A,range:63.00~81.90
+52334600,CB Over Current Protection Threshold-8,70.00,A,range:63.00~81.90
+52334601,CB Over Current Protection Threshold-9,70.00,A,range:63.00~81.90
+52334602,CB Over Current Protection Threshold-10,70.00,A,range:63.00~81.90
+52334603,CB Over Current Protection Threshold-11,70.00,A,range:63.00~81.90
+52334604,CB Over Current Protection Threshold-12,70.00,A,range:63.00~81.90
+52334605,CB Over Current Protection Threshold-13,70.00,A,range:63.00~81.90
+52334606,CB Over Current Protection Threshold-14,70.00,A,range:63.00~81.90
+52334607,CB Over Current Protection Threshold-15,70.00,A,range:63.00~81.90
+52334608,CB Over Current Protection Threshold-16,70.00,A,range:63.00~81.90
+52334609,CB Over Current Protection Threshold-17,70.00,A,range:63.00~81.90
+52334610,CB Over Current Protection Threshold-18,70.00,A,range:63.00~81.90
+52334611,CB Over Current Protection Threshold-19,70.00,A,range:63.00~81.90
+52334612,CB Over Current Protection Threshold-20,70.00,A,range:63.00~81.90
+52334613,CB Over Current Protection Threshold-21,70.00,A,range:63.00~81.90
+52334614,CB Over Current Protection Threshold-22,70.00,A,range:63.00~81.90
+52334615,CB Over Current Protection Threshold-23,70.00,A,range:63.00~81.90
+52334616,CB Over Current Protection Threshold-24,70.00,A,range:63.00~81.90
+52334617,CB Over Current Protection Threshold-25,70.00,A,range:63.00~81.90
+52334618,CB Over Current Protection Threshold-26,70.00,A,range:63.00~81.90
+52334619,CB Over Current Protection Threshold-27,70.00,A,range:63.00~81.90
+52334620,CB Over Current Protection Threshold-28,70.00,A,range:63.00~81.90
+52334621,CB Over Current Protection Threshold-29,70.00,A,range:63.00~81.90
+52334622,CB Over Current Protection Threshold-30,70.00,A,range:63.00~81.90
+52334623,CB Over Current Protection Threshold-31,70.00,A,range:63.00~81.90
+52334624,CB Over Current Protection Threshold-32,70.00,A,range:63.00~81.90
+52334625,CB Over Current Protection Threshold-33,70.00,A,range:63.00~81.90
+52334626,CB Over Current Protection Threshold-34,70.00,A,range:63.00~81.90
+52334627,CB Over Current Protection Threshold-35,70.00,A,range:63.00~81.90
+52334628,CB Over Current Protection Threshold-36,70.00,A,range:63.00~81.90
+52334629,CB Over Current Protection Threshold-37,70.00,A,range:63.00~81.90
+52334630,CB Over Current Protection Threshold-38,70.00,A,range:63.00~81.90
+52334631,CB Over Current Protection Threshold-39,70.00,A,range:63.00~81.90
+52334632,CB Over Current Protection Threshold-40,70.00,A,range:63.00~81.90
+52334633,CB Over Current Protection Threshold-41,70.00,A,range:63.00~81.90
+52334634,CB Over Current Protection Threshold-42,70.00,A,range:63.00~81.90
+52334635,CB Over Current Protection Threshold-43,70.00,A,range:63.00~81.90
+52334636,CB Over Current Protection Threshold-44,70.00,A,range:63.00~81.90
+52334637,CB Over Current Protection Threshold-45,70.00,A,range:63.00~81.90
+52334638,CB Over Current Protection Threshold-46,70.00,A,range:63.00~81.90
+52334639,CB Over Current Protection Threshold-47,70.00,A,range:63.00~81.90
+52334640,CB Over Current Protection Threshold-48,70.00,A,range:63.00~81.90
+52334641,CB Over Current Protection Threshold-49,70.00,A,range:63.00~81.90
+52334642,CB Over Current Protection Threshold-50,70.00,A,range:63.00~81.90
+52334643,CB Over Current Protection Threshold-51,70.00,A,range:63.00~81.90
+52334644,CB Over Current Protection Threshold-52,70.00,A,range:63.00~81.90
+52334645,CB Over Current Protection Threshold-53,70.00,A,range:63.00~81.90
+52334646,CB Over Current Protection Threshold-54,70.00,A,range:63.00~81.90
+52334647,CB Over Current Protection Threshold-55,70.00,A,range:63.00~81.90
+52334648,CB Over Current Protection Threshold-56,70.00,A,range:63.00~81.90
+52334649,CB Over Current Protection Threshold-57,70.00,A,range:63.00~81.90
+52334650,CB Over Current Protection Threshold-58,70.00,A,range:63.00~81.90
+52334651,CB Over Current Protection Threshold-59,70.00,A,range:63.00~81.90
+52334652,CB Over Current Protection Threshold-60,70.00,A,range:63.00~81.90
+52334653,CB Over Current Protection Threshold-61,70.00,A,range:63.00~81.90
+52334654,CB Over Current Protection Threshold-62,70.00,A,range:63.00~81.90
+52334655,CB Over Current Protection Threshold-63,70.00,A,range:63.00~81.90
+52334656,CB Over Current Protection Threshold-64,70.00,A,range:63.00~81.90
+52338689,CB Over Current Protection Self-Recovery-1,3,,range:0~5
+52338690,CB Over Current Protection Self-Recovery-2,3,,range:0~5
+52338691,CB Over Current Protection Self-Recovery-3,3,,range:0~5
+52338692,CB Over Current Protection Self-Recovery-4,3,,range:0~5
+52338693,CB Over Current Protection Self-Recovery-5,3,,range:0~5
+52338694,CB Over Current Protection Self-Recovery-6,3,,range:0~5
+52338695,CB Over Current Protection Self-Recovery-7,3,,range:0~5
+52338696,CB Over Current Protection Self-Recovery-8,3,,range:0~5
+52338697,CB Over Current Protection Self-Recovery-9,3,,range:0~5
+52338698,CB Over Current Protection Self-Recovery-10,3,,range:0~5
+52338699,CB Over Current Protection Self-Recovery-11,3,,range:0~5
+52338700,CB Over Current Protection Self-Recovery-12,3,,range:0~5
+52338701,CB Over Current Protection Self-Recovery-13,3,,range:0~5
+52338702,CB Over Current Protection Self-Recovery-14,3,,range:0~5
+52338703,CB Over Current Protection Self-Recovery-15,3,,range:0~5
+52338704,CB Over Current Protection Self-Recovery-16,3,,range:0~5
+52338705,CB Over Current Protection Self-Recovery-17,3,,range:0~5
+52338706,CB Over Current Protection Self-Recovery-18,3,,range:0~5
+52338707,CB Over Current Protection Self-Recovery-19,3,,range:0~5
+52338708,CB Over Current Protection Self-Recovery-20,3,,range:0~5
+52338709,CB Over Current Protection Self-Recovery-21,3,,range:0~5
+52338710,CB Over Current Protection Self-Recovery-22,3,,range:0~5
+52338711,CB Over Current Protection Self-Recovery-23,3,,range:0~5
+52338712,CB Over Current Protection Self-Recovery-24,3,,range:0~5
+52338713,CB Over Current Protection Self-Recovery-25,3,,range:0~5
+52338714,CB Over Current Protection Self-Recovery-26,3,,range:0~5
+52338715,CB Over Current Protection Self-Recovery-27,3,,range:0~5
+52338716,CB Over Current Protection Self-Recovery-28,3,,range:0~5
+52338717,CB Over Current Protection Self-Recovery-29,3,,range:0~5
+52338718,CB Over Current Protection Self-Recovery-30,3,,range:0~5
+52338719,CB Over Current Protection Self-Recovery-31,3,,range:0~5
+52338720,CB Over Current Protection Self-Recovery-32,3,,range:0~5
+52338721,CB Over Current Protection Self-Recovery-33,3,,range:0~5
+52338722,CB Over Current Protection Self-Recovery-34,3,,range:0~5
+52338723,CB Over Current Protection Self-Recovery-35,3,,range:0~5
+52338724,CB Over Current Protection Self-Recovery-36,3,,range:0~5
+52338725,CB Over Current Protection Self-Recovery-37,3,,range:0~5
+52338726,CB Over Current Protection Self-Recovery-38,3,,range:0~5
+52338727,CB Over Current Protection Self-Recovery-39,3,,range:0~5
+52338728,CB Over Current Protection Self-Recovery-40,3,,range:0~5
+52338729,CB Over Current Protection Self-Recovery-41,3,,range:0~5
+52338730,CB Over Current Protection Self-Recovery-42,3,,range:0~5
+52338731,CB Over Current Protection Self-Recovery-43,3,,range:0~5
+52338732,CB Over Current Protection Self-Recovery-44,3,,range:0~5
+52338733,CB Over Current Protection Self-Recovery-45,3,,range:0~5
+52338734,CB Over Current Protection Self-Recovery-46,3,,range:0~5
+52338735,CB Over Current Protection Self-Recovery-47,3,,range:0~5
+52338736,CB Over Current Protection Self-Recovery-48,3,,range:0~5
+52338737,CB Over Current Protection Self-Recovery-49,3,,range:0~5
+52338738,CB Over Current Protection Self-Recovery-50,3,,range:0~5
+52338739,CB Over Current Protection Self-Recovery-51,3,,range:0~5
+52338740,CB Over Current Protection Self-Recovery-52,3,,range:0~5
+52338741,CB Over Current Protection Self-Recovery-53,3,,range:0~5
+52338742,CB Over Current Protection Self-Recovery-54,3,,range:0~5
+52338743,CB Over Current Protection Self-Recovery-55,3,,range:0~5
+52338744,CB Over Current Protection Self-Recovery-56,3,,range:0~5
+52338745,CB Over Current Protection Self-Recovery-57,3,,range:0~5
+52338746,CB Over Current Protection Self-Recovery-58,3,,range:0~5
+52338747,CB Over Current Protection Self-Recovery-59,3,,range:0~5
+52338748,CB Over Current Protection Self-Recovery-60,3,,range:0~5
+52338749,CB Over Current Protection Self-Recovery-61,3,,range:0~5
+52338750,CB Over Current Protection Self-Recovery-62,3,,range:0~5
+52338751,CB Over Current Protection Self-Recovery-63,3,,range:0~5
+52338752,CB Over Current Protection Self-Recovery-64,3,,range:0~5
+52342785,CB Over Current Protection Self-Recovery Interval-1,20,min,range:1~30
+52342786,CB Over Current Protection Self-Recovery Interval-2,20,min,range:1~30
+52342787,CB Over Current Protection Self-Recovery Interval-3,20,min,range:1~30
+52342788,CB Over Current Protection Self-Recovery Interval-4,20,min,range:1~30
+52342789,CB Over Current Protection Self-Recovery Interval-5,20,min,range:1~30
+52342790,CB Over Current Protection Self-Recovery Interval-6,20,min,range:1~30
+52342791,CB Over Current Protection Self-Recovery Interval-7,20,min,range:1~30
+52342792,CB Over Current Protection Self-Recovery Interval-8,20,min,range:1~30
+52342793,CB Over Current Protection Self-Recovery Interval-9,20,min,range:1~30
+52342794,CB Over Current Protection Self-Recovery Interval-10,20,min,range:1~30
+52342795,CB Over Current Protection Self-Recovery Interval-11,20,min,range:1~30
+52342796,CB Over Current Protection Self-Recovery Interval-12,20,min,range:1~30
+52342797,CB Over Current Protection Self-Recovery Interval-13,20,min,range:1~30
+52342798,CB Over Current Protection Self-Recovery Interval-14,20,min,range:1~30
+52342799,CB Over Current Protection Self-Recovery Interval-15,20,min,range:1~30
+52342800,CB Over Current Protection Self-Recovery Interval-16,20,min,range:1~30
+52342801,CB Over Current Protection Self-Recovery Interval-17,20,min,range:1~30
+52342802,CB Over Current Protection Self-Recovery Interval-18,20,min,range:1~30
+52342803,CB Over Current Protection Self-Recovery Interval-19,20,min,range:1~30
+52342804,CB Over Current Protection Self-Recovery Interval-20,20,min,range:1~30
+52342805,CB Over Current Protection Self-Recovery Interval-21,20,min,range:1~30
+52342806,CB Over Current Protection Self-Recovery Interval-22,20,min,range:1~30
+52342807,CB Over Current Protection Self-Recovery Interval-23,20,min,range:1~30
+52342808,CB Over Current Protection Self-Recovery Interval-24,20,min,range:1~30
+52342809,CB Over Current Protection Self-Recovery Interval-25,20,min,range:1~30
+52342810,CB Over Current Protection Self-Recovery Interval-26,20,min,range:1~30
+52342811,CB Over Current Protection Self-Recovery Interval-27,20,min,range:1~30
+52342812,CB Over Current Protection Self-Recovery Interval-28,20,min,range:1~30
+52342813,CB Over Current Protection Self-Recovery Interval-29,20,min,range:1~30
+52342814,CB Over Current Protection Self-Recovery Interval-30,20,min,range:1~30
+52342815,CB Over Current Protection Self-Recovery Interval-31,20,min,range:1~30
+52342816,CB Over Current Protection Self-Recovery Interval-32,20,min,range:1~30
+52342817,CB Over Current Protection Self-Recovery Interval-33,20,min,range:1~30
+52342818,CB Over Current Protection Self-Recovery Interval-34,20,min,range:1~30
+52342819,CB Over Current Protection Self-Recovery Interval-35,20,min,range:1~30
+52342820,CB Over Current Protection Self-Recovery Interval-36,20,min,range:1~30
+52342821,CB Over Current Protection Self-Recovery Interval-37,20,min,range:1~30
+52342822,CB Over Current Protection Self-Recovery Interval-38,20,min,range:1~30
+52342823,CB Over Current Protection Self-Recovery Interval-39,20,min,range:1~30
+52342824,CB Over Current Protection Self-Recovery Interval-40,20,min,range:1~30
+52342825,CB Over Current Protection Self-Recovery Interval-41,20,min,range:1~30
+52342826,CB Over Current Protection Self-Recovery Interval-42,20,min,range:1~30
+52342827,CB Over Current Protection Self-Recovery Interval-43,20,min,range:1~30
+52342828,CB Over Current Protection Self-Recovery Interval-44,20,min,range:1~30
+52342829,CB Over Current Protection Self-Recovery Interval-45,20,min,range:1~30
+52342830,CB Over Current Protection Self-Recovery Interval-46,20,min,range:1~30
+52342831,CB Over Current Protection Self-Recovery Interval-47,20,min,range:1~30
+52342832,CB Over Current Protection Self-Recovery Interval-48,20,min,range:1~30
+52342833,CB Over Current Protection Self-Recovery Interval-49,20,min,range:1~30
+52342834,CB Over Current Protection Self-Recovery Interval-50,20,min,range:1~30
+52342835,CB Over Current Protection Self-Recovery Interval-51,20,min,range:1~30
+52342836,CB Over Current Protection Self-Recovery Interval-52,20,min,range:1~30
+52342837,CB Over Current Protection Self-Recovery Interval-53,20,min,range:1~30
+52342838,CB Over Current Protection Self-Recovery Interval-54,20,min,range:1~30
+52342839,CB Over Current Protection Self-Recovery Interval-55,20,min,range:1~30
+52342840,CB Over Current Protection Self-Recovery Interval-56,20,min,range:1~30
+52342841,CB Over Current Protection Self-Recovery Interval-57,20,min,range:1~30
+52342842,CB Over Current Protection Self-Recovery Interval-58,20,min,range:1~30
+52342843,CB Over Current Protection Self-Recovery Interval-59,20,min,range:1~30
+52342844,CB Over Current Protection Self-Recovery Interval-60,20,min,range:1~30
+52342845,CB Over Current Protection Self-Recovery Interval-61,20,min,range:1~30
+52342846,CB Over Current Protection Self-Recovery Interval-62,20,min,range:1~30
+52342847,CB Over Current Protection Self-Recovery Interval-63,20,min,range:1~30
+52342848,CB Over Current Protection Self-Recovery Interval-64,20,min,range:1~30
+52346881,CB Over Current Protection delay-1,0.1,s,range:0.1~120.0
+52346882,CB Over Current Protection delay-2,0.1,s,range:0.1~120.0
+52346883,CB Over Current Protection delay-3,0.1,s,range:0.1~120.0
+52346884,CB Over Current Protection delay-4,0.1,s,range:0.1~120.0
+52346885,CB Over Current Protection delay-5,0.1,s,range:0.1~120.0
+52346886,CB Over Current Protection delay-6,0.1,s,range:0.1~120.0
+52346887,CB Over Current Protection delay-7,0.1,s,range:0.1~120.0
+52346888,CB Over Current Protection delay-8,0.1,s,range:0.1~120.0
+52346889,CB Over Current Protection delay-9,0.1,s,range:0.1~120.0
+52346890,CB Over Current Protection delay-10,0.1,s,range:0.1~120.0
+52346891,CB Over Current Protection delay-11,0.1,s,range:0.1~120.0
+52346892,CB Over Current Protection delay-12,0.1,s,range:0.1~120.0
+52346893,CB Over Current Protection delay-13,0.1,s,range:0.1~120.0
+52346894,CB Over Current Protection delay-14,0.1,s,range:0.1~120.0
+52346895,CB Over Current Protection delay-15,0.1,s,range:0.1~120.0
+52346896,CB Over Current Protection delay-16,0.1,s,range:0.1~120.0
+52346897,CB Over Current Protection delay-17,0.1,s,range:0.1~120.0
+52346898,CB Over Current Protection delay-18,0.1,s,range:0.1~120.0
+52346899,CB Over Current Protection delay-19,0.1,s,range:0.1~120.0
+52346900,CB Over Current Protection delay-20,0.1,s,range:0.1~120.0
+52346901,CB Over Current Protection delay-21,0.1,s,range:0.1~120.0
+52346902,CB Over Current Protection delay-22,0.1,s,range:0.1~120.0
+52346903,CB Over Current Protection delay-23,0.1,s,range:0.1~120.0
+52346904,CB Over Current Protection delay-24,0.1,s,range:0.1~120.0
+52346905,CB Over Current Protection delay-25,0.1,s,range:0.1~120.0
+52346906,CB Over Current Protection delay-26,0.1,s,range:0.1~120.0
+52346907,CB Over Current Protection delay-27,0.1,s,range:0.1~120.0
+52346908,CB Over Current Protection delay-28,0.1,s,range:0.1~120.0
+52346909,CB Over Current Protection delay-29,0.1,s,range:0.1~120.0
+52346910,CB Over Current Protection delay-30,0.1,s,range:0.1~120.0
+52346911,CB Over Current Protection delay-31,0.1,s,range:0.1~120.0
+52346912,CB Over Current Protection delay-32,0.1,s,range:0.1~120.0
+52346913,CB Over Current Protection delay-33,0.1,s,range:0.1~120.0
+52346914,CB Over Current Protection delay-34,0.1,s,range:0.1~120.0
+52346915,CB Over Current Protection delay-35,0.1,s,range:0.1~120.0
+52346916,CB Over Current Protection delay-36,0.1,s,range:0.1~120.0
+52346917,CB Over Current Protection delay-37,0.1,s,range:0.1~120.0
+52346918,CB Over Current Protection delay-38,0.1,s,range:0.1~120.0
+52346919,CB Over Current Protection delay-39,0.1,s,range:0.1~120.0
+52346920,CB Over Current Protection delay-40,0.1,s,range:0.1~120.0
+52346921,CB Over Current Protection delay-41,0.1,s,range:0.1~120.0
+52346922,CB Over Current Protection delay-42,0.1,s,range:0.1~120.0
+52346923,CB Over Current Protection delay-43,0.1,s,range:0.1~120.0
+52346924,CB Over Current Protection delay-44,0.1,s,range:0.1~120.0
+52346925,CB Over Current Protection delay-45,0.1,s,range:0.1~120.0
+52346926,CB Over Current Protection delay-46,0.1,s,range:0.1~120.0
+52346927,CB Over Current Protection delay-47,0.1,s,range:0.1~120.0
+52346928,CB Over Current Protection delay-48,0.1,s,range:0.1~120.0
+52346929,CB Over Current Protection delay-49,0.1,s,range:0.1~120.0
+52346930,CB Over Current Protection delay-50,0.1,s,range:0.1~120.0
+52346931,CB Over Current Protection delay-51,0.1,s,range:0.1~120.0
+52346932,CB Over Current Protection delay-52,0.1,s,range:0.1~120.0
+52346933,CB Over Current Protection delay-53,0.1,s,range:0.1~120.0
+52346934,CB Over Current Protection delay-54,0.1,s,range:0.1~120.0
+52346935,CB Over Current Protection delay-55,0.1,s,range:0.1~120.0
+52346936,CB Over Current Protection delay-56,0.1,s,range:0.1~120.0
+52346937,CB Over Current Protection delay-57,0.1,s,range:0.1~120.0
+52346938,CB Over Current Protection delay-58,0.1,s,range:0.1~120.0
+52346939,CB Over Current Protection delay-59,0.1,s,range:0.1~120.0
+52346940,CB Over Current Protection delay-60,0.1,s,range:0.1~120.0
+52346941,CB Over Current Protection delay-61,0.1,s,range:0.1~120.0
+52346942,CB Over Current Protection delay-62,0.1,s,range:0.1~120.0
+52346943,CB Over Current Protection delay-63,0.1,s,range:0.1~120.0
+52346944,CB Over Current Protection delay-64,0.1,s,range:0.1~120.0
+52350977,CB Under Voltage Protection Enable-1,1,,range:(0:Enabled)/(1:Disabled)/
+52350978,CB Under Voltage Protection Enable-2,1,,range:(0:Enabled)/(1:Disabled)/
+52350979,CB Under Voltage Protection Enable-3,1,,range:(0:Enabled)/(1:Disabled)/
+52350980,CB Under Voltage Protection Enable-4,1,,range:(0:Enabled)/(1:Disabled)/
+52350981,CB Under Voltage Protection Enable-5,1,,range:(0:Enabled)/(1:Disabled)/
+52350982,CB Under Voltage Protection Enable-6,1,,range:(0:Enabled)/(1:Disabled)/
+52350983,CB Under Voltage Protection Enable-7,1,,range:(0:Enabled)/(1:Disabled)/
+52350984,CB Under Voltage Protection Enable-8,1,,range:(0:Enabled)/(1:Disabled)/
+52350985,CB Under Voltage Protection Enable-9,1,,range:(0:Enabled)/(1:Disabled)/
+52350986,CB Under Voltage Protection Enable-10,1,,range:(0:Enabled)/(1:Disabled)/
+52350987,CB Under Voltage Protection Enable-11,1,,range:(0:Enabled)/(1:Disabled)/
+52350988,CB Under Voltage Protection Enable-12,1,,range:(0:Enabled)/(1:Disabled)/
+52350989,CB Under Voltage Protection Enable-13,1,,range:(0:Enabled)/(1:Disabled)/
+52350990,CB Under Voltage Protection Enable-14,1,,range:(0:Enabled)/(1:Disabled)/
+52350991,CB Under Voltage Protection Enable-15,1,,range:(0:Enabled)/(1:Disabled)/
+52350992,CB Under Voltage Protection Enable-16,1,,range:(0:Enabled)/(1:Disabled)/
+52350993,CB Under Voltage Protection Enable-17,1,,range:(0:Enabled)/(1:Disabled)/
+52350994,CB Under Voltage Protection Enable-18,1,,range:(0:Enabled)/(1:Disabled)/
+52350995,CB Under Voltage Protection Enable-19,1,,range:(0:Enabled)/(1:Disabled)/
+52350996,CB Under Voltage Protection Enable-20,1,,range:(0:Enabled)/(1:Disabled)/
+52350997,CB Under Voltage Protection Enable-21,1,,range:(0:Enabled)/(1:Disabled)/
+52350998,CB Under Voltage Protection Enable-22,1,,range:(0:Enabled)/(1:Disabled)/
+52350999,CB Under Voltage Protection Enable-23,1,,range:(0:Enabled)/(1:Disabled)/
+52351000,CB Under Voltage Protection Enable-24,1,,range:(0:Enabled)/(1:Disabled)/
+52351001,CB Under Voltage Protection Enable-25,1,,range:(0:Enabled)/(1:Disabled)/
+52351002,CB Under Voltage Protection Enable-26,1,,range:(0:Enabled)/(1:Disabled)/
+52351003,CB Under Voltage Protection Enable-27,1,,range:(0:Enabled)/(1:Disabled)/
+52351004,CB Under Voltage Protection Enable-28,1,,range:(0:Enabled)/(1:Disabled)/
+52351005,CB Under Voltage Protection Enable-29,1,,range:(0:Enabled)/(1:Disabled)/
+52351006,CB Under Voltage Protection Enable-30,1,,range:(0:Enabled)/(1:Disabled)/
+52351007,CB Under Voltage Protection Enable-31,1,,range:(0:Enabled)/(1:Disabled)/
+52351008,CB Under Voltage Protection Enable-32,1,,range:(0:Enabled)/(1:Disabled)/
+52351009,CB Under Voltage Protection Enable-33,1,,range:(0:Enabled)/(1:Disabled)/
+52351010,CB Under Voltage Protection Enable-34,1,,range:(0:Enabled)/(1:Disabled)/
+52351011,CB Under Voltage Protection Enable-35,1,,range:(0:Enabled)/(1:Disabled)/
+52351012,CB Under Voltage Protection Enable-36,1,,range:(0:Enabled)/(1:Disabled)/
+52351013,CB Under Voltage Protection Enable-37,1,,range:(0:Enabled)/(1:Disabled)/
+52351014,CB Under Voltage Protection Enable-38,1,,range:(0:Enabled)/(1:Disabled)/
+52351015,CB Under Voltage Protection Enable-39,1,,range:(0:Enabled)/(1:Disabled)/
+52351016,CB Under Voltage Protection Enable-40,1,,range:(0:Enabled)/(1:Disabled)/
+52351017,CB Under Voltage Protection Enable-41,1,,range:(0:Enabled)/(1:Disabled)/
+52351018,CB Under Voltage Protection Enable-42,1,,range:(0:Enabled)/(1:Disabled)/
+52351019,CB Under Voltage Protection Enable-43,1,,range:(0:Enabled)/(1:Disabled)/
+52351020,CB Under Voltage Protection Enable-44,1,,range:(0:Enabled)/(1:Disabled)/
+52351021,CB Under Voltage Protection Enable-45,1,,range:(0:Enabled)/(1:Disabled)/
+52351022,CB Under Voltage Protection Enable-46,1,,range:(0:Enabled)/(1:Disabled)/
+52351023,CB Under Voltage Protection Enable-47,1,,range:(0:Enabled)/(1:Disabled)/
+52351024,CB Under Voltage Protection Enable-48,1,,range:(0:Enabled)/(1:Disabled)/
+52351025,CB Under Voltage Protection Enable-49,1,,range:(0:Enabled)/(1:Disabled)/
+52351026,CB Under Voltage Protection Enable-50,1,,range:(0:Enabled)/(1:Disabled)/
+52351027,CB Under Voltage Protection Enable-51,1,,range:(0:Enabled)/(1:Disabled)/
+52351028,CB Under Voltage Protection Enable-52,1,,range:(0:Enabled)/(1:Disabled)/
+52351029,CB Under Voltage Protection Enable-53,1,,range:(0:Enabled)/(1:Disabled)/
+52351030,CB Under Voltage Protection Enable-54,1,,range:(0:Enabled)/(1:Disabled)/
+52351031,CB Under Voltage Protection Enable-55,1,,range:(0:Enabled)/(1:Disabled)/
+52351032,CB Under Voltage Protection Enable-56,1,,range:(0:Enabled)/(1:Disabled)/
+52351033,CB Under Voltage Protection Enable-57,1,,range:(0:Enabled)/(1:Disabled)/
+52351034,CB Under Voltage Protection Enable-58,1,,range:(0:Enabled)/(1:Disabled)/
+52351035,CB Under Voltage Protection Enable-59,1,,range:(0:Enabled)/(1:Disabled)/
+52351036,CB Under Voltage Protection Enable-60,1,,range:(0:Enabled)/(1:Disabled)/
+52351037,CB Under Voltage Protection Enable-61,1,,range:(0:Enabled)/(1:Disabled)/
+52351038,CB Under Voltage Protection Enable-62,1,,range:(0:Enabled)/(1:Disabled)/
+52351039,CB Under Voltage Protection Enable-63,1,,range:(0:Enabled)/(1:Disabled)/
+52351040,CB Under Voltage Protection Enable-64,1,,range:(0:Enabled)/(1:Disabled)/
+52355073,CB Under Voltage Protection Threshold-1,38.00,V,range:35.00~42.00
+52355074,CB Under Voltage Protection Threshold-2,38.00,V,range:35.00~42.00
+52355075,CB Under Voltage Protection Threshold-3,38.00,V,range:35.00~42.00
+52355076,CB Under Voltage Protection Threshold-4,38.00,V,range:35.00~42.00
+52355077,CB Under Voltage Protection Threshold-5,38.00,V,range:35.00~42.00
+52355078,CB Under Voltage Protection Threshold-6,38.00,V,range:35.00~42.00
+52355079,CB Under Voltage Protection Threshold-7,38.00,V,range:35.00~42.00
+52355080,CB Under Voltage Protection Threshold-8,38.00,V,range:35.00~42.00
+52355081,CB Under Voltage Protection Threshold-9,38.00,V,range:35.00~42.00
+52355082,CB Under Voltage Protection Threshold-10,38.00,V,range:35.00~42.00
+52355083,CB Under Voltage Protection Threshold-11,38.00,V,range:35.00~42.00
+52355084,CB Under Voltage Protection Threshold-12,38.00,V,range:35.00~42.00
+52355085,CB Under Voltage Protection Threshold-13,38.00,V,range:35.00~42.00
+52355086,CB Under Voltage Protection Threshold-14,38.00,V,range:35.00~42.00
+52355087,CB Under Voltage Protection Threshold-15,38.00,V,range:35.00~42.00
+52355088,CB Under Voltage Protection Threshold-16,38.00,V,range:35.00~42.00
+52355089,CB Under Voltage Protection Threshold-17,38.00,V,range:35.00~42.00
+52355090,CB Under Voltage Protection Threshold-18,38.00,V,range:35.00~42.00
+52355091,CB Under Voltage Protection Threshold-19,38.00,V,range:35.00~42.00
+52355092,CB Under Voltage Protection Threshold-20,38.00,V,range:35.00~42.00
+52355093,CB Under Voltage Protection Threshold-21,38.00,V,range:35.00~42.00
+52355094,CB Under Voltage Protection Threshold-22,38.00,V,range:35.00~42.00
+52355095,CB Under Voltage Protection Threshold-23,38.00,V,range:35.00~42.00
+52355096,CB Under Voltage Protection Threshold-24,38.00,V,range:35.00~42.00
+52355097,CB Under Voltage Protection Threshold-25,38.00,V,range:35.00~42.00
+52355098,CB Under Voltage Protection Threshold-26,38.00,V,range:35.00~42.00
+52355099,CB Under Voltage Protection Threshold-27,38.00,V,range:35.00~42.00
+52355100,CB Under Voltage Protection Threshold-28,38.00,V,range:35.00~42.00
+52355101,CB Under Voltage Protection Threshold-29,38.00,V,range:35.00~42.00
+52355102,CB Under Voltage Protection Threshold-30,38.00,V,range:35.00~42.00
+52355103,CB Under Voltage Protection Threshold-31,38.00,V,range:35.00~42.00
+52355104,CB Under Voltage Protection Threshold-32,38.00,V,range:35.00~42.00
+52355105,CB Under Voltage Protection Threshold-33,38.00,V,range:35.00~42.00
+52355106,CB Under Voltage Protection Threshold-34,38.00,V,range:35.00~42.00
+52355107,CB Under Voltage Protection Threshold-35,38.00,V,range:35.00~42.00
+52355108,CB Under Voltage Protection Threshold-36,38.00,V,range:35.00~42.00
+52355109,CB Under Voltage Protection Threshold-37,38.00,V,range:35.00~42.00
+52355110,CB Under Voltage Protection Threshold-38,38.00,V,range:35.00~42.00
+52355111,CB Under Voltage Protection Threshold-39,38.00,V,range:35.00~42.00
+52355112,CB Under Voltage Protection Threshold-40,38.00,V,range:35.00~42.00
+52355113,CB Under Voltage Protection Threshold-41,38.00,V,range:35.00~42.00
+52355114,CB Under Voltage Protection Threshold-42,38.00,V,range:35.00~42.00
+52355115,CB Under Voltage Protection Threshold-43,38.00,V,range:35.00~42.00
+52355116,CB Under Voltage Protection Threshold-44,38.00,V,range:35.00~42.00
+52355117,CB Under Voltage Protection Threshold-45,38.00,V,range:35.00~42.00
+52355118,CB Under Voltage Protection Threshold-46,38.00,V,range:35.00~42.00
+52355119,CB Under Voltage Protection Threshold-47,38.00,V,range:35.00~42.00
+52355120,CB Under Voltage Protection Threshold-48,38.00,V,range:35.00~42.00
+52355121,CB Under Voltage Protection Threshold-49,38.00,V,range:35.00~42.00
+52355122,CB Under Voltage Protection Threshold-50,38.00,V,range:35.00~42.00
+52355123,CB Under Voltage Protection Threshold-51,38.00,V,range:35.00~42.00
+52355124,CB Under Voltage Protection Threshold-52,38.00,V,range:35.00~42.00
+52355125,CB Under Voltage Protection Threshold-53,38.00,V,range:35.00~42.00
+52355126,CB Under Voltage Protection Threshold-54,38.00,V,range:35.00~42.00
+52355127,CB Under Voltage Protection Threshold-55,38.00,V,range:35.00~42.00
+52355128,CB Under Voltage Protection Threshold-56,38.00,V,range:35.00~42.00
+52355129,CB Under Voltage Protection Threshold-57,38.00,V,range:35.00~42.00
+52355130,CB Under Voltage Protection Threshold-58,38.00,V,range:35.00~42.00
+52355131,CB Under Voltage Protection Threshold-59,38.00,V,range:35.00~42.00
+52355132,CB Under Voltage Protection Threshold-60,38.00,V,range:35.00~42.00
+52355133,CB Under Voltage Protection Threshold-61,38.00,V,range:35.00~42.00
+52355134,CB Under Voltage Protection Threshold-62,38.00,V,range:35.00~42.00
+52355135,CB Under Voltage Protection Threshold-63,38.00,V,range:35.00~42.00
+52355136,CB Under Voltage Protection Threshold-64,38.00,V,range:35.00~42.00
+52359169,CB Under Voltage Protection delay-1,20.0,s,range:0.1~120.0
+52359170,CB Under Voltage Protection delay-2,20.0,s,range:0.1~120.0
+52359171,CB Under Voltage Protection delay-3,20.0,s,range:0.1~120.0
+52359172,CB Under Voltage Protection delay-4,20.0,s,range:0.1~120.0
+52359173,CB Under Voltage Protection delay-5,20.0,s,range:0.1~120.0
+52359174,CB Under Voltage Protection delay-6,20.0,s,range:0.1~120.0
+52359175,CB Under Voltage Protection delay-7,20.0,s,range:0.1~120.0
+52359176,CB Under Voltage Protection delay-8,20.0,s,range:0.1~120.0
+52359177,CB Under Voltage Protection delay-9,20.0,s,range:0.1~120.0
+52359178,CB Under Voltage Protection delay-10,20.0,s,range:0.1~120.0
+52359179,CB Under Voltage Protection delay-11,20.0,s,range:0.1~120.0
+52359180,CB Under Voltage Protection delay-12,20.0,s,range:0.1~120.0
+52359181,CB Under Voltage Protection delay-13,20.0,s,range:0.1~120.0
+52359182,CB Under Voltage Protection delay-14,20.0,s,range:0.1~120.0
+52359183,CB Under Voltage Protection delay-15,20.0,s,range:0.1~120.0
+52359184,CB Under Voltage Protection delay-16,20.0,s,range:0.1~120.0
+52359185,CB Under Voltage Protection delay-17,20.0,s,range:0.1~120.0
+52359186,CB Under Voltage Protection delay-18,20.0,s,range:0.1~120.0
+52359187,CB Under Voltage Protection delay-19,20.0,s,range:0.1~120.0
+52359188,CB Under Voltage Protection delay-20,20.0,s,range:0.1~120.0
+52359189,CB Under Voltage Protection delay-21,20.0,s,range:0.1~120.0
+52359190,CB Under Voltage Protection delay-22,20.0,s,range:0.1~120.0
+52359191,CB Under Voltage Protection delay-23,20.0,s,range:0.1~120.0
+52359192,CB Under Voltage Protection delay-24,20.0,s,range:0.1~120.0
+52359193,CB Under Voltage Protection delay-25,20.0,s,range:0.1~120.0
+52359194,CB Under Voltage Protection delay-26,20.0,s,range:0.1~120.0
+52359195,CB Under Voltage Protection delay-27,20.0,s,range:0.1~120.0
+52359196,CB Under Voltage Protection delay-28,20.0,s,range:0.1~120.0
+52359197,CB Under Voltage Protection delay-29,20.0,s,range:0.1~120.0
+52359198,CB Under Voltage Protection delay-30,20.0,s,range:0.1~120.0
+52359199,CB Under Voltage Protection delay-31,20.0,s,range:0.1~120.0
+52359200,CB Under Voltage Protection delay-32,20.0,s,range:0.1~120.0
+52359201,CB Under Voltage Protection delay-33,20.0,s,range:0.1~120.0
+52359202,CB Under Voltage Protection delay-34,20.0,s,range:0.1~120.0
+52359203,CB Under Voltage Protection delay-35,20.0,s,range:0.1~120.0
+52359204,CB Under Voltage Protection delay-36,20.0,s,range:0.1~120.0
+52359205,CB Under Voltage Protection delay-37,20.0,s,range:0.1~120.0
+52359206,CB Under Voltage Protection delay-38,20.0,s,range:0.1~120.0
+52359207,CB Under Voltage Protection delay-39,20.0,s,range:0.1~120.0
+52359208,CB Under Voltage Protection delay-40,20.0,s,range:0.1~120.0
+52359209,CB Under Voltage Protection delay-41,20.0,s,range:0.1~120.0
+52359210,CB Under Voltage Protection delay-42,20.0,s,range:0.1~120.0
+52359211,CB Under Voltage Protection delay-43,20.0,s,range:0.1~120.0
+52359212,CB Under Voltage Protection delay-44,20.0,s,range:0.1~120.0
+52359213,CB Under Voltage Protection delay-45,20.0,s,range:0.1~120.0
+52359214,CB Under Voltage Protection delay-46,20.0,s,range:0.1~120.0
+52359215,CB Under Voltage Protection delay-47,20.0,s,range:0.1~120.0
+52359216,CB Under Voltage Protection delay-48,20.0,s,range:0.1~120.0
+52359217,CB Under Voltage Protection delay-49,20.0,s,range:0.1~120.0
+52359218,CB Under Voltage Protection delay-50,20.0,s,range:0.1~120.0
+52359219,CB Under Voltage Protection delay-51,20.0,s,range:0.1~120.0
+52359220,CB Under Voltage Protection delay-52,20.0,s,range:0.1~120.0
+52359221,CB Under Voltage Protection delay-53,20.0,s,range:0.1~120.0
+52359222,CB Under Voltage Protection delay-54,20.0,s,range:0.1~120.0
+52359223,CB Under Voltage Protection delay-55,20.0,s,range:0.1~120.0
+52359224,CB Under Voltage Protection delay-56,20.0,s,range:0.1~120.0
+52359225,CB Under Voltage Protection delay-57,20.0,s,range:0.1~120.0
+52359226,CB Under Voltage Protection delay-58,20.0,s,range:0.1~120.0
+52359227,CB Under Voltage Protection delay-59,20.0,s,range:0.1~120.0
+52359228,CB Under Voltage Protection delay-60,20.0,s,range:0.1~120.0
+52359229,CB Under Voltage Protection delay-61,20.0,s,range:0.1~120.0
+52359230,CB Under Voltage Protection delay-62,20.0,s,range:0.1~120.0
+52359231,CB Under Voltage Protection delay-63,20.0,s,range:0.1~120.0
+52359232,CB Under Voltage Protection delay-64,20.0,s,range:0.1~120.0
+52363265,Test Start SOC,90,%,range:70~100
+52367361,Short Test Start Time,8,:00:00,range:0~23
+52371457,Battery Test Start Time,9,:00:00,range:0~23
+52375553,DI Linked Short Test,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+52379649,Min Compensation Temperature,-10,℃,range:-40~25
+52383745,Max Compensation Temperature,50,℃,range:25~100
+52387841,Min Compensation Temperature(℉),14.0,℉,range:-40.0~77.0
+52391937,Max Compensation Temperature(℉),122.0,℉,range:77.0~212.0
+52400129,CB Rated Current-1,63,A,range:54~125
+52400130,CB Rated Current-2,63,A,range:54~125
+52400131,CB Rated Current-3,63,A,range:54~125
+52400132,CB Rated Current-4,63,A,range:54~125
+52400133,CB Rated Current-5,63,A,range:54~125
+52400134,CB Rated Current-6,63,A,range:54~125
+52400135,CB Rated Current-7,63,A,range:54~125
+52400136,CB Rated Current-8,63,A,range:54~125
+52400137,CB Rated Current-9,63,A,range:54~125
+52400138,CB Rated Current-10,63,A,range:54~125
+52400139,CB Rated Current-11,63,A,range:54~125
+52400140,CB Rated Current-12,63,A,range:54~125
+52400141,CB Rated Current-13,63,A,range:54~125
+52400142,CB Rated Current-14,63,A,range:54~125
+52400143,CB Rated Current-15,63,A,range:54~125
+52400144,CB Rated Current-16,63,A,range:54~125
+52400145,CB Rated Current-17,63,A,range:54~125
+52400146,CB Rated Current-18,63,A,range:54~125
+52400147,CB Rated Current-19,63,A,range:54~125
+52400148,CB Rated Current-20,63,A,range:54~125
+52400149,CB Rated Current-21,63,A,range:54~125
+52400150,CB Rated Current-22,63,A,range:54~125
+52400151,CB Rated Current-23,63,A,range:54~125
+52400152,CB Rated Current-24,63,A,range:54~125
+52400153,CB Rated Current-25,63,A,range:54~125
+52400154,CB Rated Current-26,63,A,range:54~125
+52400155,CB Rated Current-27,63,A,range:54~125
+52400156,CB Rated Current-28,63,A,range:54~125
+52400157,CB Rated Current-29,63,A,range:54~125
+52400158,CB Rated Current-30,63,A,range:54~125
+52400159,CB Rated Current-31,63,A,range:54~125
+52400160,CB Rated Current-32,63,A,range:54~125
+52400161,CB Rated Current-33,63,A,range:54~125
+52400162,CB Rated Current-34,63,A,range:54~125
+52400163,CB Rated Current-35,63,A,range:54~125
+52400164,CB Rated Current-36,63,A,range:54~125
+52400165,CB Rated Current-37,63,A,range:54~125
+52400166,CB Rated Current-38,63,A,range:54~125
+52400167,CB Rated Current-39,63,A,range:54~125
+52400168,CB Rated Current-40,63,A,range:54~125
+52400169,CB Rated Current-41,63,A,range:54~125
+52400170,CB Rated Current-42,63,A,range:54~125
+52400171,CB Rated Current-43,63,A,range:54~125
+52400172,CB Rated Current-44,63,A,range:54~125
+52400173,CB Rated Current-45,63,A,range:54~125
+52400174,CB Rated Current-46,63,A,range:54~125
+52400175,CB Rated Current-47,63,A,range:54~125
+52400176,CB Rated Current-48,63,A,range:54~125
+52400177,CB Rated Current-49,63,A,range:54~125
+52400178,CB Rated Current-50,63,A,range:54~125
+52400179,CB Rated Current-51,63,A,range:54~125
+52400180,CB Rated Current-52,63,A,range:54~125
+52400181,CB Rated Current-53,63,A,range:54~125
+52400182,CB Rated Current-54,63,A,range:54~125
+52400183,CB Rated Current-55,63,A,range:54~125
+52400184,CB Rated Current-56,63,A,range:54~125
+52400185,CB Rated Current-57,63,A,range:54~125
+52400186,CB Rated Current-58,63,A,range:54~125
+52400187,CB Rated Current-59,63,A,range:54~125
+52400188,CB Rated Current-60,63,A,range:54~125
+52400189,CB Rated Current-61,63,A,range:54~125
+52400190,CB Rated Current-62,63,A,range:54~125
+52400191,CB Rated Current-63,63,A,range:54~125
+52400192,CB Rated Current-64,63,A,range:54~125
+52408321,CB Daily LVD Control-1,0,,range:(0:Enabled)/(1:Disabled)/
+52408322,CB Daily LVD Control-2,0,,range:(0:Enabled)/(1:Disabled)/
+52408323,CB Daily LVD Control-3,0,,range:(0:Enabled)/(1:Disabled)/
+52408324,CB Daily LVD Control-4,0,,range:(0:Enabled)/(1:Disabled)/
+52408325,CB Daily LVD Control-5,0,,range:(0:Enabled)/(1:Disabled)/
+52408326,CB Daily LVD Control-6,0,,range:(0:Enabled)/(1:Disabled)/
+52408327,CB Daily LVD Control-7,0,,range:(0:Enabled)/(1:Disabled)/
+52408328,CB Daily LVD Control-8,0,,range:(0:Enabled)/(1:Disabled)/
+52408329,CB Daily LVD Control-9,0,,range:(0:Enabled)/(1:Disabled)/
+52408330,CB Daily LVD Control-10,0,,range:(0:Enabled)/(1:Disabled)/
+52408331,CB Daily LVD Control-11,0,,range:(0:Enabled)/(1:Disabled)/
+52408332,CB Daily LVD Control-12,0,,range:(0:Enabled)/(1:Disabled)/
+52408333,CB Daily LVD Control-13,0,,range:(0:Enabled)/(1:Disabled)/
+52408334,CB Daily LVD Control-14,0,,range:(0:Enabled)/(1:Disabled)/
+52408335,CB Daily LVD Control-15,0,,range:(0:Enabled)/(1:Disabled)/
+52408336,CB Daily LVD Control-16,0,,range:(0:Enabled)/(1:Disabled)/
+52408337,CB Daily LVD Control-17,0,,range:(0:Enabled)/(1:Disabled)/
+52408338,CB Daily LVD Control-18,0,,range:(0:Enabled)/(1:Disabled)/
+52408339,CB Daily LVD Control-19,0,,range:(0:Enabled)/(1:Disabled)/
+52408340,CB Daily LVD Control-20,0,,range:(0:Enabled)/(1:Disabled)/
+52408341,CB Daily LVD Control-21,0,,range:(0:Enabled)/(1:Disabled)/
+52408342,CB Daily LVD Control-22,0,,range:(0:Enabled)/(1:Disabled)/
+52408343,CB Daily LVD Control-23,0,,range:(0:Enabled)/(1:Disabled)/
+52408344,CB Daily LVD Control-24,0,,range:(0:Enabled)/(1:Disabled)/
+52408345,CB Daily LVD Control-25,0,,range:(0:Enabled)/(1:Disabled)/
+52408346,CB Daily LVD Control-26,0,,range:(0:Enabled)/(1:Disabled)/
+52408347,CB Daily LVD Control-27,0,,range:(0:Enabled)/(1:Disabled)/
+52408348,CB Daily LVD Control-28,0,,range:(0:Enabled)/(1:Disabled)/
+52408349,CB Daily LVD Control-29,0,,range:(0:Enabled)/(1:Disabled)/
+52408350,CB Daily LVD Control-30,0,,range:(0:Enabled)/(1:Disabled)/
+52408351,CB Daily LVD Control-31,0,,range:(0:Enabled)/(1:Disabled)/
+52408352,CB Daily LVD Control-32,0,,range:(0:Enabled)/(1:Disabled)/
+52408353,CB Daily LVD Control-33,0,,range:(0:Enabled)/(1:Disabled)/
+52408354,CB Daily LVD Control-34,0,,range:(0:Enabled)/(1:Disabled)/
+52408355,CB Daily LVD Control-35,0,,range:(0:Enabled)/(1:Disabled)/
+52408356,CB Daily LVD Control-36,0,,range:(0:Enabled)/(1:Disabled)/
+52408357,CB Daily LVD Control-37,0,,range:(0:Enabled)/(1:Disabled)/
+52408358,CB Daily LVD Control-38,0,,range:(0:Enabled)/(1:Disabled)/
+52408359,CB Daily LVD Control-39,0,,range:(0:Enabled)/(1:Disabled)/
+52408360,CB Daily LVD Control-40,0,,range:(0:Enabled)/(1:Disabled)/
+52408361,CB Daily LVD Control-41,0,,range:(0:Enabled)/(1:Disabled)/
+52408362,CB Daily LVD Control-42,0,,range:(0:Enabled)/(1:Disabled)/
+52408363,CB Daily LVD Control-43,0,,range:(0:Enabled)/(1:Disabled)/
+52408364,CB Daily LVD Control-44,0,,range:(0:Enabled)/(1:Disabled)/
+52408365,CB Daily LVD Control-45,0,,range:(0:Enabled)/(1:Disabled)/
+52408366,CB Daily LVD Control-46,0,,range:(0:Enabled)/(1:Disabled)/
+52408367,CB Daily LVD Control-47,0,,range:(0:Enabled)/(1:Disabled)/
+52408368,CB Daily LVD Control-48,0,,range:(0:Enabled)/(1:Disabled)/
+52408369,CB Daily LVD Control-49,0,,range:(0:Enabled)/(1:Disabled)/
+52408370,CB Daily LVD Control-50,0,,range:(0:Enabled)/(1:Disabled)/
+52408371,CB Daily LVD Control-51,0,,range:(0:Enabled)/(1:Disabled)/
+52408372,CB Daily LVD Control-52,0,,range:(0:Enabled)/(1:Disabled)/
+52408373,CB Daily LVD Control-53,0,,range:(0:Enabled)/(1:Disabled)/
+52408374,CB Daily LVD Control-54,0,,range:(0:Enabled)/(1:Disabled)/
+52408375,CB Daily LVD Control-55,0,,range:(0:Enabled)/(1:Disabled)/
+52408376,CB Daily LVD Control-56,0,,range:(0:Enabled)/(1:Disabled)/
+52408377,CB Daily LVD Control-57,0,,range:(0:Enabled)/(1:Disabled)/
+52408378,CB Daily LVD Control-58,0,,range:(0:Enabled)/(1:Disabled)/
+52408379,CB Daily LVD Control-59,0,,range:(0:Enabled)/(1:Disabled)/
+52408380,CB Daily LVD Control-60,0,,range:(0:Enabled)/(1:Disabled)/
+52408381,CB Daily LVD Control-61,0,,range:(0:Enabled)/(1:Disabled)/
+52408382,CB Daily LVD Control-62,0,,range:(0:Enabled)/(1:Disabled)/
+52408383,CB Daily LVD Control-63,0,,range:(0:Enabled)/(1:Disabled)/
+52408384,CB Daily LVD Control-64,0,,range:(0:Enabled)/(1:Disabled)/
+52412417,CB Period1-1,00:00~00:00,,range:---
+52412418,CB Period1-2,00:00~00:00,,range:---
+52412419,CB Period1-3,00:00~00:00,,range:---
+52412420,CB Period1-4,00:00~00:00,,range:---
+52412421,CB Period1-5,00:00~00:00,,range:---
+52412422,CB Period1-6,00:00~00:00,,range:---
+52412423,CB Period1-7,00:00~00:00,,range:---
+52412424,CB Period1-8,00:00~00:00,,range:---
+52412425,CB Period1-9,00:00~00:00,,range:---
+52412426,CB Period1-10,00:00~00:00,,range:---
+52412427,CB Period1-11,00:00~00:00,,range:---
+52412428,CB Period1-12,00:00~00:00,,range:---
+52412429,CB Period1-13,00:00~00:00,,range:---
+52412430,CB Period1-14,00:00~00:00,,range:---
+52412431,CB Period1-15,00:00~00:00,,range:---
+52412432,CB Period1-16,00:00~00:00,,range:---
+52412433,CB Period1-17,00:00~00:00,,range:---
+52412434,CB Period1-18,00:00~00:00,,range:---
+52412435,CB Period1-19,00:00~00:00,,range:---
+52412436,CB Period1-20,00:00~00:00,,range:---
+52412437,CB Period1-21,00:00~00:00,,range:---
+52412438,CB Period1-22,00:00~00:00,,range:---
+52412439,CB Period1-23,00:00~00:00,,range:---
+52412440,CB Period1-24,00:00~00:00,,range:---
+52412441,CB Period1-25,00:00~00:00,,range:---
+52412442,CB Period1-26,00:00~00:00,,range:---
+52412443,CB Period1-27,00:00~00:00,,range:---
+52412444,CB Period1-28,00:00~00:00,,range:---
+52412445,CB Period1-29,00:00~00:00,,range:---
+52412446,CB Period1-30,00:00~00:00,,range:---
+52412447,CB Period1-31,00:00~00:00,,range:---
+52412448,CB Period1-32,00:00~00:00,,range:---
+52412449,CB Period1-33,00:00~00:00,,range:---
+52412450,CB Period1-34,00:00~00:00,,range:---
+52412451,CB Period1-35,00:00~00:00,,range:---
+52412452,CB Period1-36,00:00~00:00,,range:---
+52412453,CB Period1-37,00:00~00:00,,range:---
+52412454,CB Period1-38,00:00~00:00,,range:---
+52412455,CB Period1-39,00:00~00:00,,range:---
+52412456,CB Period1-40,00:00~00:00,,range:---
+52412457,CB Period1-41,00:00~00:00,,range:---
+52412458,CB Period1-42,00:00~00:00,,range:---
+52412459,CB Period1-43,00:00~00:00,,range:---
+52412460,CB Period1-44,00:00~00:00,,range:---
+52412461,CB Period1-45,00:00~00:00,,range:---
+52412462,CB Period1-46,00:00~00:00,,range:---
+52412463,CB Period1-47,00:00~00:00,,range:---
+52412464,CB Period1-48,00:00~00:00,,range:---
+52412465,CB Period1-49,00:00~00:00,,range:---
+52412466,CB Period1-50,00:00~00:00,,range:---
+52412467,CB Period1-51,00:00~00:00,,range:---
+52412468,CB Period1-52,00:00~00:00,,range:---
+52412469,CB Period1-53,00:00~00:00,,range:---
+52412470,CB Period1-54,00:00~00:00,,range:---
+52412471,CB Period1-55,00:00~00:00,,range:---
+52412472,CB Period1-56,00:00~00:00,,range:---
+52412473,CB Period1-57,00:00~00:00,,range:---
+52412474,CB Period1-58,00:00~00:00,,range:---
+52412475,CB Period1-59,00:00~00:00,,range:---
+52412476,CB Period1-60,00:00~00:00,,range:---
+52412477,CB Period1-61,00:00~00:00,,range:---
+52412478,CB Period1-62,00:00~00:00,,range:---
+52412479,CB Period1-63,00:00~00:00,,range:---
+52412480,CB Period1-64,00:00~00:00,,range:---
+52416513,CB Period2-1,00:00~00:00,,range:---
+52416514,CB Period2-2,00:00~00:00,,range:---
+52416515,CB Period2-3,00:00~00:00,,range:---
+52416516,CB Period2-4,00:00~00:00,,range:---
+52416517,CB Period2-5,00:00~00:00,,range:---
+52416518,CB Period2-6,00:00~00:00,,range:---
+52416519,CB Period2-7,00:00~00:00,,range:---
+52416520,CB Period2-8,00:00~00:00,,range:---
+52416521,CB Period2-9,00:00~00:00,,range:---
+52416522,CB Period2-10,00:00~00:00,,range:---
+52416523,CB Period2-11,00:00~00:00,,range:---
+52416524,CB Period2-12,00:00~00:00,,range:---
+52416525,CB Period2-13,00:00~00:00,,range:---
+52416526,CB Period2-14,00:00~00:00,,range:---
+52416527,CB Period2-15,00:00~00:00,,range:---
+52416528,CB Period2-16,00:00~00:00,,range:---
+52416529,CB Period2-17,00:00~00:00,,range:---
+52416530,CB Period2-18,00:00~00:00,,range:---
+52416531,CB Period2-19,00:00~00:00,,range:---
+52416532,CB Period2-20,00:00~00:00,,range:---
+52416533,CB Period2-21,00:00~00:00,,range:---
+52416534,CB Period2-22,00:00~00:00,,range:---
+52416535,CB Period2-23,00:00~00:00,,range:---
+52416536,CB Period2-24,00:00~00:00,,range:---
+52416537,CB Period2-25,00:00~00:00,,range:---
+52416538,CB Period2-26,00:00~00:00,,range:---
+52416539,CB Period2-27,00:00~00:00,,range:---
+52416540,CB Period2-28,00:00~00:00,,range:---
+52416541,CB Period2-29,00:00~00:00,,range:---
+52416542,CB Period2-30,00:00~00:00,,range:---
+52416543,CB Period2-31,00:00~00:00,,range:---
+52416544,CB Period2-32,00:00~00:00,,range:---
+52416545,CB Period2-33,00:00~00:00,,range:---
+52416546,CB Period2-34,00:00~00:00,,range:---
+52416547,CB Period2-35,00:00~00:00,,range:---
+52416548,CB Period2-36,00:00~00:00,,range:---
+52416549,CB Period2-37,00:00~00:00,,range:---
+52416550,CB Period2-38,00:00~00:00,,range:---
+52416551,CB Period2-39,00:00~00:00,,range:---
+52416552,CB Period2-40,00:00~00:00,,range:---
+52416553,CB Period2-41,00:00~00:00,,range:---
+52416554,CB Period2-42,00:00~00:00,,range:---
+52416555,CB Period2-43,00:00~00:00,,range:---
+52416556,CB Period2-44,00:00~00:00,,range:---
+52416557,CB Period2-45,00:00~00:00,,range:---
+52416558,CB Period2-46,00:00~00:00,,range:---
+52416559,CB Period2-47,00:00~00:00,,range:---
+52416560,CB Period2-48,00:00~00:00,,range:---
+52416561,CB Period2-49,00:00~00:00,,range:---
+52416562,CB Period2-50,00:00~00:00,,range:---
+52416563,CB Period2-51,00:00~00:00,,range:---
+52416564,CB Period2-52,00:00~00:00,,range:---
+52416565,CB Period2-53,00:00~00:00,,range:---
+52416566,CB Period2-54,00:00~00:00,,range:---
+52416567,CB Period2-55,00:00~00:00,,range:---
+52416568,CB Period2-56,00:00~00:00,,range:---
+52416569,CB Period2-57,00:00~00:00,,range:---
+52416570,CB Period2-58,00:00~00:00,,range:---
+52416571,CB Period2-59,00:00~00:00,,range:---
+52416572,CB Period2-60,00:00~00:00,,range:---
+52416573,CB Period2-61,00:00~00:00,,range:---
+52416574,CB Period2-62,00:00~00:00,,range:---
+52416575,CB Period2-63,00:00~00:00,,range:---
+52416576,CB Period2-64,00:00~00:00,,range:---
+52420609,CB Period3-1,00:00~00:00,,range:---
+52420610,CB Period3-2,00:00~00:00,,range:---
+52420611,CB Period3-3,00:00~00:00,,range:---
+52420612,CB Period3-4,00:00~00:00,,range:---
+52420613,CB Period3-5,00:00~00:00,,range:---
+52420614,CB Period3-6,00:00~00:00,,range:---
+52420615,CB Period3-7,00:00~00:00,,range:---
+52420616,CB Period3-8,00:00~00:00,,range:---
+52420617,CB Period3-9,00:00~00:00,,range:---
+52420618,CB Period3-10,00:00~00:00,,range:---
+52420619,CB Period3-11,00:00~00:00,,range:---
+52420620,CB Period3-12,00:00~00:00,,range:---
+52420621,CB Period3-13,00:00~00:00,,range:---
+52420622,CB Period3-14,00:00~00:00,,range:---
+52420623,CB Period3-15,00:00~00:00,,range:---
+52420624,CB Period3-16,00:00~00:00,,range:---
+52420625,CB Period3-17,00:00~00:00,,range:---
+52420626,CB Period3-18,00:00~00:00,,range:---
+52420627,CB Period3-19,00:00~00:00,,range:---
+52420628,CB Period3-20,00:00~00:00,,range:---
+52420629,CB Period3-21,00:00~00:00,,range:---
+52420630,CB Period3-22,00:00~00:00,,range:---
+52420631,CB Period3-23,00:00~00:00,,range:---
+52420632,CB Period3-24,00:00~00:00,,range:---
+52420633,CB Period3-25,00:00~00:00,,range:---
+52420634,CB Period3-26,00:00~00:00,,range:---
+52420635,CB Period3-27,00:00~00:00,,range:---
+52420636,CB Period3-28,00:00~00:00,,range:---
+52420637,CB Period3-29,00:00~00:00,,range:---
+52420638,CB Period3-30,00:00~00:00,,range:---
+52420639,CB Period3-31,00:00~00:00,,range:---
+52420640,CB Period3-32,00:00~00:00,,range:---
+52420641,CB Period3-33,00:00~00:00,,range:---
+52420642,CB Period3-34,00:00~00:00,,range:---
+52420643,CB Period3-35,00:00~00:00,,range:---
+52420644,CB Period3-36,00:00~00:00,,range:---
+52420645,CB Period3-37,00:00~00:00,,range:---
+52420646,CB Period3-38,00:00~00:00,,range:---
+52420647,CB Period3-39,00:00~00:00,,range:---
+52420648,CB Period3-40,00:00~00:00,,range:---
+52420649,CB Period3-41,00:00~00:00,,range:---
+52420650,CB Period3-42,00:00~00:00,,range:---
+52420651,CB Period3-43,00:00~00:00,,range:---
+52420652,CB Period3-44,00:00~00:00,,range:---
+52420653,CB Period3-45,00:00~00:00,,range:---
+52420654,CB Period3-46,00:00~00:00,,range:---
+52420655,CB Period3-47,00:00~00:00,,range:---
+52420656,CB Period3-48,00:00~00:00,,range:---
+52420657,CB Period3-49,00:00~00:00,,range:---
+52420658,CB Period3-50,00:00~00:00,,range:---
+52420659,CB Period3-51,00:00~00:00,,range:---
+52420660,CB Period3-52,00:00~00:00,,range:---
+52420661,CB Period3-53,00:00~00:00,,range:---
+52420662,CB Period3-54,00:00~00:00,,range:---
+52420663,CB Period3-55,00:00~00:00,,range:---
+52420664,CB Period3-56,00:00~00:00,,range:---
+52420665,CB Period3-57,00:00~00:00,,range:---
+52420666,CB Period3-58,00:00~00:00,,range:---
+52420667,CB Period3-59,00:00~00:00,,range:---
+52420668,CB Period3-60,00:00~00:00,,range:---
+52420669,CB Period3-61,00:00~00:00,,range:---
+52420670,CB Period3-62,00:00~00:00,,range:---
+52420671,CB Period3-63,00:00~00:00,,range:---
+52420672,CB Period3-64,00:00~00:00,,range:---
+52424705,Voltage Sample Type,0,,range:(0:Batt Mid Voltage)/(1:Batt Voltage)/
+52428801,Battery5 Capacity,0,Ah,range:0~20000
+52432897,Battery6 Capacity,0,Ah,range:0~20000
+52436993,Battery7 Capacity,0,Ah,range:0~20000
+52441089,Battery8 Capacity,0,Ah,range:0~20000
+52445185,Battery2 Mid Voltage KCoeff,1.000,,range:0.001~5.000
+52449281,Battery3 Mid Voltage KCoeff,1.000,,range:0.001~5.000
+52453377,Battery4 Mid Voltage KCoeff,1.000,,range:0.001~5.000
+52457473,EX1-DI 1,1,,range:(0:Normal Close)/(1:Normal Open)/
+52461569,EX1-DI 2,1,,range:(0:Normal Close)/(1:Normal Open)/
+52465665,EX1-DI 3,1,,range:(0:Normal Close)/(1:Normal Open)/
+52469761,EX1-DI 4,1,,range:(0:Normal Close)/(1:Normal Open)/
+52473857,EX1-DI 5,1,,range:(0:Normal Close)/(1:Normal Open)/
+52477953,EX1-DI 6,1,,range:(0:Normal Close)/(1:Normal Open)/
+52482049,EX1-DI 7,1,,range:(0:Normal Close)/(1:Normal Open)/
+52486145,EX1-DI 8,1,,range:(0:Normal Close)/(1:Normal Open)/
+52490241,EX1-DI 1 Name,EX1-DI 1 Alarm,,range:---
+52494337,EX1-DI 2 Name,EX1-DI 2 Alarm,,range:---
+52498433,EX1-DI 3 Name,EX1-DI 3 Alarm,,range:---
+52502529,EX1-DI 4 Name,EX1-DI 4 Alarm,,range:---
+52506625,EX1-DI 5 Name,EX1-DI 5 Alarm,,range:---
+52510721,EX1-DI 6 Name,EX1-DI 6 Alarm,,range:---
+52514817,EX1-DI 7 Name,EX1-DI 7 Alarm,,range:---
+52518913,EX1-DI 8 Name,EX1-DI 8 Alarm,,range:---
+52523009,EX1-DO 1,0,,range:(0:Normal Close)/(1:Normal Open)/
+52527105,EX1-DO 2,0,,range:(0:Normal Close)/(1:Normal Open)/
+52531201,EX1-DO 3,0,,range:(0:Normal Close)/(1:Normal Open)/
+52535297,EX1-DO 4,0,,range:(0:Normal Close)/(1:Normal Open)/
+52539393,EX1-DO 5,0,,range:(0:Normal Close)/(1:Normal Open)/
+52543489,EX1-DO 6,0,,range:(0:Normal Close)/(1:Normal Open)/
+52547585,EX1-DO 7,0,,range:(0:Normal Close)/(1:Normal Open)/
+52551681,EX1-DO 8,0,,range:(0:Normal Close)/(1:Normal Open)/
+52555777,Temperature 4 KCoeff,1.000,,range:0.100~5.000
+52559873,Temperature 5 KCoeff,1.000,,range:0.100~5.000
+52563969,Batt Temperature Very High,60,℃,range:55~100
+52568065,Batt Temperature High,55,℃,range:50~60
+52572161,Batt Temperature Low,-33,℃,range:-40~10
+52576257,Env Temperature Very High,65,℃,range:60~100
+52580353,Env Temperature High,60,℃,range:10~65
+52584449,Env Temperature Low,-33,℃,range:-40~10
+52588545,Batt Temperature Very High(℉),140.0,℉,range:131.0~212.0
+52592641,Batt Temperature High(℉),131.0,℉,range:122.0~140.0
+52596737,Batt Temperature Low(℉),-27.4,℉,range:-40.0~50.0
+52600833,Env Temperature Very High(℉),149.0,℉,range:140.0~212.0
+52604929,Env Temperature High(℉),140.0,℉,range:50.0~149.0
+52609025,Env Temperature Low(℉),-27.4,℉,range:-40.0~50.0
+52613121,LLVD1 Daily Control,0,,range:(0:Enabled)/(1:Disabled)/
+52617217,LLVD1 Period1,00:00~00:00,,range:---
+52621313,LLVD1 Period2,00:00~00:00,,range:---
+52625409,LLVD1 Period3,00:00~00:00,,range:---
+52629505,LLVD2 Daily Control,0,,range:(0:Enabled)/(1:Disabled)/
+52633601,LLVD2 Period1,00:00~00:00,,range:---
+52637697,LLVD2 Period2,00:00~00:00,,range:---
+52641793,LLVD2 Period3,00:00~00:00,,range:---
+52645889,LLVD3 Daily Control,0,,range:(0:Enabled)/(1:Disabled)/
+52649985,LLVD3 Period1,00:00~00:00,,range:---
+52654081,LLVD3 Period2,00:00~00:00,,range:---
+52658177,LLVD3 Period3,00:00~00:00,,range:---
+52662273,LLVD4 Daily Control,0,,range:(0:Enabled)/(1:Disabled)/
+52666369,LLVD4 Period1,00:00~00:00,,range:---
+52670465,LLVD4 Period2,00:00~00:00,,range:---
+52674561,LLVD4 Period3,00:00~00:00,,range:---
+52678657,Temperature Compensation Type,0,,range:(0:Float Temp Comp)/(1:Boost Temp Comp)/(2:Charge Temp Comp)/
+52682753,Temperature Compensation Voltage Limit,58.5,V,range:48.0~58.5
+52686849,Boost to Float Temperature,50,℃,range:25~55
+52690945,Boost to Float Temperature(℉),122.0,℉,range:77.0~131.0
+52695041,Inverter Output Voltage Set,0,,range:(0:220Vac)/(1:230Vac)/
+52699137,Inverter Output Frequency Set,0,,range:(0:50Hz)/(1:60Hz)/
+52703233,LLVD 1 Backup Energy,30.0,kWh,range:0.0~5000.0
+52707329,LLVD 2 Backup Energy,30.0,kWh,range:0.0~5000.0
+52711425,LLVD 3 Backup Energy,30.0,kWh,range:0.0~5000.0
+52715521,LLVD 4 Backup Energy,30.0,kWh,range:0.0~5000.0
+52719617,CB LVD Backup Energy-1,30.0,kWh,range:0.0~5000.0
+52719618,CB LVD Backup Energy-2,30.0,kWh,range:0.0~5000.0
+52719619,CB LVD Backup Energy-3,30.0,kWh,range:0.0~5000.0
+52719620,CB LVD Backup Energy-4,30.0,kWh,range:0.0~5000.0
+52719621,CB LVD Backup Energy-5,30.0,kWh,range:0.0~5000.0
+52719622,CB LVD Backup Energy-6,30.0,kWh,range:0.0~5000.0
+52719623,CB LVD Backup Energy-7,30.0,kWh,range:0.0~5000.0
+52719624,CB LVD Backup Energy-8,30.0,kWh,range:0.0~5000.0
+52719625,CB LVD Backup Energy-9,30.0,kWh,range:0.0~5000.0
+52719626,CB LVD Backup Energy-10,30.0,kWh,range:0.0~5000.0
+52719627,CB LVD Backup Energy-11,30.0,kWh,range:0.0~5000.0
+52719628,CB LVD Backup Energy-12,30.0,kWh,range:0.0~5000.0
+52719629,CB LVD Backup Energy-13,30.0,kWh,range:0.0~5000.0
+52719630,CB LVD Backup Energy-14,30.0,kWh,range:0.0~5000.0
+52719631,CB LVD Backup Energy-15,30.0,kWh,range:0.0~5000.0
+52719632,CB LVD Backup Energy-16,30.0,kWh,range:0.0~5000.0
+52719633,CB LVD Backup Energy-17,30.0,kWh,range:0.0~5000.0
+52719634,CB LVD Backup Energy-18,30.0,kWh,range:0.0~5000.0
+52719635,CB LVD Backup Energy-19,30.0,kWh,range:0.0~5000.0
+52719636,CB LVD Backup Energy-20,30.0,kWh,range:0.0~5000.0
+52719637,CB LVD Backup Energy-21,30.0,kWh,range:0.0~5000.0
+52719638,CB LVD Backup Energy-22,30.0,kWh,range:0.0~5000.0
+52719639,CB LVD Backup Energy-23,30.0,kWh,range:0.0~5000.0
+52719640,CB LVD Backup Energy-24,30.0,kWh,range:0.0~5000.0
+52719641,CB LVD Backup Energy-25,30.0,kWh,range:0.0~5000.0
+52719642,CB LVD Backup Energy-26,30.0,kWh,range:0.0~5000.0
+52719643,CB LVD Backup Energy-27,30.0,kWh,range:0.0~5000.0
+52719644,CB LVD Backup Energy-28,30.0,kWh,range:0.0~5000.0
+52719645,CB LVD Backup Energy-29,30.0,kWh,range:0.0~5000.0
+52719646,CB LVD Backup Energy-30,30.0,kWh,range:0.0~5000.0
+52719647,CB LVD Backup Energy-31,30.0,kWh,range:0.0~5000.0
+52719648,CB LVD Backup Energy-32,30.0,kWh,range:0.0~5000.0
+52719649,CB LVD Backup Energy-33,30.0,kWh,range:0.0~5000.0
+52719650,CB LVD Backup Energy-34,30.0,kWh,range:0.0~5000.0
+52719651,CB LVD Backup Energy-35,30.0,kWh,range:0.0~5000.0
+52719652,CB LVD Backup Energy-36,30.0,kWh,range:0.0~5000.0
+52719653,CB LVD Backup Energy-37,30.0,kWh,range:0.0~5000.0
+52719654,CB LVD Backup Energy-38,30.0,kWh,range:0.0~5000.0
+52719655,CB LVD Backup Energy-39,30.0,kWh,range:0.0~5000.0
+52719656,CB LVD Backup Energy-40,30.0,kWh,range:0.0~5000.0
+52719657,CB LVD Backup Energy-41,30.0,kWh,range:0.0~5000.0
+52719658,CB LVD Backup Energy-42,30.0,kWh,range:0.0~5000.0
+52719659,CB LVD Backup Energy-43,30.0,kWh,range:0.0~5000.0
+52719660,CB LVD Backup Energy-44,30.0,kWh,range:0.0~5000.0
+52719661,CB LVD Backup Energy-45,30.0,kWh,range:0.0~5000.0
+52719662,CB LVD Backup Energy-46,30.0,kWh,range:0.0~5000.0
+52719663,CB LVD Backup Energy-47,30.0,kWh,range:0.0~5000.0
+52719664,CB LVD Backup Energy-48,30.0,kWh,range:0.0~5000.0
+52719665,CB LVD Backup Energy-49,30.0,kWh,range:0.0~5000.0
+52719666,CB LVD Backup Energy-50,30.0,kWh,range:0.0~5000.0
+52719667,CB LVD Backup Energy-51,30.0,kWh,range:0.0~5000.0
+52719668,CB LVD Backup Energy-52,30.0,kWh,range:0.0~5000.0
+52719669,CB LVD Backup Energy-53,30.0,kWh,range:0.0~5000.0
+52719670,CB LVD Backup Energy-54,30.0,kWh,range:0.0~5000.0
+52719671,CB LVD Backup Energy-55,30.0,kWh,range:0.0~5000.0
+52719672,CB LVD Backup Energy-56,30.0,kWh,range:0.0~5000.0
+52719673,CB LVD Backup Energy-57,30.0,kWh,range:0.0~5000.0
+52719674,CB LVD Backup Energy-58,30.0,kWh,range:0.0~5000.0
+52719675,CB LVD Backup Energy-59,30.0,kWh,range:0.0~5000.0
+52719676,CB LVD Backup Energy-60,30.0,kWh,range:0.0~5000.0
+52719677,CB LVD Backup Energy-61,30.0,kWh,range:0.0~5000.0
+52719678,CB LVD Backup Energy-62,30.0,kWh,range:0.0~5000.0
+52719679,CB LVD Backup Energy-63,30.0,kWh,range:0.0~5000.0
+52719680,CB LVD Backup Energy-64,30.0,kWh,range:0.0~5000.0
+52727809,Battery 3 fuse connected to DI,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+52731905,Battery 4 fuse connected to DI,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+52736001,Battery 5 fuse connected to DI,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+52740097,Battery 6 fuse connected to DI,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+52744193,Battery 7 fuse connected to DI,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+52748289,Battery 8 fuse connected to DI,0,,range:(0:None)/(1:DI1)/(2:DI2)/(3:DI3)//...
+52760577,DG Night Stop,1,,range:(0:Enabled)/(1:Disabled)/
+52764673,Night Stop Period,00:00~00:00,,range:---
+52768769,DG Start No Load Duration,1,min,range:0~30
+52772865,DG Stop No Load Duration,1,min,range:0~30
+52776961,Start Interval Time,0,s,range:0~60
+52781057,Wind Delta Voltage,1.00,V,range:0.00~2.00
+52785153,Web login authentication methods,1,,range:(0:Radius)/(1:Local)/
+52789249,Radius Server IP address configuration,10.1.1.34,,range:---
+52793345,Radius Shared password configuration,testing123,,range:---
+52797441,Input Current L1 KCoeff,1.000,,range:0.100~5.000
+52801537,Input Current L1 BCoeff,0.0,,range:-80.0~80.0
+52805633,DG Rated Power,1000,W,range:500~60000
+52809729,AC Current Imbalance,10.0,%,range:10.0~20.0
+52813825,Module Manufacturer,Default,,range:---
+52817921,DC Voltage Very High,59.0,V,range:58.5~60.0
+52822017,DC Voltage Very Low,45.0,V,range:38.0~48.0
+52826113,Manual Boost Minimum Time,480,min,range:1~780
+52830209,Input Current L2 KCoeff,1.000,,range:0.100~5.000
+52834305,Input Current L2 BCoeff,0.0,,range:-80.0~80.0
+52838401,Input Current L3 KCoeff,1.000,,range:0.100~5.000
+52842497,Input Current L3 BCoeff,0.0,,range:-80.0~80.0
+52846593,Site Location,Site Location,,range:---
+52850689,System Name,System Name,,range:---
+52854785,Battery Upgrade Enable,1,,range:(0:Enabled)/(1:Disabled)/
+52858881,Battery Upgrade Address,0,,range:0~31
+52862977,Inverter AC/DC Enable,0,,range:(0:Enabled)/(1:Disabled)/
+52867073,Battery Upgrade Enable 2,1,,range:(0:Enabled)/(1:Disabled)/
+52871169,CB Recovery SOC-1,30,%,range:15~100
+52871170,CB Recovery SOC-2,30,%,range:15~100
+52871171,CB Recovery SOC-3,30,%,range:15~100
+52871172,CB Recovery SOC-4,30,%,range:15~100
+52871173,CB Recovery SOC-5,30,%,range:15~100
+52871174,CB Recovery SOC-6,30,%,range:15~100
+52871175,CB Recovery SOC-7,30,%,range:15~100
+52871176,CB Recovery SOC-8,30,%,range:15~100
+52871177,CB Recovery SOC-9,30,%,range:15~100
+52871178,CB Recovery SOC-10,30,%,range:15~100
+52871179,CB Recovery SOC-11,30,%,range:15~100
+52871180,CB Recovery SOC-12,30,%,range:15~100
+52871181,CB Recovery SOC-13,30,%,range:15~100
+52871182,CB Recovery SOC-14,30,%,range:15~100
+52871183,CB Recovery SOC-15,30,%,range:15~100
+52871184,CB Recovery SOC-16,30,%,range:15~100
+52871185,CB Recovery SOC-17,30,%,range:15~100
+52871186,CB Recovery SOC-18,30,%,range:15~100
+52871187,CB Recovery SOC-19,30,%,range:15~100
+52871188,CB Recovery SOC-20,30,%,range:15~100
+52871189,CB Recovery SOC-21,30,%,range:15~100
+52871190,CB Recovery SOC-22,30,%,range:15~100
+52871191,CB Recovery SOC-23,30,%,range:15~100
+52871192,CB Recovery SOC-24,30,%,range:15~100
+52871193,CB Recovery SOC-25,30,%,range:15~100
+52871194,CB Recovery SOC-26,30,%,range:15~100
+52871195,CB Recovery SOC-27,30,%,range:15~100
+52871196,CB Recovery SOC-28,30,%,range:15~100
+52871197,CB Recovery SOC-29,30,%,range:15~100
+52871198,CB Recovery SOC-30,30,%,range:15~100
+52871199,CB Recovery SOC-31,30,%,range:15~100
+52871200,CB Recovery SOC-32,30,%,range:15~100
+52871201,CB Recovery SOC-33,30,%,range:15~100
+52871202,CB Recovery SOC-34,30,%,range:15~100
+52871203,CB Recovery SOC-35,30,%,range:15~100
+52871204,CB Recovery SOC-36,30,%,range:15~100
+52871205,CB Recovery SOC-37,30,%,range:15~100
+52871206,CB Recovery SOC-38,30,%,range:15~100
+52871207,CB Recovery SOC-39,30,%,range:15~100
+52871208,CB Recovery SOC-40,30,%,range:15~100
+52871209,CB Recovery SOC-41,30,%,range:15~100
+52871210,CB Recovery SOC-42,30,%,range:15~100
+52871211,CB Recovery SOC-43,30,%,range:15~100
+52871212,CB Recovery SOC-44,30,%,range:15~100
+52871213,CB Recovery SOC-45,30,%,range:15~100
+52871214,CB Recovery SOC-46,30,%,range:15~100
+52871215,CB Recovery SOC-47,30,%,range:15~100
+52871216,CB Recovery SOC-48,30,%,range:15~100
+52871217,CB Recovery SOC-49,30,%,range:15~100
+52871218,CB Recovery SOC-50,30,%,range:15~100
+52871219,CB Recovery SOC-51,30,%,range:15~100
+52871220,CB Recovery SOC-52,30,%,range:15~100
+52871221,CB Recovery SOC-53,30,%,range:15~100
+52871222,CB Recovery SOC-54,30,%,range:15~100
+52871223,CB Recovery SOC-55,30,%,range:15~100
+52871224,CB Recovery SOC-56,30,%,range:15~100
+52871225,CB Recovery SOC-57,30,%,range:15~100
+52871226,CB Recovery SOC-58,30,%,range:15~100
+52871227,CB Recovery SOC-59,30,%,range:15~100
+52871228,CB Recovery SOC-60,30,%,range:15~100
+52871229,CB Recovery SOC-61,30,%,range:15~100
+52871230,CB Recovery SOC-62,30,%,range:15~100
+52871231,CB Recovery SOC-63,30,%,range:15~100
+52871232,CB Recovery SOC-64,30,%,range:15~100
+52875265,LLVD 1 Recovery SOC,30,%,range:15~100
+52879361,LLVD 2 Recovery SOC,30,%,range:15~100
+52883457,LLVD 3 Recovery SOC,30,%,range:15~100
+52887553,LLVD 4 Recovery SOC,30,%,range:15~100
+52891649,Battery Low Voltage,47.0,V,range:42.0~54.0
+52899841,LCD Supervisor Password,654321,,range:---
+52903937,LCD Operator Password,654321,,range:---
+52908033,ModbusTCP Port,502,,range:1~65535
+52912129,Battery Discharge Recover Threshold,1.0,A,range:0.0~10.0
+52916225,LLVD 1 RecoverTime,0,min,range:0~30
+52920321,LLVD 2 RecoverTime,0,min,range:0~30
+52924417,LLVD 3 RecoverTime,0,min,range:0~30
+52928513,LLVD 4 RecoverTime,0,min,range:0~30
+52932609,BLVD RecoverTime,0,min,range:0~30
+52936705,LVD2 Recovery Mode,0,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52940801,LVD3 Recovery Mode,0,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52944897,LVD4 Recovery Mode,0,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52948993,BLVD Recovery Mode,0,,range:(0:Voltage)/(1:Immediately)/(2:Time)/
+52953089,CB LVD Recover Mode-1,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953090,CB LVD Recover Mode-2,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953091,CB LVD Recover Mode-3,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953092,CB LVD Recover Mode-4,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953093,CB LVD Recover Mode-5,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953094,CB LVD Recover Mode-6,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953095,CB LVD Recover Mode-7,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953096,CB LVD Recover Mode-8,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953097,CB LVD Recover Mode-9,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953098,CB LVD Recover Mode-10,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953099,CB LVD Recover Mode-11,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953100,CB LVD Recover Mode-12,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953101,CB LVD Recover Mode-13,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953102,CB LVD Recover Mode-14,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953103,CB LVD Recover Mode-15,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953104,CB LVD Recover Mode-16,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953105,CB LVD Recover Mode-17,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953106,CB LVD Recover Mode-18,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953107,CB LVD Recover Mode-19,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953108,CB LVD Recover Mode-20,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953109,CB LVD Recover Mode-21,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953110,CB LVD Recover Mode-22,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953111,CB LVD Recover Mode-23,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953112,CB LVD Recover Mode-24,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953113,CB LVD Recover Mode-25,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953114,CB LVD Recover Mode-26,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953115,CB LVD Recover Mode-27,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953116,CB LVD Recover Mode-28,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953117,CB LVD Recover Mode-29,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953118,CB LVD Recover Mode-30,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953119,CB LVD Recover Mode-31,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953120,CB LVD Recover Mode-32,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953121,CB LVD Recover Mode-33,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953122,CB LVD Recover Mode-34,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953123,CB LVD Recover Mode-35,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953124,CB LVD Recover Mode-36,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953125,CB LVD Recover Mode-37,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953126,CB LVD Recover Mode-38,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953127,CB LVD Recover Mode-39,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953128,CB LVD Recover Mode-40,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953129,CB LVD Recover Mode-41,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953130,CB LVD Recover Mode-42,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953131,CB LVD Recover Mode-43,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953132,CB LVD Recover Mode-44,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953133,CB LVD Recover Mode-45,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953134,CB LVD Recover Mode-46,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953135,CB LVD Recover Mode-47,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953136,CB LVD Recover Mode-48,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953137,CB LVD Recover Mode-49,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953138,CB LVD Recover Mode-50,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953139,CB LVD Recover Mode-51,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953140,CB LVD Recover Mode-52,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953141,CB LVD Recover Mode-53,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953142,CB LVD Recover Mode-54,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953143,CB LVD Recover Mode-55,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953144,CB LVD Recover Mode-56,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953145,CB LVD Recover Mode-57,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953146,CB LVD Recover Mode-58,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953147,CB LVD Recover Mode-59,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953148,CB LVD Recover Mode-60,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953149,CB LVD Recover Mode-61,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953150,CB LVD Recover Mode-62,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953151,CB LVD Recover Mode-63,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52953152,CB LVD Recover Mode-64,1,,range:(0:Voltage)/(1:Immediately)/(2:Time)/(3:Cap)/
+52957185,CB LVD RecoveryTime-1,0,min,range:0~30
+52957186,CB LVD RecoveryTime-2,0,min,range:0~30
+52957187,CB LVD RecoveryTime-3,0,min,range:0~30
+52957188,CB LVD RecoveryTime-4,0,min,range:0~30
+52957189,CB LVD RecoveryTime-5,0,min,range:0~30
+52957190,CB LVD RecoveryTime-6,0,min,range:0~30
+52957191,CB LVD RecoveryTime-7,0,min,range:0~30
+52957192,CB LVD RecoveryTime-8,0,min,range:0~30
+52957193,CB LVD RecoveryTime-9,0,min,range:0~30
+52957194,CB LVD RecoveryTime-10,0,min,range:0~30
+52957195,CB LVD RecoveryTime-11,0,min,range:0~30
+52957196,CB LVD RecoveryTime-12,0,min,range:0~30
+52957197,CB LVD RecoveryTime-13,0,min,range:0~30
+52957198,CB LVD RecoveryTime-14,0,min,range:0~30
+52957199,CB LVD RecoveryTime-15,0,min,range:0~30
+52957200,CB LVD RecoveryTime-16,0,min,range:0~30
+52957201,CB LVD RecoveryTime-17,0,min,range:0~30
+52957202,CB LVD RecoveryTime-18,0,min,range:0~30
+52957203,CB LVD RecoveryTime-19,0,min,range:0~30
+52957204,CB LVD RecoveryTime-20,0,min,range:0~30
+52957205,CB LVD RecoveryTime-21,0,min,range:0~30
+52957206,CB LVD RecoveryTime-22,0,min,range:0~30
+52957207,CB LVD RecoveryTime-23,0,min,range:0~30
+52957208,CB LVD RecoveryTime-24,0,min,range:0~30
+52957209,CB LVD RecoveryTime-25,0,min,range:0~30
+52957210,CB LVD RecoveryTime-26,0,min,range:0~30
+52957211,CB LVD RecoveryTime-27,0,min,range:0~30
+52957212,CB LVD RecoveryTime-28,0,min,range:0~30
+52957213,CB LVD RecoveryTime-29,0,min,range:0~30
+52957214,CB LVD RecoveryTime-30,0,min,range:0~30
+52957215,CB LVD RecoveryTime-31,0,min,range:0~30
+52957216,CB LVD RecoveryTime-32,0,min,range:0~30
+52957217,CB LVD RecoveryTime-33,0,min,range:0~30
+52957218,CB LVD RecoveryTime-34,0,min,range:0~30
+52957219,CB LVD RecoveryTime-35,0,min,range:0~30
+52957220,CB LVD RecoveryTime-36,0,min,range:0~30
+52957221,CB LVD RecoveryTime-37,0,min,range:0~30
+52957222,CB LVD RecoveryTime-38,0,min,range:0~30
+52957223,CB LVD RecoveryTime-39,0,min,range:0~30
+52957224,CB LVD RecoveryTime-40,0,min,range:0~30
+52957225,CB LVD RecoveryTime-41,0,min,range:0~30
+52957226,CB LVD RecoveryTime-42,0,min,range:0~30
+52957227,CB LVD RecoveryTime-43,0,min,range:0~30
+52957228,CB LVD RecoveryTime-44,0,min,range:0~30
+52957229,CB LVD RecoveryTime-45,0,min,range:0~30
+52957230,CB LVD RecoveryTime-46,0,min,range:0~30
+52957231,CB LVD RecoveryTime-47,0,min,range:0~30
+52957232,CB LVD RecoveryTime-48,0,min,range:0~30
+52957233,CB LVD RecoveryTime-49,0,min,range:0~30
+52957234,CB LVD RecoveryTime-50,0,min,range:0~30
+52957235,CB LVD RecoveryTime-51,0,min,range:0~30
+52957236,CB LVD RecoveryTime-52,0,min,range:0~30
+52957237,CB LVD RecoveryTime-53,0,min,range:0~30
+52957238,CB LVD RecoveryTime-54,0,min,range:0~30
+52957239,CB LVD RecoveryTime-55,0,min,range:0~30
+52957240,CB LVD RecoveryTime-56,0,min,range:0~30
+52957241,CB LVD RecoveryTime-57,0,min,range:0~30
+52957242,CB LVD RecoveryTime-58,0,min,range:0~30
+52957243,CB LVD RecoveryTime-59,0,min,range:0~30
+52957244,CB LVD RecoveryTime-60,0,min,range:0~30
+52957245,CB LVD RecoveryTime-61,0,min,range:0~30
+52957246,CB LVD RecoveryTime-62,0,min,range:0~30
+52957247,CB LVD RecoveryTime-63,0,min,range:0~30
+52957248,CB LVD RecoveryTime-64,0,min,range:0~30
+52961281,CB Manual Control Enable-1,1,,range:(0:Enabled)/(1:Disabled)/
+52961282,CB Manual Control Enable-2,1,,range:(0:Enabled)/(1:Disabled)/
+52961283,CB Manual Control Enable-3,1,,range:(0:Enabled)/(1:Disabled)/
+52961284,CB Manual Control Enable-4,1,,range:(0:Enabled)/(1:Disabled)/
+52961285,CB Manual Control Enable-5,1,,range:(0:Enabled)/(1:Disabled)/
+52961286,CB Manual Control Enable-6,1,,range:(0:Enabled)/(1:Disabled)/
+52961287,CB Manual Control Enable-7,1,,range:(0:Enabled)/(1:Disabled)/
+52961288,CB Manual Control Enable-8,1,,range:(0:Enabled)/(1:Disabled)/
+52961289,CB Manual Control Enable-9,1,,range:(0:Enabled)/(1:Disabled)/
+52961290,CB Manual Control Enable-10,1,,range:(0:Enabled)/(1:Disabled)/
+52961291,CB Manual Control Enable-11,1,,range:(0:Enabled)/(1:Disabled)/
+52961292,CB Manual Control Enable-12,1,,range:(0:Enabled)/(1:Disabled)/
+52961293,CB Manual Control Enable-13,1,,range:(0:Enabled)/(1:Disabled)/
+52961294,CB Manual Control Enable-14,1,,range:(0:Enabled)/(1:Disabled)/
+52961295,CB Manual Control Enable-15,1,,range:(0:Enabled)/(1:Disabled)/
+52961296,CB Manual Control Enable-16,1,,range:(0:Enabled)/(1:Disabled)/
+52961297,CB Manual Control Enable-17,1,,range:(0:Enabled)/(1:Disabled)/
+52961298,CB Manual Control Enable-18,1,,range:(0:Enabled)/(1:Disabled)/
+52961299,CB Manual Control Enable-19,1,,range:(0:Enabled)/(1:Disabled)/
+52961300,CB Manual Control Enable-20,1,,range:(0:Enabled)/(1:Disabled)/
+52961301,CB Manual Control Enable-21,1,,range:(0:Enabled)/(1:Disabled)/
+52961302,CB Manual Control Enable-22,1,,range:(0:Enabled)/(1:Disabled)/
+52961303,CB Manual Control Enable-23,1,,range:(0:Enabled)/(1:Disabled)/
+52961304,CB Manual Control Enable-24,1,,range:(0:Enabled)/(1:Disabled)/
+52961305,CB Manual Control Enable-25,1,,range:(0:Enabled)/(1:Disabled)/
+52961306,CB Manual Control Enable-26,1,,range:(0:Enabled)/(1:Disabled)/
+52961307,CB Manual Control Enable-27,1,,range:(0:Enabled)/(1:Disabled)/
+52961308,CB Manual Control Enable-28,1,,range:(0:Enabled)/(1:Disabled)/
+52961309,CB Manual Control Enable-29,1,,range:(0:Enabled)/(1:Disabled)/
+52961310,CB Manual Control Enable-30,1,,range:(0:Enabled)/(1:Disabled)/
+52961311,CB Manual Control Enable-31,1,,range:(0:Enabled)/(1:Disabled)/
+52961312,CB Manual Control Enable-32,1,,range:(0:Enabled)/(1:Disabled)/
+52961313,CB Manual Control Enable-33,1,,range:(0:Enabled)/(1:Disabled)/
+52961314,CB Manual Control Enable-34,1,,range:(0:Enabled)/(1:Disabled)/
+52961315,CB Manual Control Enable-35,1,,range:(0:Enabled)/(1:Disabled)/
+52961316,CB Manual Control Enable-36,1,,range:(0:Enabled)/(1:Disabled)/
+52961317,CB Manual Control Enable-37,1,,range:(0:Enabled)/(1:Disabled)/
+52961318,CB Manual Control Enable-38,1,,range:(0:Enabled)/(1:Disabled)/
+52961319,CB Manual Control Enable-39,1,,range:(0:Enabled)/(1:Disabled)/
+52961320,CB Manual Control Enable-40,1,,range:(0:Enabled)/(1:Disabled)/
+52961321,CB Manual Control Enable-41,1,,range:(0:Enabled)/(1:Disabled)/
+52961322,CB Manual Control Enable-42,1,,range:(0:Enabled)/(1:Disabled)/
+52961323,CB Manual Control Enable-43,1,,range:(0:Enabled)/(1:Disabled)/
+52961324,CB Manual Control Enable-44,1,,range:(0:Enabled)/(1:Disabled)/
+52961325,CB Manual Control Enable-45,1,,range:(0:Enabled)/(1:Disabled)/
+52961326,CB Manual Control Enable-46,1,,range:(0:Enabled)/(1:Disabled)/
+52961327,CB Manual Control Enable-47,1,,range:(0:Enabled)/(1:Disabled)/
+52961328,CB Manual Control Enable-48,1,,range:(0:Enabled)/(1:Disabled)/
+52961329,CB Manual Control Enable-49,1,,range:(0:Enabled)/(1:Disabled)/
+52961330,CB Manual Control Enable-50,1,,range:(0:Enabled)/(1:Disabled)/
+52961331,CB Manual Control Enable-51,1,,range:(0:Enabled)/(1:Disabled)/
+52961332,CB Manual Control Enable-52,1,,range:(0:Enabled)/(1:Disabled)/
+52961333,CB Manual Control Enable-53,1,,range:(0:Enabled)/(1:Disabled)/
+52961334,CB Manual Control Enable-54,1,,range:(0:Enabled)/(1:Disabled)/
+52961335,CB Manual Control Enable-55,1,,range:(0:Enabled)/(1:Disabled)/
+52961336,CB Manual Control Enable-56,1,,range:(0:Enabled)/(1:Disabled)/
+52961337,CB Manual Control Enable-57,1,,range:(0:Enabled)/(1:Disabled)/
+52961338,CB Manual Control Enable-58,1,,range:(0:Enabled)/(1:Disabled)/
+52961339,CB Manual Control Enable-59,1,,range:(0:Enabled)/(1:Disabled)/
+52961340,CB Manual Control Enable-60,1,,range:(0:Enabled)/(1:Disabled)/
+52961341,CB Manual Control Enable-61,1,,range:(0:Enabled)/(1:Disabled)/
+52961342,CB Manual Control Enable-62,1,,range:(0:Enabled)/(1:Disabled)/
+52961343,CB Manual Control Enable-63,1,,range:(0:Enabled)/(1:Disabled)/
+52961344,CB Manual Control Enable-64,1,,range:(0:Enabled)/(1:Disabled)/
+52965377,CB Manual Control-1,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965378,CB Manual Control-2,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965379,CB Manual Control-3,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965380,CB Manual Control-4,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965381,CB Manual Control-5,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965382,CB Manual Control-6,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965383,CB Manual Control-7,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965384,CB Manual Control-8,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965385,CB Manual Control-9,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965386,CB Manual Control-10,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965387,CB Manual Control-11,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965388,CB Manual Control-12,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965389,CB Manual Control-13,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965390,CB Manual Control-14,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965391,CB Manual Control-15,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965392,CB Manual Control-16,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965393,CB Manual Control-17,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965394,CB Manual Control-18,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965395,CB Manual Control-19,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965396,CB Manual Control-20,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965397,CB Manual Control-21,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965398,CB Manual Control-22,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965399,CB Manual Control-23,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965400,CB Manual Control-24,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965401,CB Manual Control-25,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965402,CB Manual Control-26,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965403,CB Manual Control-27,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965404,CB Manual Control-28,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965405,CB Manual Control-29,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965406,CB Manual Control-30,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965407,CB Manual Control-31,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965408,CB Manual Control-32,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965409,CB Manual Control-33,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965410,CB Manual Control-34,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965411,CB Manual Control-35,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965412,CB Manual Control-36,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965413,CB Manual Control-37,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965414,CB Manual Control-38,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965415,CB Manual Control-39,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965416,CB Manual Control-40,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965417,CB Manual Control-41,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965418,CB Manual Control-42,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965419,CB Manual Control-43,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965420,CB Manual Control-44,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965421,CB Manual Control-45,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965422,CB Manual Control-46,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965423,CB Manual Control-47,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965424,CB Manual Control-48,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965425,CB Manual Control-49,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965426,CB Manual Control-50,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965427,CB Manual Control-51,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965428,CB Manual Control-52,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965429,CB Manual Control-53,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965430,CB Manual Control-54,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965431,CB Manual Control-55,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965432,CB Manual Control-56,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965433,CB Manual Control-57,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965434,CB Manual Control-58,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965435,CB Manual Control-59,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965436,CB Manual Control-60,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965437,CB Manual Control-61,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965438,CB Manual Control-62,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965439,CB Manual Control-63,0,,range:(0:CB Closed)/(1:CB Opened)/
+52965440,CB Manual Control-64,0,,range:(0:CB Closed)/(1:CB Opened)/
+52977665,Bad Grid Start DG Enable,1,,range:(0:Enabled)/(1:Disabled)/
+52981761,Module Upgrade Enable,1,,range:(0:Enabled)/(1:Disabled)/
+52985857,Module Upgrade Address,0,,range:0~40
+52989953,ModbusTCP Connect Methods,0,,range:(0:Persistent)/(1:ShortLived)/

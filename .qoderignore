@@ -1,0 +1,75 @@
+# Qoder Ignore File
+# Files and folders to exclude from indexing and search
+# This improves IDE performance by reducing the number of files to process
+
+# Build and distribution directories
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Screenshots and traces (can be large and numerous)
+screenshots/
+traces/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.zip
+
+# Log files (continuously growing)
+logs/
+*.log
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-*
+.project
+.pydevproject
+
+# Python virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation (optional - uncomment if you want to exclude)
+# *.md
+# docs/
+
+# Data files that don't need indexing
+data/*.xlsx
+data/*.xls
+data/*.csv
+
+# Configuration backups
+*.yaml.bak
+*.yml.bak
+*.json.bak
+
+# Test outputs
+test_results/
+coverage/
+.htmlcov/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
